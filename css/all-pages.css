@@ -1,0 +1,33 @@
+/* Variables for Colors, etc. */
+
+:root {
+    --dark-text: #2C2C2C;
+}
+
+/* Default Styles and Resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    color: var(--dark-text);
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
