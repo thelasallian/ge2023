@@ -8,7 +8,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- Header/Cover -->
+    <?php include_once 'php/modules/homepage/header.php'; ?>
+
+    <!-- Navbar -->
+    <?php include_once 'php/modules/all-pages/navbar.php'; ?>
+
+    <!-- Articles -->
+    <?php include_once 'php/modules/homepage/articles.php'; ?>
+
+    <!-- Infographic -->
+    <?php include_once 'php/modules/homepage/infographic-homepage.php'; ?>
+
+    <!-- Vox Populi -->
+    <?php include_once 'php/modules/homepage/vox-populi-homepage.php'; ?>
 
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
