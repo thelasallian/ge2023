@@ -8,7 +8,7 @@ header {
 
     width: 100%;
     height: 100vh;
-    padding: 2.25rem .75rem;
+    padding: 2.25rem 1rem;
 
     background-color: #191B15; /* TODO: Replace with texture background-image, once available */
 
@@ -53,6 +53,7 @@ header {
     display: none;
 
     width: 100%;
+    padding: 1.5rem 0.4rem;
 }
 
 /* On smaller screen,s cover is no longer full-screen height and the real img element is used */
