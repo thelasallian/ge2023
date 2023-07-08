@@ -23,6 +23,9 @@
     <!-- Vox Populi -->
     <?php include_once 'php/modules/homepage/vox-populi-homepage.php'; ?>
 
+    <!-- Editor's Note -->
+    <?php include_once 'php/modules/homepage/editors-note.php'; ?>
+
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
     
