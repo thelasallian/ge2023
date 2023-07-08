@@ -1,0 +1,51 @@
+[
+    {
+      "tag": "Commentary",
+      "title": "Are student councils faltering?",
+      "image-path": "assets/homepage/articles/01-studentcouncils.jpg",
+      "article-url": "#",
+      "excerpt": "As the academic year comes to a close, the General Elections once again looms over the Lasallian consciousness"
+    },
+    {
+      "tag": "Pulse",
+      "title": "Stalwarts of truth: Student activists’ perspective of the USG",
+      "image-path": "assets/homepage/articles/02-activists.jpg",
+      "article-url": "#",
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
+    },
+    {
+      "tag": "Pulse",
+      "title": "Women student leaders break gender barriers in sought-after USG positions",
+      "image-path": "assets/homepage/articles/03-women.jpg",
+      "article-url": "#",
+      "excerpt": "Women are as capable as men to perform the duties and services of the USG."
+    },
+    {
+      "tag": "News Feature",
+      "title": "Declining voter turnout challenges USG elections",
+      "image-path": "assets/homepage/articles/04-voterturnout.jpg",
+      "article-url": "#",
+      "excerpt": "N/A"
+    },
+    {
+      "tag": "Commentary",
+      "title": "Is the USG overstaffed or underutilized?",
+      "image-path": "assets/homepage/articles/05-usg.jpg",
+      "article-url": "#",
+      "excerpt": "N/A"
+    },
+    {
+      "tag": "Investigative",
+      "title": "A decade after, LCSG still hurdled by manpower, decentralization concerns",
+      "image-path": "assets/homepage/articles/06-lagunacampus.jpg",
+      "article-url": "#",
+      "excerpt": "N.A"
+    },
+    {
+      "tag": "News Feature",
+      "title": "After ‘eye-opening’ USG bids, what’s next for the independents?",
+      "image-path": "assets/homepage/articles/07-independents.jpg",
+      "article-url": "#",
+      "excerpt": "N/A"
+    }
+  ]
