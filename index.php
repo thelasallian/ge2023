@@ -4,6 +4,7 @@
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
     <?php require_once 'php/modules/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
     <!-- Document Title -->
     <title>Document</title>
