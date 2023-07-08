@@ -192,6 +192,16 @@ header {
     font-size: 2.5em;
 }
 
+@media only screen and (max-width: 991px) {
+    .first-row-article .article-title {
+        font-size: 1.75em;
+    }
+
+    .first-row-article .article-excerpt {
+        font-size: 0.9em;
+    }
+}
+
 /* Second Row Articles */
 
 #articles-second-row {
@@ -217,5 +227,39 @@ header {
 @media only screen and (max-width: 1199px) {
     .third-row-article .article-visual {
         aspect-ratio: 1/1;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #articles-third-row {
+        padding: 0 !important; /* Hack to align third row with first and second row */
+    }
+
+    .third-row-article {
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .third-row-article .article-visual {
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1.2rem;
+        
+    }
+    
+    .third-row-article .article-title {
+        font-size: 1.2em;
+        
+    }
+
+    .third-row-article .tag {
+        font-size: .75em;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .third-row-article .article-visual {
+        display: none;
     }
 }

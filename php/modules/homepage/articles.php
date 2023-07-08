@@ -59,7 +59,7 @@
         </div>
 
         <!-- Article 4-7 -->
-        <div id="articles-third-row" class="row row-cols-4 gx-4">
+        <div id="articles-third-row" class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gx-4">
             <?php 
                 for ($i = 3; $i <= 6; $i++):
                     $article = $articles[$i];
@@ -67,7 +67,7 @@
                 <div class="col">
                     <div class="article third-row-article">
                         <!-- Visual -->
-                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual ratio ratio-1x1 ratio-lg-16x9">
+                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
                         <div class="article-text">
                             <span class="tag"><?php echo $article["tag"]; ?></span>
                             <a href="<?php echo $article["article-url"]; ?>">
