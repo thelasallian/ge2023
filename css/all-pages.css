@@ -5,7 +5,8 @@
 /* Variables for Colors, etc. */
 
 :root {
-    --dark-text: #2C2C2C;
+    --dark-gray: #2C2C2C; /* For text */
+    --green: #7E8A58; 
 }
 
 /* Default Styles and Resets */
