@@ -11,11 +11,10 @@
     </div>
     <!-- Text -->
     <div class="header-text-wrapper">
-        <h1 class="header-text-title display-1">On different pages</h1>
+        <h1 class="header-text-title display-1 mb-3 mb-lg-4">On different pages</h1>
         <h2 class="header-text-subtitle">2023 General Elections Special</h2>
         <div class="header-buttons-wrapper">
             Test
         </div>
-        
     </div>
 </header>
