@@ -76,7 +76,6 @@ header {
 
 .header-text-title {
     line-height: .8;
-    margin-bottom: 1.25rem;
     font-weight: bold;
 }
 
@@ -88,8 +87,7 @@ header {
 
 @media only screen and (max-width: 450px) {
     .header-text-subtitle {
-        font-family: 'Open Sans', sans-serif;
         font-size: .9em;
-        font-weight: 300;
     }
 }
+
