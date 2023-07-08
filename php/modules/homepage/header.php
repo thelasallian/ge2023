@@ -12,7 +12,7 @@
     <!-- Text -->
     <div class="header-text-wrapper">
         <h1 class="header-text-title display-1 mb-3 mb-lg-4">On different pages</h1>
-        <h2 class="header-text-subtitle">2023 General Elections Special</h2>
+        <h2 class="header-text-subtitle mb-4">2023 General Elections Special</h2>
         <div class="header-buttons-wrapper">
             <button id="about-cover-btn" class="button button-white">About the Cover</button>
             <a id="view-content-btn" href="#" class="button button-white">View Content</a>
