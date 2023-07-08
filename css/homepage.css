@@ -85,7 +85,7 @@ header {
     font-weight: 300;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 470px) {
     .header-text-subtitle {
         font-size: .9em;
     }
