@@ -18,7 +18,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 
-    color: var(--dark-text);
+    color: var(--dark-gray);
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
