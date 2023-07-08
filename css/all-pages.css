@@ -36,3 +36,22 @@ h6 {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
 }
+
+/* Buttons */
+
+.button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: .3rem 1rem;
+    border: 1px solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    font-size: .9em;
+}
+
+.button-white {
+    border-color: white;
+    color: white;
+}
