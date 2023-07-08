@@ -13,6 +13,10 @@ header {
     background-color: #191B15; /* TODO: Replace with texture background-image, once available */
 
     gap: 20px;
+
+    text-align: center;
+
+    color: white;
 }
 
 .logo-wrapper,
@@ -68,13 +72,6 @@ header {
 }
 
 /* Header Text */
-
-.header-text-wrapper {
-    text-align: center;
-
-    color: white;
-}
-
 .header-text-title {
     font-weight: bold;
     line-height: .8;
