@@ -123,3 +123,93 @@ header {
         font-size: .8em;
     }
 }
+
+/* Tags */
+
+.tag {
+    display: block;
+    font-weight: 600;
+    padding: .2rem .75rem;
+    margin-bottom: 1.2rem;
+    background-color: var(--green);
+    width: max-content;
+    color: white;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+
+/* Articles */
+
+#articles {
+    padding: 1.5rem 0;
+}
+
+#articles .row {
+    padding: 1.5rem 0;
+}
+
+.article {
+    display: flex;
+}
+
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article .article-title {
+    margin-bottom: 1rem;
+}
+
+.article .article-visual {
+    object-fit: cover;
+}
+
+.second-row-article,
+.third-row-article {
+    flex-direction: column;
+}
+
+.second-row-article .article-visual,
+.third-row-article .article-visual {
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+}
+
+/* First Row Article */
+
+.first-row-article {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.first-row-article .article-visual {
+    width: 60%;
+    margin-left: 2rem;
+}
+
+.first-row-article .article-title {
+    font-size: 2.5em;
+}
+
+/* Second Row Articles */
+
+#articles-second-row {
+    /* border-top: 1px solid #9A9A9A;
+    border-bottom: 1px solid #9A9A9A; */
+}
+
+.second-row-article .article-excerpt {
+    font-size: 0.9em;
+}
+
+
+/* Third Row Articles */
+
+#articles-third-row {
+    padding: 0 0.75rem; /* Hack to align third row with first and second row */
+}
+
+.third-row-article .article-title {
+    font-size: 1.4em;
+}
