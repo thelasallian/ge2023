@@ -37,7 +37,7 @@
         </div>
 
         <!-- Article 2-3 -->
-        <div id="articles-second-row" class="row gx-5">
+        <div id="articles-second-row" class="row row-cols-1 row-cols-sm-2 gx-4 gx-lg-5">
             <?php 
                 for ($i = 1; $i <= 2; $i++):
                     $article = $articles[$i];
