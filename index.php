@@ -32,5 +32,6 @@
     
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
+    <script src="js/about-the-cover.js"></script>
 </body>
 </html>

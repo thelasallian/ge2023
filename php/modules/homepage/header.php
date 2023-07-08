@@ -1,8 +1,8 @@
 <header>
-    <!-- <div id="about-the-cover">
+    <div id="about-the-cover">
         <h1>About the Cover</h1>
         <p>A communi observantia non est recedendum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Non equidem invideo, miror magis posuere velit aliquet. Quisque placerat facilisis egestas cillum dolore. Curabitur blandit tempus ardua ridiculus sed magna. Contra legem facit qui id facit quod lex prohibet. Petierunt uti sibi concilium totius Galliae in diem certam indicere.</p>
-    </div> -->
+    </div>
     <!-- Logo -->
     <div id="logo-wrapper" class="logo-wrapper">
         <img class="header-logo" src="assets/all-pages/tls-horizontal-logo-white.svg" alt="The LaSallian Logo">
