@@ -12,7 +12,7 @@
     <!-- Art -->
     <div class="cover-art-wrapper">
         <div class="faux-cover-art-img"></div>    
-        <img class="cover-art-img" src="assets/homepage/cover/art-transparentbg.png" alt="">
+        <img id="cover-art-img" class="cover-art-img" src="assets/homepage/cover/art-transparentbg.png" alt="">
     </div>
     <!-- Text -->
     <div id="header-text-wrapper" class="header-text-wrapper">
