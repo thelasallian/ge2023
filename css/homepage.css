@@ -213,3 +213,9 @@ header {
 .third-row-article .article-title {
     font-size: 1.4em;
 }
+
+@media only screen and (max-width: 1199px) {
+    .third-row-article .article-visual {
+        aspect-ratio: 1/1;
+    }
+}
