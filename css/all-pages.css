@@ -58,7 +58,7 @@ h6 {
     border-color: white;
 }
 
-@media only screen and(max-width: 470px) {
+@media only screen and (max-width: 470px) {
     .button {
         font-size: .7em;
     }
