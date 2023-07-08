@@ -16,13 +16,13 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link text-reset order-1" href="#">ARTICLES</a>
+                            <a class="nav-link text-reset ps-4 order-1" href="#">ARTICLES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-reset order-2" href="#">INFOGRAPHIC</a>
+                            <a class="nav-link text-reset ps-4 order-2" href="#">INFOGRAPHIC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-reset order-3" href="#">VOX POPULI</a>
+                            <a class="nav-link text-reset ps-4 order-3" href="#">VOX POPULI</a>
                         </li>
                     </ul>
                 </div>
