@@ -107,7 +107,18 @@ header {
 
 /* About the Cover */
 #about-the-cover {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: justify;
+    text-align-last: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    #about-the-cover p {
+        font-size: .8em;
+    }
 }
