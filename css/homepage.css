@@ -91,3 +91,17 @@ header {
     }
 }
 
+/* Header Buttons */
+
+.header-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 370px) {
+    .header-buttons-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
