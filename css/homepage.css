@@ -1,26 +1,25 @@
-/*
-    This stylesheet contains CSS styles specific to the homepage
-*/
+/*     This stylesheet contains CSS styles specific to the homepage */
 
 /* Header */
 
 header {
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
     height: 100vh;
+    padding: 2.25rem .75rem;
+
     background-color: #191B15; /* TODO: Replace with texture background-image, once available */
 
-    display: flex;
-    flex-direction: column;
     gap: 20px;
-
-    padding: 2.25rem .75rem;
 }
 
-.logo-wrapper ,
-.header-text-wrapper  {
+.logo-wrapper,
+.header-text-wrapper {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Logo */
@@ -38,22 +37,23 @@ header {
 }
 
 .faux-cover-art-img {
+    width: 100%;
+
     background-image: url('../../assets/homepage/cover/art-transparentbg.png');
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    
-    width: 100%;
+    background-size: contain;
 }
 
 .cover-art-img {
     display: none;
+
     width: 100%;
 }
 
 /* On smaller screen,s cover is no longer full-screen height and the real img element is used */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and(max-width: 1100px) {
     header {
         height: max-content;
     }
@@ -70,13 +70,14 @@ header {
 /* Header Text */
 
 .header-text-wrapper {
-    color: white;
     text-align: center;
+
+    color: white;
 }
 
 .header-text-title {
-    line-height: .8;
     font-weight: bold;
+    line-height: .8;
 }
 
 .header-text-subtitle {
@@ -85,7 +86,7 @@ header {
     font-weight: 300;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and(max-width: 470px) {
     .header-text-subtitle {
         font-size: .9em;
     }
@@ -96,12 +97,13 @@ header {
 .header-buttons-wrapper {
     display: flex;
     justify-content: center;
+
     gap: 1rem;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and(max-width: 370px) {
     .header-buttons-wrapper {
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
     }
 }
