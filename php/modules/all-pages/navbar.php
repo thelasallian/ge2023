@@ -22,7 +22,7 @@
                             <a class="nav-link text-reset ps-4 order-2" href="#">INFOGRAPHIC</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-reset ps-4 order-3" href="#">VOX POPULI</a>
+                            <a class="nav-link text-reset ps-4 order-3" href="vox-populi.php">VOX POPULI</a>
                         </li>
                     </ul>
                 </div>
