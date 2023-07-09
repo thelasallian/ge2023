@@ -28,3 +28,4 @@
 
 <!-- Common Stylesheet for All Pages of the Website -->
 <link rel="stylesheet" href="css/all-pages.css">
+<link rel="stylesheet" href="css/footer.css">
