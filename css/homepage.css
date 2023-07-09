@@ -223,11 +223,6 @@ header {
 
 /* Second Row Articles */
 
-#articles-second-row {
-    /* border-top: 1px solid #9A9A9A;
-    border-bottom: 1px solid #9A9A9A; */
-}
-
 .second-row-article .article-excerpt {
     font-size: 0.9em;
 }
