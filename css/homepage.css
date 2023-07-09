@@ -293,6 +293,7 @@ header {
 
 .third-row-article .article-title {
     font-size: 1.4em;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -308,14 +309,13 @@ header {
 
     .third-row-article {
         flex-direction: row;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .third-row-article .article-visual {
         width: 5rem;
         height: 5rem;
-        margin-right: 1.2rem;
-
+        margin: 0 1.2rem 0 0;
     }
 
     .third-row-article .article-title {
@@ -338,7 +338,11 @@ header {
 @media only screen and (max-width: 575px) {
     .third-row-article {
         margin: 0;
-        padding: 0.5rem 0;
+        padding: 1.15rem 0;
+    }
+
+    #articles-third-row .col:not(:last-child) .third-row-article {
+        border-bottom: 1px solid var(--divider-gray);
     }
     
     .third-row-article .article-visual {
