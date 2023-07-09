@@ -77,3 +77,16 @@ h6 {
         font-size: .7em;
     }
 }
+
+.color-burn-drop-shadow::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    width: 100%;
+    background-color: #5d5e5a;
+    z-index: -1;
+    mix-blend-mode: color-burn;
+}

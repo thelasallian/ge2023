@@ -24,7 +24,7 @@
             <div class="col">
                 <div class="article first-row-article">
                     <!-- Visual -->
-                    <div class="article-visual-wrapper">
+                    <div class="article-visual-wrapper color-burn-drop-shadow">
                         <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
                     </div>
                     <div class="article-text">
@@ -47,7 +47,7 @@
                 <div class="col">
                     <div class="article second-row-article">
                         <!-- Visual -->
-                        <div class="article-visual-wrapper">
+                        <div class="article-visual-wrapper color-burn-drop-shadow">
                             <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
                         </div>
                         <div class="article-text">
@@ -71,7 +71,7 @@
                 <div class="col">
                     <div class="article third-row-article">
                         <!-- Visual -->
-                        <div class="article-visual-wrapper">
+                        <div class="article-visual-wrapper color-burn-drop-shadow">
                             <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
                         </div>
                         <div class="article-text">
