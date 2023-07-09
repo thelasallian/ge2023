@@ -15,12 +15,10 @@
         <img id="cover-art-img" class="cover-art-img" src="assets/homepage/cover/art-transparentbg.png" alt="">
     </div>
     <!-- Text -->
-    <div id="header-text-wrapper" class="header-text-wrapper">
-        <h1 class="header-text-title display-1 mb-3 mb-lg-4">On different pages</h1>
+    <h1 class="header-text-title mb-0 mb-md-3 mb-lg-4">On different pages</h1>
         <h2 class="header-text-subtitle mb-4">2023 General Elections Special</h2>
         <div class="header-buttons-wrapper">
             <button id="about-cover-btn" class="button button-white" onclick="displayAboutTheCover()">About the Cover</button>
             <a id="view-content-btn" href="#articles" class="button button-white">View Content</a>
         </div>
-    </div>
 </header>

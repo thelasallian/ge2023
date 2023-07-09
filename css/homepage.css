@@ -17,7 +17,7 @@ header {
 
     text-align: center;
 
-    gap: 20px;
+    /* gap: 20px; */
 }
 
 .logo-wrapper,
@@ -39,6 +39,7 @@ header {
     display: flex;
     align-items: stretch;
     flex-grow: 1;
+    margin: 30px 0;
 }
 
 .faux-cover-art-img {
@@ -60,7 +61,7 @@ header {
 /* On smaller screen,s cover is no longer full-screen height and the real img element is used */
 
 @media only screen and (max-width: 1100px) {
-    header {
+    /* header {
         height: -webkit-max-content;
         height: -moz-max-content;
         height: max-content;
@@ -72,13 +73,46 @@ header {
 
     .cover-art-img {
         display: block;
+    } */
+
+    #about-the-cover {
+        order: 1;
+    }
+    
+    .logo-wrapper {
+        order: 2;
+        margin-bottom: 3rem;
+    }
+
+    .header-text-title {
+        order: 3;
+        /* width: 40%; */
+        min-width: 8ch;
+        align-self: center;
+        margin: 0 !important;
+    }
+
+    .cover-art-wrapper {
+        order: 4;
+    }
+
+    .header-text-subtitle {
+        order: 5;
+    }
+
+    .header-buttons-wrapper {
+        order: 6;
     }
 }
 
 /* Header Text */
 .header-text-title {
     font-weight: bold;
-    line-height: .8;
+    font-size: 4em;
+    text-align: center;
+    display: inline-block;
+    line-height: 1;
+    padding: 0 4rem;
 }
 
 .header-text-subtitle {
@@ -88,8 +122,8 @@ header {
 }
 
 @media only screen and (max-width: 470px) {
-    .header-text-subtitle {
-        font-size: .9em;
+    .header-buttons-wrapper .button {
+        font-size: 0.9em;
     }
 }
 
@@ -102,7 +136,7 @@ header {
     gap: 1rem;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 420px) {
     .header-buttons-wrapper {
         align-items: center;
         flex-direction: column;
