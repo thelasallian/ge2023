@@ -29,7 +29,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background-image: url('../assets/all-pages/white-texture-bg.png');
+    background-image: url('../assets/all-pages/white-texture-bg.jpg');
     background-size: 800px;
 
     overflow-x: hidden !important;
