@@ -1,3 +1,66 @@
 /*
     This stylesheet contains CSS styles specific to the vox populi page
 */
+
+/* Desktop Photo Grid */
+
+#vox-populi-desktop-grid {
+    padding: 4rem 0;
+}
+
+#vox-populi-desktop-grid .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+#vox-populi-desktop-grid .row {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ds-photo-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.ds-photo-quote-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 0;
+    background-color: black;
+
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translateY(100%);
+
+    pointer-events: none
+}
+
+.ds-photo-wrapper:hover > .ds-photo-quote-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    opacity: 1;
+    background-color: black;
+
+    transform: translateY(0);
+}
+
+.ds-photo-img {
+    width: 100%;
+}
