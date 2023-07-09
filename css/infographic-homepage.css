@@ -47,7 +47,7 @@
         font-size: 1.7rem;
     }
 
-    .custom-button{
+    .info-button{
         font-size: 0.75rem;
         width: 4rem;
     }
@@ -62,7 +62,7 @@
         font-size: 1.4rem;
     }
 
-    .custom-button{
+    .info-button{
         font-size: 0.6rem;
         width: 3rem;
     }
@@ -78,4 +78,5 @@
     text-transform: uppercase;
     font-size: .75em;
     line-height: 1;
+    text-align: center;
 }

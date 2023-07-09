@@ -39,7 +39,7 @@ p.text{
     font-family: 'Open sans', sans-serif;
     font-weight: 500;
     border-radius: 0;
-    width: 11rem;
+    width: 11.1rem;
 }
 
 div.footer p.credits{
@@ -56,8 +56,8 @@ div.footer a.text{
 
 @media only screen and (max-width: 767px){
     .custom-button{
-        font-size: 0.75rem;
-        width: 9rem;
+        font-size: 0.7rem;
+        width: 9.1rem;
     }
 
     div.logo::before{
@@ -70,7 +70,7 @@ div.footer a.text{
 @media only screen and (max-width: 575px){
     .custom-button{
         font-size: 0.6rem;
-        width: 8rem;
+        width: 8.1rem;
     }
 
     div.logo::before{
