@@ -1,0 +1,81 @@
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+div.footer{
+    background-color: #191B15;
+}
+
+div.logo{
+    position: relative;
+}
+
+div.logo img{
+    position: relative;
+    z-index: 2;
+}
+
+div.logo::before{
+    position: absolute;
+    content: "";
+    background-color: #A0AB8A;
+    width: 25rem;
+    height: 5rem;
+    bottom: -3.5rem;
+    left: -3.1rem;    
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+p.text{
+    color: #fff;
+    font-family: 'EB Garamond', sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.custom-button{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    border-radius: 0;
+    width: 11rem;
+}
+
+div.footer p.credits{
+    color: #fff;
+    font-size: 0.65rem;
+    text-align: center;
+}
+
+div.footer a.text{
+    color: #fff;
+    font-size: 0.65rem;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 767px){
+    .custom-button{
+        font-size: 0.75rem;
+        width: 9rem;
+    }
+
+    div.logo::before{
+        width: 22rem;
+        height: 5rem;
+        left: -1.55rem;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .custom-button{
+        font-size: 0.6rem;
+        width: 8rem;
+    }
+
+    div.logo::before{
+        width: 21rem;
+        height: 5rem;
+        left: -1rem;
+    }
+}
