@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-md sticky-top px-5 justify-content-between" id="navbar">
+<nav class="navbar navbar-expand-md sticky-top justify-content-between" id="navbar">
     <div class="container">
         <a class="navbar-brand my-2 my-lg-3 align-items-center order-first" href="#">
             <img src="assets\all-pages\tls-horizontal-logo-green.svg" alt="TLS Logo">
         </a>
-        <div class="justify-content-center justify-content-md-center my-2 my-lg-3 order-last">
-            <button class="navbar-toggler p-0 border-0 text-black" id="offcanvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <div class="justify-content-center justify-content-md-center my-2 my-lg-3 align-items-center order-last">
+            <button class="navbar-toggler p-0 border-0 text-black my-1 align-items-center" id="offcanvas-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="material-icons">menu</span>
             </button>
     
