@@ -5,6 +5,7 @@
 :root {
     --dark-gray: #2C2C2C; /* For text */
     --green: #7E8A58;
+    --divider-gray: #d7d7d7;
 }
 
 /* Default Styles and Resets */
@@ -15,14 +16,23 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 
-    color: var(--dark-text);
+    color: var(--dark-gray);
 
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background-image: url('../assets/all-pages/white-texture-bg.png');
+    background-size: 800px;
+
+    overflow-x: hidden !important;
 }
 
 h1,
@@ -33,6 +43,11 @@ h5,
 h6 {
     font-family: 'EB Garamond', serif;
     font-weight: bold;
+}
+
+.container {
+    padding-right: calc(var(--bs-gutter-x) * .9);
+    padding-left: calc(var(--bs-gutter-x) * .9);
 }
 
 /* Buttons */
@@ -67,4 +82,17 @@ h6 {
     .button {
         font-size: .7em;
     }
+}
+
+.color-burn-drop-shadow::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    width: 100%;
+    background-color: #545452;
+    z-index: -1;
+    mix-blend-mode: color-burn;
 }
