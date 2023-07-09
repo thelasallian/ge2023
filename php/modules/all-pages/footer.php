@@ -1,4 +1,4 @@
-<footer>
+<footer class="pt-5">
     <div class="footer">
         <div class="container py-5 d-flex flex-column align-items-center mx-auto">
             <div class="logo pt-2">
