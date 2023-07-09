@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 
@@ -27,6 +31,8 @@ body {
 
     background-image: url('../assets/all-pages/white-texture-bg.png');
     background-size: 800px;
+
+    overflow-x: hidden !important;
 }
 
 h1,
