@@ -1,0 +1,27 @@
+nav{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    background-color: hsla(0, 0%, 100%, 0.95);
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 767px){
+    nav .offcanvas {
+        padding: 1.5rem;
+        width: 100% !important;
+    }
+
+    li.nav-item {
+        display: flex;
+        align-items: center;
+        margin: 1em 0 0 0;
+        padding: 0.5em 1em 0.5em 1em;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+
+    a.nav-link {
+        font-size: 1.2em;
+        font-weight: bold;
+    }   
+}

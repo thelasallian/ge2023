@@ -20,7 +20,7 @@
         <h2 class="header-text-subtitle mb-4">2023 General Elections Special</h2>
         <div class="header-buttons-wrapper">
             <button id="about-cover-btn" class="button button-white" onclick="displayAboutTheCover()">About the Cover</button>
-            <a id="view-content-btn" href="#" class="button button-white">View Content</a>
+            <a id="view-content-btn" href="#articles" class="button button-white">View Content</a>
         </div>
     </div>
 </header>
