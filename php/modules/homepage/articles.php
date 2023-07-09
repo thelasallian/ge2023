@@ -1,21 +1,21 @@
 <section id="articles">
     <div class="container">
         <!-- Get articles -->
-        <?php 
-            // Read the JSON file
-            $jsonString = file_get_contents('json/articles.json');
+        <?php
+        // Read the JSON file
+        $jsonString = file_get_contents('json/articles.json');
 
-            // Convert the JSON string to a PHP array
-            $articles = json_decode($jsonString, true);
+        // Convert the JSON string to a PHP array
+        $articles = json_decode($jsonString, true);
 
-            // Check if decoding was successful
-            if ($articles === null) {
-                // Handle the error if decoding fails
-                die('Error decoding JSON');
-            }
+        // Check if decoding was successful
+        if ($articles === null) {
+            // Handle the error if decoding fails
+            die('Error decoding JSON');
+        }
 
-            // Get the number of articles
-            $numArticles = count($articles);
+        // Get the number of articles
+        $numArticles = count($articles);
         ?>
 
         <!-- Article 1 -->
@@ -38,9 +38,9 @@
 
         <!-- Article 2-3 -->
         <div id="articles-second-row" class="row row-cols-2 gx-4 gx-lg-5">
-            <?php 
-                for ($i = 1; $i <= 2; $i++):
-                    $article = $articles[$i];
+            <?php
+            for ($i = 1; $i <= 2; $i++) :
+                $article = $articles[$i];
             ?>
                 <div class="col">
                     <div class="article second-row-article">
@@ -60,9 +60,9 @@
 
         <!-- Article 4-7 -->
         <div id="articles-third-row" class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gx-4">
-            <?php 
-                for ($i = 3; $i <= 6; $i++):
-                    $article = $articles[$i];
+            <?php
+            for ($i = 3; $i <= 6; $i++) :
+                $article = $articles[$i];
             ?>
                 <div class="col">
                     <div class="article third-row-article">

@@ -320,3 +320,15 @@ header {
         font-size: 1.15em;
     }
 }
+
+/* TODO: ni Ronn
+    - Spacing between tag and title for second row
+    - Spacing between rows
+    - overflow-x hidden
+    - investigate ung lumalagpas
+    - visual drop shadow
+    - texture white bg nakalimutan q iupload sa assets
+    - hyperlink view content button
+    - on bigger screens, make the article visual bigger for 1st row
+    - html{scroll-behavior:smooth}
+*/
