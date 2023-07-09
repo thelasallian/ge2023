@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md sticky-top px-5 justify-content-between" id="navbar">
+<nav class="navbar navbar-expand-md sticky-top justify-content-between" id="navbar">
     <div class="container">
         <a class="navbar-brand my-2 my-lg-3 align-items-center order-first" href="#">
             <img src="assets\all-pages\tls-horizontal-logo-green.svg" alt="TLS Logo">
