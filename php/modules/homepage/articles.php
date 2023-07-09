@@ -24,7 +24,9 @@
             <div class="col">
                 <div class="article first-row-article">
                     <!-- Visual -->
-                    <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual ">
+                    <div class="article-visual-wrapper">
+                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                    </div>
                     <div class="article-text">
                         <span class="tag"><?php echo $article["tag"]; ?></span>
                         <a href="<?php echo $article["article-url"]; ?>">
@@ -45,7 +47,9 @@
                 <div class="col">
                     <div class="article second-row-article">
                         <!-- Visual -->
-                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        <div class="article-visual-wrapper">
+                            <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        </div>
                         <div class="article-text">
                             <span class="tag"><?php echo $article["tag"]; ?></span>
                             <a href="<?php echo $article["article-url"]; ?>">
@@ -67,7 +71,9 @@
                 <div class="col">
                     <div class="article third-row-article">
                         <!-- Visual -->
-                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        <div class="article-visual-wrapper">
+                            <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        </div>
                         <div class="article-text">
                             <span class="tag"><?php echo $article["tag"]; ?></span>
                             <a href="<?php echo $article["article-url"]; ?>">

@@ -174,8 +174,22 @@ header {
 
 
 .article .article-visual {
+    position: relative;
     -o-object-fit: cover;
        object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    width: 100%;
+}
+
+.article .article-visual::after {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .second-row-article,
@@ -208,7 +222,11 @@ header {
     align-items: center;
 }
 
-.first-row-article .article-visual {
+.first-row-article .article-text {
+    width: 40%;
+}
+
+.first-row-article .article-visual-wrapper {
     width: 60%;
     margin-left: 2rem;
 }
@@ -232,9 +250,13 @@ header {
         flex-direction: column;
     }
 
-    .first-row-article .article-visual {
+    .first-row-article .article-visual-wrapper {
         width: 100%;
         margin: 0 0 1.5rem 0;
+    }
+
+    .first-row-article .article-text {
+        width: 100%;
     }
 }
 
