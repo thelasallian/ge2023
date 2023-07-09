@@ -119,7 +119,7 @@ header {
     padding: 0 2rem;
     text-align: justify;
     -moz-text-align-last: center;
-         text-align-last: center;
+    text-align-last: center;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -174,33 +174,26 @@ header {
 
 
 .article .article-visual {
-    position: relative;
     -o-object-fit: cover;
        object-fit: cover;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     width: 100%;
 }
 
-.article .article-visual::after {
-    content:"";
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, .8);
+.article .article-visual-wrapper {
+    position: relative;
+    height: max-content;
 }
+
 
 .second-row-article,
 .third-row-article {
     flex-direction: column;
 }
 
-.second-row-article .article-visual,
-.third-row-article .article-visual {
-    flex-direction: column;
-    margin-bottom: 1.25rem;
+
+.second-row-article .article-visual-wrapper,
+.third-row-article .article-visual-wrapper {
+    margin-bottom: 1.75rem;
 }
 
 @media only screen and (max-width: 575px) {
@@ -334,10 +327,14 @@ header {
         margin-bottom: 3rem;
     }
 
+    .third-row-article .article-visual-wrapper {
+        margin: 0 1.2rem 0 0;
+
+    }
+
     .third-row-article .article-visual {
         width: 5rem;
         height: 5rem;
-        margin: 0 1.2rem 0 0;
     }
 
     .third-row-article .article-title {
@@ -352,7 +349,7 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
-    .third-row-article .article-visual {
+    .third-row-article .article-visual-wrapper {
         display: none;
     }
 }
