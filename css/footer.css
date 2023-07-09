@@ -25,8 +25,8 @@ div.logo::before{
     bottom: -3.5rem;
     left: -3.1rem;    
     z-index: 1;
+    mix-blend-mode: overlay;
 }
-
 
 p.text{
     color: #fff;
@@ -56,7 +56,7 @@ div.footer a.text{
 
 @media only screen and (max-width: 767px){
     .custom-button{
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         width: 9rem;
     }
 
@@ -69,7 +69,7 @@ div.footer a.text{
 
 @media only screen and (max-width: 575px){
     .custom-button{
-        font-size: 0.55rem;
+        font-size: 0.6rem;
         width: 8rem;
     }
 
