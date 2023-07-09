@@ -5,6 +5,7 @@
     <?php require_once 'php/modules/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/infographic-homepage.css">
     <link rel="stylesheet" href="css/editors-note.css">
 
     <!-- Document Title -->
