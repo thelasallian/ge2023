@@ -148,7 +148,7 @@ header {
 /* Articles */
 
 #articles {
-    padding: 1.5rem 0;
+    padding: 1.95rem 0;
 }
 
 #articles .row {
@@ -339,6 +339,14 @@ header {
     .third-row-article {
         margin: 0;
         padding: 1.15rem 0;
+    }
+
+    #articles-third-row .col:first-child .third-row-article {
+        padding-top: 0;
+    }
+    
+    #articles-third-row .col:last-child .third-row-article {
+        padding-bottom: 0;
     }
 
     #articles-third-row .col:not(:last-child) .third-row-article {
