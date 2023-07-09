@@ -2,13 +2,24 @@ div.footer{
     background-color: #191B15;
 }
 
-div.footer p{
+div.footer p.text{
     color: #fff;
-    font-size: 12px;
-    padding: 10px;
+    font-family: 'EB Garamond', sans-serif;
+}
+
+.custom-button{
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+    border-radius: 0;
+}
+
+div.footer p.credits{
+    color: #fff;
+    font-size: 0.65rem;
+    text-align: center;
 }
 
 div.footer a{
     color: #fff;
-    font-size: 12px;
+    font-size: 0.65rem;
 }
