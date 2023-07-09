@@ -120,7 +120,7 @@
 
 #mb-vox-populi-button-grp {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -130,6 +130,7 @@
     font-weight: bold;
     font-size: .85em;
     margin: 1.5rem 0 2.5rem;
+    width: 100px;
 }
 
 #mb-vox-populi-button-grp .custom-button.active {
