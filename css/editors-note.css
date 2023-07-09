@@ -1,0 +1,28 @@
+.bg-color{
+    background-color: #97979745;
+    mix-blend-mode: multiply;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.note{
+    max-width: 45%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 991px){
+    .note{
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .note{
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .note{
+        max-width: 90%;
+    }
+}
