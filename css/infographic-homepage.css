@@ -4,7 +4,7 @@
 }
 
 .info-container{
-    max-width: 60%;
+    max-width: 40%;
 }
 
 .info-text{
@@ -12,6 +12,7 @@
     font-family: 'EB Garamond', sans-serif;
     font-size: 2.5rem;
     text-align: center;
+    line-height: 1;
 }
 
 .view-button{
@@ -19,6 +20,12 @@
     font-weight: 500;
     border-radius: 0;
     width: 6rem;
+}
+
+@media only screen and (max-width: 1199px){
+    .info-container{
+        max-width: 50%;
+    }
 }
 
 @media only screen and (max-width: 991px){
@@ -30,7 +37,6 @@
         font-size: 2.5rem;
     }
 }
-
 
 @media only screen and (max-width: 767px){
     .info-container{
@@ -53,7 +59,7 @@
     }
 
     .info-text{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .custom-button{
