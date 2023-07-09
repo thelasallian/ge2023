@@ -372,7 +372,7 @@ header {
         border-bottom: 1px solid var(--divider-gray);
     }
     
-    .third-row-article .article-visual {
+    .third-row-article .article-visual-wrapper {
         display: block;
     }
 
