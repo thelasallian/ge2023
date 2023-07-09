@@ -1,3 +1,18 @@
+// Get the container element
+var btnContainer = document.getElementById("mb-vox-populi-button-grp");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("custom-button");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
 function showVoxPopYes() {
     var yes = document.getElementById("vox-populi-yes");
     var undecided = document.getElementById("vox-populi-undecided");

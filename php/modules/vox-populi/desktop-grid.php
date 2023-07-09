@@ -1,4 +1,4 @@
-<section id="vox-populi-desktop-grid">
+<section id="vox-populi-desktop-grid" class="vox-populi-grid">
     <div class="container-fluid">
         <div class="row row-cols-3 g-4 g-lg-5">
             <?php

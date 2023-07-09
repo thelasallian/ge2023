@@ -16,7 +16,7 @@
     <!-- Header -->
 
     <!-- Photo Grid for Desktop -->
-    <?php //include_once 'php/modules/vox-populi/desktop-grid.php'; ?>
+    <?php include_once 'php/modules/vox-populi/desktop-grid.php'; ?>
 
     <!-- Photo Grid for Mobile -->
     <?php include_once 'php/modules/vox-populi/mobile-grid.php'; ?>
