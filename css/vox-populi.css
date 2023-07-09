@@ -64,3 +64,22 @@
 .ds-photo-img {
     width: 100%;
 }
+
+/* Mobile Grid */
+
+#vox-populi-mobile-grid .row {
+    margin: 0;
+}
+
+#vox-populi-mobile-grid .col {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#vox-populi-mobile-grid .mb-photo-img {
+    width: 100%;
+}
+
+#vox-populi-mobile-grid .mb-photo-quote-wrapper {
+    margin-bottom: 4rem;
+}
