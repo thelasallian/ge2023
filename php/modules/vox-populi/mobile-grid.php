@@ -43,7 +43,7 @@
         </div>
 
         <!-- Undecided -->
-        <div id="vox-populi-yes" class="row row-cols-1 bg-success g-4 g-lg-5">
+        <div id="vox-populi-undecided" class="row row-cols-1 bg-success g-4 g-lg-5">
             <?php
             // Read the JSON file
             $jsonString = file_get_contents('json/vox-populi-undecided.json');
@@ -76,7 +76,7 @@
         </div>
 
         <!-- No -->
-        <div id="vox-populi-yes" class="bg-danger row row-cols-1 g-4 g-lg-5">
+        <div id="vox-populi-no" class="bg-danger row row-cols-1 g-4 g-lg-5">
             <?php
             // Read the JSON file
             $jsonString = file_get_contents('json/vox-populi-no.json');

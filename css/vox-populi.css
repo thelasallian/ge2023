@@ -83,3 +83,8 @@
 #vox-populi-mobile-grid .mb-photo-quote-wrapper {
     margin-bottom: 4rem;
 }
+
+#vox-populi-undecided,
+#vox-populi-no {
+    display: none;
+}
