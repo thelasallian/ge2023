@@ -14,6 +14,7 @@
     <?php //include_once 'php/modules/all-pages/navbar.php'; ?>
 
     <!-- Header -->
+    <?php include_once 'php/modules/vox-populi/top-portion.php'; ?>
 
     <!-- Photo Grid for Desktop -->
     <?php include_once 'php/modules/vox-populi/desktop-grid.php'; ?>

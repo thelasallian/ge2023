@@ -5,7 +5,7 @@
 /* Desktop Photo Grid */
 
 #vox-populi-desktop-grid {
-    padding: 4rem 0;
+    padding: 0 0 4rem;
 }
 
 #vox-populi-desktop-grid .container-fluid {
@@ -115,7 +115,7 @@
 
 .mb-byline {
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.75em;
 }
 
 #mb-vox-populi-button-grp {
@@ -129,7 +129,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: .85em;
-    margin: 3rem 0;
+    margin: 1.5rem 0 2.5rem;
 }
 
 #mb-vox-populi-button-grp .custom-button.active {
@@ -150,4 +150,60 @@
     #vox-populi-desktop-grid {
         display: none;
     }
+}
+
+/* Header */
+
+#vox-populi-header {
+    background-color: #242424;
+    padding: 2rem 0 4rem;
+    color: white;
+    text-align: center;
+}
+
+#vox-populi-header .container {
+    padding: 0 1.5em;
+}
+
+#back-button {
+    width: max-content;
+    margin-bottom: 2rem;
+}
+
+#vox-populi-header .title {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.75em;
+    margin-bottom: .4rem;
+}
+
+#vox-populi-header .subtitle {
+    font-size: 2.25em;
+    margin-bottom: 1rem;
+}
+
+#vox-populi-header .photographer-byline {
+    font-size: .8em;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+#vox-populi-header .photographer-byline > .photographer {
+    font-style: normal;
+    font-weight: bold;
+}
+
+#vox-populi-header .description {
+    text-align: justify;
+    text-align-last: center;
+    max-width: 600px;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.vox-populi-question {
+    text-align: center;
+    margin: 3rem 0 0;
+    font-weight: normal;
+    font-size: 2em;
 }
