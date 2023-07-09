@@ -1,0 +1,17 @@
+[
+    {
+      "image-path": "assets/vox-populi/01-vox.jpg",
+      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar turpis id risus convallis.",
+      "byline": "Juan Dela Cruz (IV, BS-IT)"
+    },
+    {
+      "image-path": "assets/vox-populi/02-vox.jpg",
+      "quote": "Nulla facilisi. Suspendisse potenti. Aenean in ligula lacinia, fringilla ante ut, ultricies lacus.",
+      "byline": "Maria Santos (IV, BS-IT)"
+    },
+    {
+      "image-path": "assets/vox-populi/03-vox.jpg",
+      "quote": "Praesent vestibulum felis id ligula interdum, in gravida lorem pharetra. Integer accumsan varius augue.",
+      "byline": "Jose Rizal (IV, BS-IT)"
+    }
+  ]
