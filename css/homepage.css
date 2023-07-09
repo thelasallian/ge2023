@@ -132,9 +132,9 @@ header {
 
 .tag {
     display: block;
-    font-weight: 600;
-    padding: .2rem .75rem;
-    margin-bottom: 1.2rem;
+    font-weight: 700;
+    padding: .3rem .6rem;
+    margin-bottom: .8rem;
     background-color: var(--green);
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -142,6 +142,7 @@ header {
     color: white;
     text-transform: uppercase;
     font-size: .75em;
+    line-height: 1;
 }
 
 /* Articles */
@@ -167,6 +168,11 @@ header {
     margin-bottom: 1rem;
 }
 
+.article .article-excerpt {
+    margin-bottom: 0;
+}
+
+
 .article .article-visual {
     -o-object-fit: cover;
        object-fit: cover;
@@ -181,6 +187,18 @@ header {
 .third-row-article .article-visual {
     flex-direction: column;
     margin-bottom: 1.25rem;
+}
+
+@media only screen and (max-width: 575px) {
+    #articles .row {
+        padding: 1.2rem 0;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    #articles .row {
+        padding: 1rem 0;
+    }
 }
 
 /* First Row Article */
@@ -250,14 +268,19 @@ header {
         display: none;
     }
 
-    /* .second-row-article .article-title {
-        font-size: 1.15em;
-    } */
+    .second-row-article .article-title {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 418px) {
     .second-row-article .article-title {
         font-size: 1.15em;
+    }
+
+    .second-row-article .tag {
+        font-size: .65em;
+        padding: .2rem .4rem;
     }
 }
 
@@ -265,7 +288,7 @@ header {
 
 #articles-third-row {
     /* Hack to align third row with first and second row */
-    padding: 0 0.75rem;
+    padding: 1.5rem 0.75rem;
 }
 
 .third-row-article .article-title {
@@ -280,7 +303,7 @@ header {
 
 @media only screen and (max-width: 991px) {
     #articles-third-row {
-        padding: 0 !important;
+        padding: 1.5rem 0 !important;
     }
 
     .third-row-article {
@@ -313,14 +336,28 @@ header {
 }
 
 @media only screen and (max-width: 575px) {
+    .third-row-article {
+        margin: 0;
+        padding: 0.5rem 0;
+    }
+    
     .third-row-article .article-visual {
         display: block;
+    }
+
+    .third-row-article .article-title {
+        margin-bottom: 0;
     }
 }
 
 @media only screen and (max-width: 418px) {
     .third-row-article .article-title {
         font-size: 1.15em;
+    }
+
+    .third-row-article .tag {
+        font-size: .65em;
+        padding: .2rem .4rem;
     }
 }
 
