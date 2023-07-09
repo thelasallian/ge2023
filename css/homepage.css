@@ -10,13 +10,14 @@ header {
     height: 100vh;
     padding: 2.25rem 1rem;
 
-    background-color: #191B15; /* TODO: Replace with texture background-image, once available */
+    /* TODO: Replace with texture background-image, once available */
+    background-color: #191B15;
 
-    gap: 20px;
+    color: white;
 
     text-align: center;
 
-    color: white;
+    gap: 20px;
 }
 
 .logo-wrapper,
@@ -262,7 +263,8 @@ header {
 /* Third Row Articles */
 
 #articles-third-row {
-    padding: 0 0.75rem; /* Hack to align third row with first and second row */
+    /* Hack to align third row with first and second row */
+    padding: 0 0.75rem;
 }
 
 .third-row-article .article-title {
@@ -277,7 +279,7 @@ header {
 
 @media only screen and (max-width: 991px) {
     #articles-third-row {
-        padding: 0 !important; /* Hack to align third row with first and second row */
+        padding: 0 !important;
     }
 
     .third-row-article {
@@ -289,12 +291,12 @@ header {
         width: 5rem;
         height: 5rem;
         margin-right: 1.2rem;
-        
+
     }
-    
+
     .third-row-article .article-title {
         font-size: 1.2em;
-        
+
     }
 
     .third-row-article .tag {
