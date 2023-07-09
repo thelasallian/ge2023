@@ -23,7 +23,7 @@
     <?php include_once 'php/modules/vox-populi/mobile-grid.php'; ?>
 
     <!-- Footer -->
-    <?php //include_once 'php/modules/all-pages/footer.php'; ?>
+    <?php include_once 'php/modules/all-pages/footer.php'; ?>
     
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
