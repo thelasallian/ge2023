@@ -4,6 +4,6 @@
         <div class="info-container">
             <p class="info-text md-0"><strong>Voter turnout</strong> in the morbi fringilla convallis sapien</p>
         </div>
-        <a type="button" class="view-button button btn btn-outline-light mx-2"><strong>VIEW</strong></a>
+        <a type="button" class="button button-white button-white-over-green"><strong>VIEW</strong></a>
     </div>
 </div>
