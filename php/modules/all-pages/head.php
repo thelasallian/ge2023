@@ -29,3 +29,4 @@
 <!-- Common Stylesheet for All Pages of the Website -->
 <link rel="stylesheet" href="css/all-pages.css">
 <link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

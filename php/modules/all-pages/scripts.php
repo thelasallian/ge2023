@@ -3,13 +3,12 @@
 
 <!-- Animations on Scroll -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 
 <!-- Typing Animation -->
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
+    AOS.init();
+    
     var typed = new Typed('#typed', {
         strings: ['On different pages'],
         typeSpeed: 100,
