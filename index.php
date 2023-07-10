@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
     <?php require_once 'php/modules/all-pages/head.php'; ?>
@@ -11,6 +12,7 @@
     <!-- Document Title -->
     <title>Document</title>
 </head>
+
 <body>
     <!-- Header/Cover -->
     <?php include_once 'php/modules/homepage/header.php'; ?>
@@ -32,9 +34,19 @@
 
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
-    
+
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
     <script src="js/about-the-cover.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['On different pages'],
+            typeSpeed: 100,
+            onComplete: function(self) {
+                self.cursor.remove()
+            }
+        });
+    </script>
 </body>
+
 </html>

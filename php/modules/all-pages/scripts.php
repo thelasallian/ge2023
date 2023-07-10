@@ -8,12 +8,4 @@
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
     AOS.init();
-    
-    var typed = new Typed('#typed', {
-        strings: ['On different pages'],
-        typeSpeed: 100,
-        onComplete: function(self) {
-            self.cursor.remove()
-        }
-    });
 </script>
