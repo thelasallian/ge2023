@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/editors-note.css">
 
     <!-- Document Title -->
-    <title>Document</title>
+    <title>On different pages - The LaSallian GE 2023 Special</title>
 </head>
 
 <body>
