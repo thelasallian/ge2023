@@ -42,6 +42,18 @@ p.text{
     width: 11.1rem;
 }
 
+.footer-button-wrapper {
+    display: flex;
+    gap: 1.5em;
+}
+
+@media only screen and (max-width: 340px){
+    .footer-button-wrapper {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
 div.footer p.credits{
     color: #fff;
     font-size: 0.65rem;
