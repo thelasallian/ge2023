@@ -74,10 +74,6 @@ header {
     .cover-art-img {
         display: block;
     } */
-
-    #about-the-cover {
-        order: 1;
-    }
     
     .logo-wrapper {
         order: 2;
@@ -155,21 +151,71 @@ header {
 }
 
 /* About the Cover */
+.header-wrapper {
+    position: relative;
+}
+
 #about-the-cover {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
     flex-direction: column;
+
+    background-color: #191B15;
+
+    /* visibility: hidden; */
+    opacity: 0;
+    pointer-events: none;
+    
+    
+    margin: 0 auto;
+    /* display: none; */
+    flex-direction: column;
+    gap: 1.25rem;
     align-items: center;
-    padding: 0 2rem;
+    padding: 2rem;
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
+
+    transition: 0.4s all ease;
 }
 
-@media only screen and (max-width: 1000px) {
-    #about-the-cover p {
-        font-size: .8em;
+#about-the-cover .text-wrapper {
+    /* background-color: blue; */
+    max-width: 1000px;
+    color: white;
+}
+
+
+#about-the-cover .img-wrapper {
+    flex-grow: 1;
+    /* background-color: red; */
+    content: "";
+    width: 100%;
+
+    background-image: url('../../assets/homepage/cover/art-transparentbg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+#about-the-cover .img-wrapper span {
+    visibility: hidden;
+}
+
+#about-the-cover .button-wrapper {
+    /* background-color: blue; */
+}
+
+@media only screen and (max-width: 470px) {
+    #about-the-cover .text-wrapper {
+        font-size: 0.9em;
     }
 }
 
