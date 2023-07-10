@@ -129,4 +129,5 @@ h6 {
     background-color: #545452;
     z-index: -1;
     mix-blend-mode: color-burn;
+    transition: 0.4s transform ease;
 }

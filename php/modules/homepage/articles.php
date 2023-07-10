@@ -25,7 +25,9 @@
                 <div class="article first-row-article">
                     <!-- Visual -->
                     <div class="article-visual-wrapper color-burn-drop-shadow">
-                        <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        <a href="<?php echo $article["article-url"]; ?>">
+                            <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                        </a>
                     </div>
                     <div class="article-text">
                         <span class="tag"><?php echo $article["tag"]; ?></span>
@@ -48,7 +50,9 @@
                     <div class="article second-row-article">
                         <!-- Visual -->
                         <div class="article-visual-wrapper color-burn-drop-shadow">
-                            <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                            <a href="<?php echo $article["article-url"]; ?>">
+                                <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                            </a>
                         </div>
                         <div class="article-text">
                             <span class="tag"><?php echo $article["tag"]; ?></span>
@@ -72,7 +76,9 @@
                     <div class="article third-row-article">
                         <!-- Visual -->
                         <div class="article-visual-wrapper color-burn-drop-shadow">
-                            <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                            <a href="<?php echo $article["article-url"]; ?>">
+                                <img src="<?php echo $article["image-path"]; ?>" alt="" class="article-visual">
+                            </a>
                         </div>
                         <div class="article-text">
                             <span class="tag"><?php echo $article["tag"]; ?></span>
