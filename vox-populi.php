@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
     <?php require_once 'php/modules/all-pages/head.php'; ?>
@@ -9,9 +10,11 @@
     <!-- Document Title -->
     <title>Vox Populi</title>
 </head>
+
 <body>
     <!-- Navbar -->
-    <?php //include_once 'php/modules/all-pages/navbar.php'; ?>
+    <?php //include_once 'php/modules/all-pages/navbar.php'; 
+    ?>
 
     <!-- Header -->
     <?php include_once 'php/modules/vox-populi/top-portion.php'; ?>
@@ -24,9 +27,19 @@
 
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
-    
+
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
     <script src="js/vox-populi.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Thoughts on a two-party system'],
+            typeSpeed: 50,
+            onComplete: function(self) {
+                self.cursor.remove()
+            }
+        });
+    </script>
 </body>
+
 </html>

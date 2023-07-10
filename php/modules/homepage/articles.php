@@ -21,7 +21,7 @@
         <!-- Article 1 -->
         <div id="articles-first-row" class="row gx-5">
             <?php $article = $articles[0]; ?>
-            <div class="col">
+            <div data-aos="zoom-in-up" class="col">
                 <div class="article first-row-article">
                     <!-- Visual -->
                     <div class="article-visual-wrapper color-burn-drop-shadow">
@@ -46,7 +46,7 @@
             for ($i = 1; $i <= 2; $i++) :
                 $article = $articles[$i];
             ?>
-                <div class="col">
+                <div data-aos="zoom-in-up" class="col">
                     <div class="article second-row-article">
                         <!-- Visual -->
                         <div class="article-visual-wrapper color-burn-drop-shadow">
@@ -72,7 +72,7 @@
             for ($i = 3; $i <= 6; $i++) :
                 $article = $articles[$i];
             ?>
-                <div class="col">
+                <div data-aos="zoom-in-up" class="col">
                     <div class="article third-row-article">
                         <!-- Visual -->
                         <div class="article-visual-wrapper color-burn-drop-shadow">
