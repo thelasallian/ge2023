@@ -2,9 +2,9 @@
     <div class="container-fluid">
 
         <div id="mb-vox-populi-button-grp">
-            <button class="custom-button active" onclick="showVoxPopYes()">Yes</button>
-            <button class="custom-button" onclick="showVoxPopUndecided()">Undecided</button>
-            <button class="custom-button" onclick="showVoxPopNo()">No</button>
+            <button class="vox-custom-button active" onclick="showVoxPopYes()">Yes</button>
+            <button class="vox-custom-button" onclick="showVoxPopUndecided()">Undecided</button>
+            <button class="vox-custom-button" onclick="showVoxPopNo()">No</button>
         </div>
 
         <!-- Yes -->

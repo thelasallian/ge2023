@@ -2,7 +2,7 @@
 var btnContainer = document.getElementById("mb-vox-populi-button-grp");
 
 // Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("custom-button");
+var btns = btnContainer.getElementsByClassName("vox-custom-button");
 
 // Loop through the buttons and add the active class to the current/clicked button
 for (var i = 0; i < btns.length; i++) {

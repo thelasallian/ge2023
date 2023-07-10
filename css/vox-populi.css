@@ -124,17 +124,35 @@
     justify-content: center;
 }
 
-#mb-vox-populi-button-grp .custom-button {
+#mb-vox-populi-button-grp .vox-custom-button {
     border: none;
     text-transform: uppercase;
     font-weight: bold;
     font-size: .85em;
     margin: 1.5rem 0 2.5rem;
     width: 100px;
+    background: none;
+    transition: 0.2s ease;
+    position: relative;
 }
 
-#mb-vox-populi-button-grp .custom-button.active {
-    color: red;
+#mb-vox-populi-button-grp .vox-custom-button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #0000001d;
+    transition: 0.3s height ease;
+}
+
+#mb-vox-populi-button-grp .vox-custom-button:hover::before {
+    height: 100%;
+}
+
+#mb-vox-populi-button-grp .vox-custom-button.active {
+    background-color: #0000001d;
 }
 
 /* Responsiveness */
