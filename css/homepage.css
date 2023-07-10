@@ -183,6 +183,7 @@ header {
     text-align-last: center;
 
     transition: 0.4s all ease;
+    z-index: 900;
 }
 
 #about-the-cover .text-wrapper {
