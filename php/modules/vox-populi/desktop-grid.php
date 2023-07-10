@@ -17,7 +17,7 @@
             foreach ($photos as $photo) :
             ?>
 
-                <div class="col">
+                <div data-aos="zoom-in-up" class="col">
                     <div class="ds-photo-wrapper">
                         <div class="ds-photo-quote-wrapper">
                             <p class="ds-quote"><?php echo $photo["quote"]; ?></p>
