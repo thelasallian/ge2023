@@ -94,6 +94,7 @@ header {
 
     .cover-art-wrapper {
         order: 4;
+        margin: 1.5rem 0;
     }
 
     .header-text-subtitle {
@@ -102,6 +103,16 @@ header {
 
     .header-buttons-wrapper {
         order: 6;
+    }
+}
+
+@media only screen and (max-width: 544px) {
+    .header-text-title {
+        margin-top: 5% !important;
+    }
+
+    .header-text-subtitle {
+        margin-bottom: 10% !important;
     }
 }
 
