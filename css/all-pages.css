@@ -95,8 +95,12 @@ h6 {
     background-color: #fff;
 }
 
-.button:hover {
+.button-white:hover {
     color: #191B16;
+}
+
+.button-white-over-green:hover {
+    color: #7E8A58;
 }
 
 .button:hover::before {
