@@ -89,6 +89,15 @@
     .article-7 {
         grid-column: 3 / 5; /* Right half */
     }
+
+    /* Article 1 text shrinks */
+    .article-1 .title {
+        font-size: 1.75em;
+    }
+
+    .article-1 .excerpt {
+        font-size: 0.9em;
+    }
 }
 
 /*******************************
