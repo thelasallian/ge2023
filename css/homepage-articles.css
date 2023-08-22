@@ -160,4 +160,16 @@
     .article-7 {
         grid-column: 1 / 5; /* Full width */
     }
+
+    /* Title for Article 2 to 3 shrink */
+    .article-2 .title,
+    .article-3 .title {
+        font-size: 1.3em;
+    }
+
+    /* Excerpt for Article 2 to 3 disappear */
+    .article-2 .excerpt,
+    .article-3 .excerpt {
+        display: none;
+    }
 }
