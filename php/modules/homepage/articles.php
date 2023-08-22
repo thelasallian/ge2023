@@ -8,6 +8,7 @@ if ($articles === null) {
     die('Error decoding JSON'); // Handle the error if decoding fails
 }
 
+// Counter for article no.
 $count = 1;
 ?>
 
@@ -20,7 +21,11 @@ $count = 1;
                     <!-- Article <?= $count; ?> -->
                     <div class="article article-<?= $count; ?>">
                         <!-- Visual -->
-                        
+                        <div class="visual-container">
+                            <a href="<?= $a["article-url"]; ?>">
+                                <img src="<?= $a["image-path"]; ?>" class="visual">
+                            </a>
+                        </div>
 
                         <!-- Details -->
                         <div class="details">

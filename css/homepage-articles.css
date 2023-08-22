@@ -16,12 +16,17 @@
 }
 
 /********************************
-    >= 992px Width (Desktop) 
+    Default Styles - >= 992px Width (Desktop) 
 ********************************/
 
-/* Column Spans */
 .article-1 {
+    /* As a Grid Item */
     grid-column: 1 / 5; /* Full width */
+
+    /* As a Grid Parent */
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1.5em;
 }
 
 .article-2 {
@@ -32,7 +37,32 @@
     grid-column: 3 / 5; /* Right half */
 }
 
-/* Article Titles */
+/* Article Visuals */
+.article .visual {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.article .visual-container {
+    margin-bottom: 1.75rem;
+}
+
+.article-1 .visual-container {
+    margin-bottom: 0; /* Override margin bottom above */
+}
+
+/* Article Details */
+.article .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.article-1 .details {
+    order: -1; /* Reverse order */
+}
+
 .article-1 .title {
     font-size: 2.5em;
 }
