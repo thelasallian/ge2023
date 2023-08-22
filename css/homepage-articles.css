@@ -95,6 +95,11 @@
     color: var(--green);
 }
 
+/* Excerpt */
+.article .excerpt {
+    margin-top: .5em;
+}
+
 /* Details of Article 1 */
 .article-1 .details {
     order: -1; /* Reverse order */
@@ -159,7 +164,10 @@
         font-size: 1.75em;
     }
 
-    .article-1 .excerpt {
+    /* Article 1 to 3 Excerpt shrinks */
+    .article-1 .excerpt,
+    .article-2 .excerpt,
+    .article-3 .excerpt {
         font-size: 0.9em;
     }
 }
