@@ -13,6 +13,13 @@
 /* Article Grid Item */
 .article {
     border: 1px solid #000;
+
+    /* As Grid Parent */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    gap: 1.5em;
 }
 
 /********************************
@@ -26,6 +33,7 @@
     /* As a Grid Parent */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
     gap: 1.5em;
 }
 
@@ -45,7 +53,7 @@
 }
 
 .article .visual-container {
-    margin-bottom: 1.75rem;
+    /* margin-bottom: 1.75rem; */
 }
 
 .article-1 .visual-container {
@@ -90,6 +98,32 @@
         grid-column: 3 / 5; /* Right half */
     }
 
+    /* Articles 4 to 7 content become horizontal */
+    .article-4,
+    .article-5,
+    .article-6,
+    .article-7 {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .article-4 .visual,
+    .article-5 .visual,
+    .article-6 .visual,
+    .article-7 .visual {
+        width: 5rem;
+        height: 5rem;
+        aspect-ratio: 1 / 1;
+    }
+
+    .article-4 .title,
+    .article-5 .title,
+    .article-6 .title,
+    .article-7 .title {
+        font-size: 1.2em;
+    }
+ 
+
     /* Article 1 text shrinks */
     .article-1 .title {
         font-size: 1.75em;
@@ -97,6 +131,20 @@
 
     .article-1 .excerpt {
         font-size: 0.9em;
+    }
+}
+
+/*******************************
+    > 576px but <= 768px Width (Mobile)
+*******************************/
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    /* Visual for Articles 4 to 7 disappear */
+    .article-4 .visual-container,
+    .article-5 .visual-container,
+    .article-6 .visual-container,
+    .article-7 .visual-container {
+        display: none;
     }
 }
 
