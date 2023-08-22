@@ -32,7 +32,7 @@ header .title-btns-wrapper {
 
 /* Title */
 header .title {
-    font-size: 3.5rem;
+    font-size: 3.75rem;
     margin-bottom: 1.25rem;
     text-align: center;
     line-height: 1;
@@ -52,8 +52,6 @@ header .button {
 
 /* Art Wrapper */
 header .art-wrapper {
-    /* width: 100%; */
-    border: 1px solid yellow;
     padding-bottom: 2rem;
 }
 
@@ -67,6 +65,13 @@ header .art-landscape {
 
 header .art-portrait {
     display: none;
+}
+
+/* TLS Star */
+header .tls-star {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
 }
 
 /************
@@ -94,12 +99,8 @@ header .art-portrait {
     }
 
     header .title-btns-wrapper {
-        padding-top: 0;
+        padding-top: 2rem;
         justify-content: center;
-    }
-
-    header .title {
-        margin-bottom: 2rem;
     }
 }
 
@@ -127,8 +128,41 @@ header .art-portrait {
         grid-template-rows: 1fr auto;
     }
 
+    header .title-btns-wrapper {
+        padding-bottom: 2rem;
+    }
+
     header .title {
-        width: 50%;
+        width: 75%;
         min-width: 200px;
+
+        margin-bottom: 2rem;
+        margin: 2rem 0;
+    }
+
+    header .tls-star {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+/************
+    <= 628px width    
+**************/
+
+@media screen and (max-width: 628px) {
+    header .title {
+        margin: 2rem 0 3rem;
+    }
+}
+
+/************
+    <= 395px width    
+**************/
+
+@media screen and (max-width: 395px) {
+    header .btns-wrapper {
+        grid-template-columns: 1fr;
     }
 }

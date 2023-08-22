@@ -3,6 +3,9 @@
     <header>
         <!-- Title and Buttons Wrapper -->
         <div class="title-btns-wrapper">
+            <!-- TLS Star -->
+            <img src="assets/all-pages/tls-star-white.svg" alt="" class="tls-star">
+
             <!-- Title -->
             <h1 class="title">On different pages</h1>
 
