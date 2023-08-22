@@ -59,12 +59,22 @@
     content: "";
     z-index: -1;
     background-image: url("../assets/homepage/shadow.png");
+    transition: transform 0.4s ease;
 }
 
 .article .visual {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.article .visual:hover {
+    transform: translate(.25em, -.25em);
+}
+
+.article .visual-container:hover::before {
+    transform: translate(-.15em, .15em);
 }
 
 /* Article Details */
