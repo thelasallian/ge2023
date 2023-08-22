@@ -19,7 +19,28 @@ $count = 1;
                 <?php foreach ($articles as $a): // Create grid item per article, use count for class name ?>
                     <!-- Article <?= $count; ?> -->
                     <div class="article article-<?= $count; ?>">
-                        Article <?= $count; ?>
+                        <!-- Visual -->
+                        
+
+                        <!-- Details -->
+                        <div class="details">
+                            <!-- Tag -->
+                            <span class="tag"><?= $a["tag"]; ?></span>
+
+                            <!-- Title -->
+                            <a href="<?= $a["article-url"]; ?>">
+                                <h3 class="title">
+                                    <?= $a["title"]; ?>
+                                </h3>
+                            </a>
+
+                            <!-- Excerpt -->
+                            <?php if ($count < 4): // Display only excerpt for Articles 1-3 ?>
+                                <p class="excerpt">
+                                    <?= $a["excerpt"]; ?>
+                                </p>
+                            <?php endif; ?>
+                        </div>
                     </div>
 
                     <?php $count++; // For article-$ class ?>
