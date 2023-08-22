@@ -27,7 +27,7 @@ header .title-btns-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 /* Title */
@@ -35,6 +35,7 @@ header .title {
     font-size: 3.5rem;
     margin-bottom: 1.25rem;
     text-align: center;
+    line-height: 1;
 }
 
 /* Buttons Wrapper */
@@ -64,7 +65,11 @@ header .art-landscape {
     background-repeat: no-repeat;
 }
 
- /************
+header .art-portrait {
+    display: none;
+}
+
+/************
     <= 1204px width    
 **************/
 
@@ -79,9 +84,51 @@ header .art-landscape {
         background-size: 1204px;
         background-position: center bottom;
     }
+
+    header .art-wrapper {
+        height: 620px;
+    }
+
+    header {
+        grid-template-rows: 1fr auto;
+    }
+
+    header .title-btns-wrapper {
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    header .title {
+        margin-bottom: 2rem;
+    }
 }
 
- /************
-    <= 1100px width
-    
+/************
+    <= 739px width    
+**************/
+
+@media screen and (max-width: 739px) {
+    /* Art becomes static width */
+    header .art-landscape {
+        display: none;
+    }
+
+    /* Make portrait art visible */
+    header .art-portrait {
+        display: block;
+        width: 100%;
+    }
+
+    header .art-wrapper {
+        height: fit-content;
+    }
+
+    header {
+        grid-template-rows: 1fr auto;
+    }
+
+    header .title {
+        width: 50%;
+        min-width: 200px;
+    }
 }

@@ -30,6 +30,7 @@
         <!-- Art Wrapper -->
         <div class="art-wrapper">
             <div class="art-landscape"></div>
+            <img src="assets/homepage/cover/cover-art-portrait.png" alt="" class="art-portrait">
         </div>
     </header>
 </div>
