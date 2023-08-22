@@ -234,6 +234,21 @@
     .article-6,
     .article-7 {
         grid-column: 1 / 5; /* Full width */
+        padding: 0 0 1em;
+    }
+
+    /* Border Bottom for Articles 4 to 6 */
+    .article-4,
+    .article-5,
+    .article-6 {
+        border-bottom: 1px solid var(--divider-gray);
+    }
+
+    .article-4 .title,
+    .article-5 .title,
+    .article-6 .title,
+    .article-7 .title {
+        margin-bottom: 0;
     }
 
     /* Title for Article 2 to 3 shrink */
