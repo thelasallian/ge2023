@@ -1,5 +1,8 @@
 /*     This stylesheet contains CSS styles specific to the homepage */
 
+/* Articles */
+@import url('homepage-articles.css');
+
 /* Header */
 
 header {
@@ -237,4 +240,3 @@ header {
     line-height: 1;
 }
 
-/* Articles */
