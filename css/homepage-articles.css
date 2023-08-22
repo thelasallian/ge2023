@@ -62,7 +62,7 @@
 .article a {
     color: var(--dark-gray);
     text-decoration: none;
-    transition: color .2s;
+    transition: color .2s ease;
 }
 
 .article a:hover {
