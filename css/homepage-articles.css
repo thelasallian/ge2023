@@ -45,6 +45,22 @@
 }
 
 /* Article Visuals */
+.article .visual-container {
+    position: relative;
+}
+
+.article .visual-container::before {
+    /* Faux Drop Shadow */
+    position: absolute;
+    top: .35rem;
+    right: .35rem;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    background-image: url("../assets/homepage/shadow.png");
+}
+
 .article .visual {
     width: 100%;
     aspect-ratio: 16 / 9;
