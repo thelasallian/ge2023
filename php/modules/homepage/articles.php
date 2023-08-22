@@ -34,16 +34,12 @@ $count = 1;
 
                             <!-- Title -->
                             <a href="<?= $a["article-url"]; ?>">
-                                <h3 class="title">
-                                    <?= $a["title"]; ?>
-                                </h3>
+                                <h3 class="title"><?= $a["title"]; ?></h3>
                             </a>
 
                             <!-- Excerpt -->
                             <?php if ($count < 4): // Display only excerpt for Articles 1-3 ?>
-                                <p class="excerpt">
-                                    <?= $a["excerpt"]; ?>
-                                </p>
+                                <p class="excerpt"><?= $a["excerpt"]; ?></p>
                             <?php endif; ?>
                         </div>
                     </div>
