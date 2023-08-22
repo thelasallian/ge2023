@@ -204,6 +204,12 @@
     .article-1 .details {
         order: 1;
     }
+
+    /* Articles 2 to 3 visual becomes square */
+    .article-2 .visual,
+    .article-3 .visual {
+        aspect-ratio: 1 / 1;
+    }
 }
 
 /******************************
