@@ -15,10 +15,10 @@
 
 <body>
     <!-- Header/Cover -->
-    <?php // include_once 'php/modules/homepage/header.php'; ?>
+    <?php include_once 'php/modules/homepage/header.php'; ?>
 
     <!-- Navbar -->
-    <?php // include_once 'php/modules/all-pages/navbar.php'; ?>
+    <?php include_once 'php/modules/all-pages/navbar.php'; ?>
 
     <!-- Articles -->
     <?php include_once 'php/modules/homepage/articles.php'; ?>
