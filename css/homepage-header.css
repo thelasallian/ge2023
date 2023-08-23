@@ -1,4 +1,14 @@
- /*************
+/********************
+    Header Wrapper    
+*********************/
+.header-wrapper {
+    position: relative;
+    background-image: url('../assets/homepage/cover/cover-bg.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+/*************
     Header    
 **************/
 
@@ -6,9 +16,6 @@ header {
     width: 100%;
     height: 100vh;
     min-height: 800px;
-
-    background-image: url('../assets/homepage/cover/cover-bg.png');
-    background-size: cover;
 
     color: white;
 
@@ -153,4 +160,27 @@ header .tls-star {
     header .btns-wrapper {
         grid-template-columns: 1fr;
     }
+}
+
+/*********************
+    About the Cover    
+**********************/
+
+/* Temporary for testing */
+header {
+    visibility: hidden;
+}
+
+#about-the-cover {
+    width: 100%;
+    height: 100%;
+
+    /* Temporary for Testing */
+    border: 3px solid yellow;
+
+    /* Place over the header */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Layer above actual header */
 }

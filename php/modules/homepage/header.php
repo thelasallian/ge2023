@@ -38,4 +38,9 @@
             <img src="assets/homepage/cover/cover-art-portrait.png" alt="" class="art-portrait">
         </div>
     </header>
+
+    <!-- About the Cover -->
+    <section id="about-the-cover">
+        Hello world
+    </section>
 </div>
