@@ -15,7 +15,7 @@ header {
     position: relative;
     
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr; /* Art wrapper takes up remaining space */
 }
 
 /* Title and Buttons Wrapper */
@@ -28,20 +28,21 @@ header .title-btns-wrapper {
 
 /* Title */
 header .title {
-    font-size: 3.75rem;
     margin-bottom: 1.25rem;
+    font-size: 3.75rem;
     text-align: center;
     line-height: 1;
 }
 
-/* Buttons Wrapper */
+/* Buttons */
 header .btns-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
     gap: 1rem;
 }
 
 header .button {
+    /* Buttons on header are smaller and thinner */
     font-weight: normal;
     font-size: .75em;
 }
@@ -51,6 +52,7 @@ header .art-wrapper {
     padding-bottom: 2rem;
 }
 
+/* Art for Landscape Screens */
 header .art-landscape {
     height: 100%;
     background-image: url('../assets/homepage/cover/cover-art-landscape.png');
@@ -59,12 +61,14 @@ header .art-landscape {
     background-repeat: no-repeat;
 }
 
+/* Art for Portrait Screens */
 header .art-portrait {
-    display: none;
+    display: none; /* Hide by default */
 }
 
 /* TLS Star */
 header .tls-star {
+    /* Place star on top left */
     position: absolute;
     top: 2rem;
     left: 2rem;
@@ -80,7 +84,7 @@ header .tls-star {
         padding-bottom: 0;
     }
 
-    /* Art becomes static width and height */
+    /* Art width and height becomes static */
     header .art-landscape {
         background-size: 1204px;
         background-position: center bottom;
@@ -90,13 +94,14 @@ header .tls-star {
         height: 620px;
     }
 
+    /* Make title & buttons wrapper take up remaining space */
     header {
         grid-template-rows: 1fr auto;
     }
 
     header .title-btns-wrapper {
         padding-top: 2rem;
-        justify-content: center;
+        justify-content: center; /* Vertically align center (Flex direction column) */
     }
 }
 
@@ -105,7 +110,7 @@ header .tls-star {
 **********************/
 
 @media screen and (max-width: 739px) {
-    /* Hide landscape */
+    /* Hide landscape art */
     header .art-landscape {
         display: none;
     }
@@ -116,13 +121,9 @@ header .tls-star {
         width: 100%;
     }
 
-    /* Make wrapper take height of child */
+    /* Make wrapper take height of art */
     header .art-wrapper {
         height: fit-content;
-    }
-
-    header {
-        grid-template-rows: 1fr auto;
     }
 
     header .title-btns-wrapper {
@@ -133,10 +134,10 @@ header .tls-star {
         width: 75%;
         min-width: 200px;
 
-        margin-bottom: 2rem;
-        margin: 2rem 0;
+        margin: 1.5rem 0 2.5rem;
     }
 
+    /* TLS star goes to top of title */
     header .tls-star {
         position: relative;
         top: 0;
@@ -145,20 +146,10 @@ header .tls-star {
 }
 
 /*********************
-    <= 628px width    
+    <= 413px width    
 **********************/
 
-@media screen and (max-width: 628px) {
-    header .title {
-        margin: 2rem 0 3rem;
-    }
-}
-
-/**********************
-    <= 395px width    
-***********************/
-
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 413px) {
     header .btns-wrapper {
         grid-template-columns: 1fr;
     }
