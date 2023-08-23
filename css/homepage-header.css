@@ -175,9 +175,6 @@ header {
     width: 100%;
     height: 100%;
 
-    /* Temporary for Testing */
-    border: 3px solid rgba(255, 255, 0, 1);
-
     /* Place over the header */
     position: absolute;
     top: 0;
@@ -193,10 +190,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 3rem 3rem 0;
-
-    /* Temporary */
-    border: 5px solid rgba(0, 0, 255, 1);
 }
 
 #about-the-cover .details h2 {
@@ -212,32 +207,29 @@ header {
 }
 
 #about-the-cover .atc-art-wrapper {
-    /* Temporary */
-    border: 5px solid rgba(255, 0, 0, 1);
-
     padding-bottom: 2rem;
     display: grid;
 }
 
+/* Hide portrait art */
 #about-the-cover .art-portrait {
     display: none;
 }
 
+/* Landscape art */
 #about-the-cover .art-landscape {
     height: 100%;
     background-image: url('../assets/homepage/cover/cover-art-landscape.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    border: 1px solid cyan;
 }
 
-/*********************
-    About the Cover <= 1000px   
-**********************/
+/******************************
+    About the Cover <= 900px   
+*******************************/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     #about-the-cover .atc-art-wrapper {
         padding-bottom: 0;
     }
@@ -249,17 +241,19 @@ header {
     
 }
 
-/*********************
-    About the Cover <= 815px   
-**********************/
+/******************************
+    About the Cover <= 700px   
+*******************************/
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 700px) {
+    /* Text details take up remaining space */
     #about-the-cover {
         grid-template-rows: 1fr auto;
     }
 
     #about-the-cover .details {
-        padding: 0;
+        padding: 0 3rem;
+        justify-content: center; /* Vertically align center (Flex direction column) */
     }
     
     /* Hide landscape art */
