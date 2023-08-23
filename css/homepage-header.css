@@ -1,8 +1,4 @@
- /*******************
-    Header Wrapper    
-*********************/
-
- /************
+ /*************
     Header    
 **************/
 
@@ -74,9 +70,9 @@ header .tls-star {
     left: 2rem;
 }
 
-/************
+/***********************
     <= 1204px width    
-**************/
+************************/
 
 @media screen and (max-width: 1204px) {
     /* Remove spacing below art */
@@ -84,7 +80,7 @@ header .tls-star {
         padding-bottom: 0;
     }
 
-    /* Art becomes static width */
+    /* Art becomes static width and height */
     header .art-landscape {
         background-size: 1204px;
         background-position: center bottom;
@@ -104,12 +100,12 @@ header .tls-star {
     }
 }
 
-/************
+/*********************
     <= 739px width    
-**************/
+**********************/
 
 @media screen and (max-width: 739px) {
-    /* Art becomes static width */
+    /* Hide landscape */
     header .art-landscape {
         display: none;
     }
@@ -120,6 +116,7 @@ header .tls-star {
         width: 100%;
     }
 
+    /* Make wrapper take height of child */
     header .art-wrapper {
         height: fit-content;
     }
@@ -147,9 +144,9 @@ header .tls-star {
     }
 }
 
-/************
+/*********************
     <= 628px width    
-**************/
+**********************/
 
 @media screen and (max-width: 628px) {
     header .title {
@@ -157,9 +154,9 @@ header .tls-star {
     }
 }
 
-/************
+/**********************
     <= 395px width    
-**************/
+***********************/
 
 @media screen and (max-width: 395px) {
     header .btns-wrapper {
