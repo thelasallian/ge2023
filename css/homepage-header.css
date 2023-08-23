@@ -87,6 +87,7 @@ header .tls-star {
 ************************/
 
 @media screen and (min-width: 1440px) {
+    /* Bigger title and buttons that auto enlarge */
     header .title {
         font-size: 4.5vw;
     }
