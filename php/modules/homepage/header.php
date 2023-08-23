@@ -7,7 +7,10 @@
             <img src="assets/all-pages/tls-star-white.svg" alt="" class="tls-star">
 
             <!-- Title -->
-            <h1 class="title">On different pages</h1>
+            <h1 class="title">
+                <!-- Typing Animation -->
+                <span id="typed"></span>
+            </h1>
 
             <!-- Buttons -->
             <div class="btns-wrapper">
