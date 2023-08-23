@@ -20,12 +20,13 @@
                     About the Cover
                 </button>
                 <!-- View Content Button -->
-                <button 
+                <a 
                     id="view-content-btn" 
+                    href="#articles" 
                     class="button button-white"
                 >
                     View Content
-                </button>
+                </a>
             </div>
         </div>
 
@@ -44,7 +45,6 @@
         <div class="details">
             <!-- Title -->
             <h2>About the Cover</h2>
-            <!-- TODO: Replace this with actual about the cover -->
             <p>
                 The cover explores the evolution of an idea into the 
                 University Student Government we know today. It should 
