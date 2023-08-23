@@ -38,6 +38,7 @@
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
     <script src="js/about-the-cover.js"></script>
+    <script src="js/scroll-to-content.js"></script>
     <script>
         var typed = new Typed('#typed', {
             strings: ['On different pages'],
