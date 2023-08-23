@@ -22,7 +22,7 @@
                 <!-- View Content Button -->
                 <a 
                     id="view-content-btn" 
-                    href="#articles" 
+                    href="#navbar" 
                     class="button button-white"
                 >
                     View Content
