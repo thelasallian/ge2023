@@ -1,6 +1,6 @@
 <div class="header-wrapper">
     <!-- Header -->
-    <header>
+    <header id="header">
         <!-- Title and Buttons Wrapper -->
         <div class="title-btns-wrapper">
             <!-- TLS Star -->
