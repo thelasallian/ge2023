@@ -32,7 +32,9 @@
 
         <!-- Art Wrapper -->
         <div class="art-wrapper">
+            <!-- Art for Landscape Screens (Faux Image Hack) -->
             <div class="art-landscape"></div>
+            <!-- Art for Portrait Screens -->
             <img src="assets/homepage/cover/cover-art-portrait.png" alt="" class="art-portrait">
         </div>
     </header>
