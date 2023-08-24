@@ -1,7 +1,6 @@
 .DS_Store
 assets/homepage/.DS_Store
 .idea/
-articles.old.php
-homepage-articles.old.css
-header.old.php
-homepage-header.old.css
+
+# Ignore files with the substring ".old" in their filename
+*.old*
