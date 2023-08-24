@@ -104,7 +104,7 @@
     }
 
     /* Center 3rd photo */
-    #vox-populi .grid-item:nth-child(3) {
+    #vox-populi .grid-item:nth-child(3n) {
         grid-column: 2 / 4;  /* Center columns of the 4-column grid */
         
     }
