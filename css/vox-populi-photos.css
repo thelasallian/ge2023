@@ -1,0 +1,81 @@
+#vox-populi {
+    margin: 0 auto;
+    padding: 2rem 2rem 0;
+    max-width: 1000px;
+}
+
+#vox-populi .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2rem;
+
+    margin: 0 auto;
+
+    border: 1px solid cyan;
+}
+
+#vox-populi .grid-item {
+    border: 1px solid #333;
+    position: relative;
+}
+
+#vox-populi .photo {
+    width: 100%;
+}
+
+#vox-populi .details {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    /* Reduce gap between photos */
+    #vox-populi .grid-container {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #vox-populi {
+        max-width: 600px;
+    }
+
+    #vox-populi .grid-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns, technically */
+    }
+
+    #vox-populi .grid-item {
+        display: none; /* Hide all items, but unhide YES photos in styles below */
+        grid-column: span 2; /* Each item takes up 2 columns */
+    }
+
+    #vox-populi .grid-item.yes {
+        display: block; /* Show YES photos by default */
+    }
+
+    /* Center 3rd photo */
+    #vox-populi .grid-item:nth-child(3) {
+        grid-column: 2 / 4;  /* Center columns of the 4-column grid */
+        
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #vox-populi {
+        max-width: 350px;
+    }
+    
+    #vox-populi .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    #vox-populi .grid-item {
+        grid-column: 1 / 2 !important; /* Important overrides 3rd child rule */
+    }
+}
