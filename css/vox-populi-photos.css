@@ -102,12 +102,7 @@
     }
 
     #vox-populi .grid-item {
-        display: none; /* Hide all items, but unhide YES photos in styles below */
         grid-column: span 2; /* Each item takes up 2 columns */
-    }
-
-    #vox-populi .grid-item.yes {
-        display: block; /* Show YES photos by default */
     }
 
     /* Center 3rd photo */
