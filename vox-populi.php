@@ -12,18 +12,11 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <?php //include_once 'php/modules/all-pages/navbar.php'; 
-    ?>
-
     <!-- Header -->
     <?php include_once 'php/modules/vox-populi/top-portion.php'; ?>
 
     <!-- Photo Grid for Desktop -->
-    <?php include_once 'php/modules/vox-populi/desktop-grid.php'; ?>
-
-    <!-- Photo Grid for Mobile -->
-    <?php include_once 'php/modules/vox-populi/mobile-grid.php'; ?>
+    <?php include_once 'php/modules/vox-populi/photo-grid.php'; ?>
 
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
