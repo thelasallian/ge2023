@@ -34,9 +34,12 @@ if ($photos === null) {
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
                         <p class="byline"><?= $p["byline"]; ?></p>
+                        <?= $p["stand"]; ?>
                     </div>
                 </div>
             <?php endforeach; ?>
         </div>
     <?php endif; ?>
+
+    
 </section>
