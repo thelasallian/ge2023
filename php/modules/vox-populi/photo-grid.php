@@ -40,6 +40,4 @@ if ($photos === null) {
             <?php endforeach; ?>
         </div>
     <?php endif; ?>
-
-    
 </section>
