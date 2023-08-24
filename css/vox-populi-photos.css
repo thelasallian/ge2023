@@ -8,10 +8,9 @@
     Buttons
 ***************/
 
+/* Hide buttons by default */
 #vox-populi .btns-container {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+    display: none;
 }
 
 #vox-populi .vox-btn {
@@ -90,6 +89,14 @@
         max-width: 600px;
     }
 
+    /* Show buttons */
+    #vox-populi .btns-container {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    /* Change grid layout */
     #vox-populi .grid-container {
         grid-template-columns: repeat(4, 1fr); /* 4 columns, technically */
     }
