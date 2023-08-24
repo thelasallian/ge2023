@@ -11,6 +11,20 @@ if ($photos === null) {
 
 <section id="vox-populi">
     <?php if ($photos !== null): // If photos were loaded successfully ?>
+        <!-- Buttons -->
+        <div class="btns-container">
+            <button id="yes" class="vox-btn active">
+                Yes
+            </button>
+            <button id="undecided" class="vox-btn">
+                Undecided
+            </button>
+            <button id="no" class="vox-btn">
+                No
+            </button>
+        </div>
+
+        <!-- Photo Grid -->
         <div class="grid-container">
             <?php foreach ($photos as $p): // For each photo, make a grid item ?>
                 <div class="grid-item <?= $p["stand"]; ?>">

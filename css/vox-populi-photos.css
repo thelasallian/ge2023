@@ -4,6 +4,50 @@
     max-width: 1000px;
 }
 
+/**************
+    Buttons
+***************/
+
+#vox-populi .btns-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#vox-populi .vox-btn {
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .85em;
+    margin: 1.5rem 0 2.5rem;
+    width: 100px;
+    background: none;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#vox-populi .vox-btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 0;
+    background-color: #0000001d;
+    transition: 0.3s height ease;
+}
+
+#vox-populi .vox-btn:hover::before {
+    height: 100%;
+}
+
+#vox-populi .vox-btn.active {
+    background-color: #0000001d;
+}
+
+/*****************
+    Photo Grid
+******************/
 #vox-populi .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
