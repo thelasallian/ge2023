@@ -1,0 +1,41 @@
+/* Default Styles and Resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    color: var(--dark-gray);
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url('../assets/all-pages/white-texture-bg.jpg');
+    background-size: 800px;
+
+    overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+.container {
+    padding-right: calc(var(--bs-gutter-x) * .9);
+    padding-left: calc(var(--bs-gutter-x) * .9);
+}
