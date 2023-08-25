@@ -60,6 +60,7 @@
 #vox-populi .grid-item {
     border: 1px solid #333;
     position: relative;
+    overflow: hidden;
 }
 
 #vox-populi .photo {
@@ -79,6 +80,13 @@
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0, 0, 0.00) 100%);
     color: white;
+
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translateY(100%);
+}
+
+#vox-populi .grid-item:hover > .details {
+    transform: translateY(0);
 }
 
 #vox-populi .quote {
