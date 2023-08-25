@@ -134,6 +134,17 @@
         grid-column: 2 / 4;  /* Center columns of the 4-column grid */
         
     }
+
+    /* Details i.e. Quote and Byline Wrapper for MOBILE */
+    #vox-populi .details {
+        position: relative;
+        transform: translateY(0);
+        height: auto;
+
+        background: none;
+        color: black;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 510px) {
