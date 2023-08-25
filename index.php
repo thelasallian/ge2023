@@ -35,16 +35,7 @@
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
     <script src="js/homepage/about-the-cover.js"></script>
-    <script>
-        // Typing animation for "On different pages"
-        var typed = new Typed('#typed', {
-            strings: ['On different pages'],
-            typeSpeed: 100,
-            onComplete: function(self) {
-                self.cursor.remove()
-            }
-        });
-    </script>
+    <script src="js/homepage/typed-heading.js"></script>
 </body>
 
 </html>

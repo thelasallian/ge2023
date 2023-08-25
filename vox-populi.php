@@ -23,15 +23,7 @@
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
     <script src="js/vox-populi/filter-photos.js"></script>
-    <script>
-        var typed = new Typed('#typed', {
-            strings: ['Thoughts on a two-party system'],
-            typeSpeed: 50,
-            onComplete: function(self) {
-                self.cursor.remove()
-            }
-        });
-    </script>
+    <script src="js/vox-populi/typed-heading.js"></script>
 </body>
 
 </html>
