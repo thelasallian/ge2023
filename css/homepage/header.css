@@ -4,7 +4,7 @@
 .header-wrapper {
     position: relative;
     overflow: hidden;
-    background-image: url('../assets/homepage/cover/cover-bg.png');
+    background-image: url('../../assets/homepage/cover/cover-bg.png');
     background-size: cover;
     background-position: center center;
     color: white;
@@ -64,7 +64,7 @@ header .art-wrapper {
 /* Art for Landscape Screens */
 header .art-landscape {
     height: 100%;
-    background-image: url('../assets/homepage/cover/cover-art-landscape.png');
+    background-image: url('../../assets/homepage/cover/cover-art-landscape.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ header .tls-star {
 /* Landscape art */
 #about-the-cover .art-landscape {
     height: 100%;
-    background-image: url('../assets/homepage/cover/cover-art-landscape.png');
+    background-image: url('../../assets/homepage/cover/cover-art-landscape.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

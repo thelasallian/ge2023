@@ -1,7 +1,10 @@
 /*     This stylesheet contains CSS styles specific to the homepage */
 
-@import url('homepage-header.css');
-@import url('homepage-articles.css'); /* Articles */
+@import url('./homepage/header.css');
+@import url('./homepage/navbar.css');
+@import url('./homepage/articles.css');
+@import url('./homepage/infographic.css');
+@import url('./homepage/editors-note.css');
 
 
 /* Tags */

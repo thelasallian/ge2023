@@ -5,9 +5,6 @@
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
     <?php require_once 'php/modules/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/infographic-homepage.css">
-    <link rel="stylesheet" href="css/editors-note.css">
 
     <!-- Document Title -->
     <title>On different pages - The LaSallian GE 2023 Special</title>

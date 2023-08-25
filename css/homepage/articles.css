@@ -64,7 +64,7 @@
     height: 100%;
     content: "";
     z-index: -1;
-    background-image: url("../assets/homepage/shadow.png");
+    background-image: url("../../assets/homepage/shadow.png");
     transition: transform 0.4s ease;
 }
 
