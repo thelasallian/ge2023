@@ -12,6 +12,11 @@ Ronn Parcia
 Ronn Parcia<br>
 Jeremy Wang
 
+**Stack and Libraries:**<br>
+PHP, HTML, CSS, Bootstrap, JavaScript<br>
+[AOS](https://github.com/michalsnik/aos) (Animate On Scroll library)<br>
+[typed.js](https://github.com/mattboldt/typed.js) (JS Typing Animation library)
+
 **Links**<br>
 [Figma Design](https://www.figma.com/file/peK2FPncMLry3cKVyz2P0b/%5BTLS%5D-GE2023-Web-Special?type=design&node-id=0%3A1&mode=design&t=Zz0Spu2lsTZljkjn-1)<br>
 [Live Website Preview](https://www.test.thelasallian.com)
