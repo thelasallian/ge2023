@@ -1,6 +1,6 @@
 /*     This stylesheet contains CSS styles common across all pages (homepage, Vox Populi, infographic) */
 
-@import url(./all-pages/resets.css);
-@import url(./all-pages/variables.css);
-@import url(./all-pages/footer.css);
-@import url(./all-pages/buttons.css);
+@import url('./all-pages/resets.css');
+@import url('./all-pages/variables.css');
+@import url('./all-pages/footer.css');
+@import url('./all-pages/buttons.css');
