@@ -21,10 +21,10 @@
     <?php include_once 'php/homepage/articles.php'; ?>
 
     <!-- Infographic -->
-    <?php include_once 'php/homepage/infographic-homepage.php'; ?>
+    <?php include_once 'php/homepage/infographic.php'; ?>
 
     <!-- Vox Populi -->
-    <?php include_once 'php/homepage/vox-populi-homepage.php'; ?>
+    <?php include_once 'php/homepage/vox-populi.php'; ?>
 
     <!-- Editor's Note -->
     <?php include_once 'php/homepage/editors-note.php'; ?>
