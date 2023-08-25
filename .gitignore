@@ -1,6 +1,8 @@
+# macOS Finder
 .DS_Store
-assets/homepage/.DS_Store
+
+# JetBrains IDEs
 .idea/
 
-# Ignore files with the substring ".old" in their filename
+# Files with ".old" in their filename
 *.old*
