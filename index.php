@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
+    <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, all-pages.css etc. -->
     <?php require_once 'php/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/homepage.css">
 
