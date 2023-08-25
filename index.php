@@ -34,7 +34,7 @@
 
     <!-- Scripts -->
     <?php require_once 'php/modules/all-pages/scripts.php'; ?>
-    <script src="js/about-the-cover.js"></script>
+    <script src="js/homepage/about-the-cover.js"></script>
     <script>
         // Typing animation for "On different pages"
         var typed = new Typed('#typed', {
