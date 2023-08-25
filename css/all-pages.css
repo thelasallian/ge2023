@@ -52,19 +52,3 @@ h6 {
     padding-right: calc(var(--bs-gutter-x) * .9);
     padding-left: calc(var(--bs-gutter-x) * .9);
 }
-
-
-
-.color-burn-drop-shadow::before {
-    content:"";
-    display: block;
-    height: 100%;
-    position: absolute;
-    top: .35rem;
-    right: .35rem;
-    width: 100%;
-    background-color: #5454524b;
-    z-index: -1;
-    mix-blend-mode: color-burn;
-    transition: 0.4s transform ease;
-}
