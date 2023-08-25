@@ -1,6 +1,7 @@
 /*     This stylesheet contains CSS styles common across all pages (homepage, Vox Populi, infographic) */
 
 @import url(./all-pages/footer.css);
+@import url(./all-pages/buttons.css);
 
 /* Variables for Colors, etc. */
 
@@ -52,73 +53,7 @@ h6 {
     padding-left: calc(var(--bs-gutter-x) * .9);
 }
 
-/* Buttons */
 
-.button {
-    position: relative;
-    
-    font-size: .9em;
-    font-weight: bold;
-
-    display: block;
-
-    padding: .3rem 1rem;
-
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    border: 1px solid;
-    background: none;
-    z-index: 1;
-
-    transition: 0.4s all;
-    overflow: hidden;
-}
-
-.button-white {
-    color: white;
-    border-color: white;
-}
-
-.button::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: -1;
-    transform: translateY(100%);
-    transition: 0.4s transform ease;
-}
-
-.button-white::before {
-    background-color: #fff;
-}
-
-.button-white:hover {
-    color: #191B16;
-}
-
-.button-white-over-green:hover {
-    color: #7E8A58;
-}
-
-.button:hover::before {
-    transform: translateY(0%);
-}
-
-.button-dark {
-    color: var(--dark-gray);
-    border-color: var(--dark-gray);
-}
-
-@media only screen and (max-width: 470px) {
-    .button {
-        font-size: .7em;
-    }
-}
 
 .color-burn-drop-shadow::before {
     content:"";
