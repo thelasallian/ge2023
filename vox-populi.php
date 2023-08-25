@@ -13,10 +13,10 @@
 
 <body>
     <!-- Header -->
-    <?php include_once 'php/modules/vox-populi/top-portion.php'; ?>
+    <?php include_once 'php/modules/vox-populi/header.php'; ?>
 
     <!-- Photo Grid for Desktop -->
-    <?php include_once 'php/modules/vox-populi/photo-grid.php'; ?>
+    <?php include_once 'php/modules/vox-populi/photos.php'; ?>
 
     <!-- Footer -->
     <?php include_once 'php/modules/all-pages/footer.php'; ?>
