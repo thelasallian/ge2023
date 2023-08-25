@@ -1,15 +1,9 @@
 /*     This stylesheet contains CSS styles common across all pages (homepage, Vox Populi, infographic) */
 
+@import url(./all-pages/variables.css);
 @import url(./all-pages/footer.css);
 @import url(./all-pages/buttons.css);
 
-/* Variables for Colors, etc. */
-
-:root {
-    --dark-gray: #2C2C2C; /* For text */
-    --green: #7E8A58;
-    --divider-gray: #d7d7d7;
-}
 
 /* Default Styles and Resets */
 
