@@ -1,5 +1,7 @@
 /*     This stylesheet contains CSS styles common across all pages (homepage, Vox Populi, infographic) */
 
+@import url(./all-pages/footer.css);
+
 /* Variables for Colors, etc. */
 
 :root {

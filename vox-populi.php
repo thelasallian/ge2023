@@ -4,7 +4,6 @@
 <head>
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, etc. -->
     <?php require_once 'php/modules/all-pages/head.php'; ?>
-    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/vox-populi.css">
 
     <!-- Document Title -->
