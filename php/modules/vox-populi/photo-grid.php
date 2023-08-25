@@ -28,13 +28,14 @@ if ($photos === null) {
         <div class="grid-container">
             <?php foreach ($photos as $p): // For each photo, make a grid item ?>
                 <div class="grid-item <?= $p["stand"]; ?>">
+                    <!-- Picture -->
                     <img 
                         src="<?= $p["image-path"]; ?>"
                         class="photo <?= $p["stand"]; ?>">
+                    <!-- Wrapper for Details -->
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
                         <p class="byline"><?= $p["byline"]; ?></p>
-                        <?= $p["stand"]; ?>
                     </div>
                 </div>
             <?php endforeach; ?>
