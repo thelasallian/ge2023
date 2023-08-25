@@ -11,6 +11,7 @@
 /* Hide buttons by default */
 #vox-populi .btns-container {
     display: none;
+    margin: 0 0 2.5rem;
 }
 
 #vox-populi .vox-btn {
@@ -18,7 +19,6 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: .85em;
-    margin: 1.5rem 0 2.5rem;
     width: 100px;
     background: none;
     transition: 0.2s ease;
