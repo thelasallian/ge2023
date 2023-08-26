@@ -1,43 +1,39 @@
-.editor-bg-color{
+.editor-bg-color {
     background-color: #97979745;
     mix-blend-mode: multiply;
 }
 
-.note{
+.note {
     max-width: 45%;
     text-align: justify;
 }
 
-.note p{
-    /* font-size: 1.2rem; */
-}
-
-@media only screen and (max-width: 991px){
-    .note{
+@media only screen and (max-width: 991px) {
+    .note {
         max-width: 70%;
     }
 
-    .note p{
+    .note p {
         font-size: 1.1rem;
     }
 }
 
-@media only screen and (max-width: 767px){
-    .note{
+@media only screen and (max-width: 767px) {
+    .note {
         max-width: 80%;
     }
 
-    .note p{
+    .note p {
         font-size: 0.9rem;
     }
 }
 
-@media only screen and (max-width: 575px){
-    .note{
+@media only screen and (max-width: 575px) {
+    .note {
         max-width: 90%;
     }
 
-    .note p{
+    .note p {
         font-size: 0.8rem;
     }
 }
