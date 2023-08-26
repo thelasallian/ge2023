@@ -1,4 +1,4 @@
-<section id="infographic" class="info-bg-color">
+<section id="infographic">
     <div class="container d-flex flex-column align-items-center py-5">
         <span data-aos="zoom-in" class="info-tag">INFOGRAPHIC</span>
         <div data-aos="zoom-in" class="info-container">
