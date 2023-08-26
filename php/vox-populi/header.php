@@ -1,6 +1,11 @@
 <header id="vox-populi-header">
     <div class="container d-flex flex-column align-items-center">
-        <a id="back-button" href="index.php" class="button button-white align-self-start">← Back</a>
+        <a
+         id="back-button" 
+         href="index.php" 
+         class="button button-white align-self-start">
+            ← Back
+        </a>
         <h1 class="title">
             Vox Populi
         </h1>

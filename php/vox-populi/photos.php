@@ -30,8 +30,8 @@ if ($photos === null) {
                 <div class="grid-item <?= $p["stand"]; ?>">
                     <!-- Picture -->
                     <img 
-                        src="<?= $p["image-path"]; ?>"
-                        class="photo <?= $p["stand"]; ?>">
+                     src="<?= $p["image-path"]; ?>"
+                     class="photo <?= $p["stand"]; ?>">
                     <!-- Wrapper for Details -->
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
