@@ -52,7 +52,6 @@ header .btns-wrapper {
 
 header .button {
     /* Buttons on header are smaller and thinner */
-    font-weight: normal;
     font-size: .75em;
 }
 
