@@ -1,15 +1,15 @@
-#infographic{
+#infographic {
     background-image: url('../../assets/homepage/textured-green-bg.png');
     background-size: cover;
     background-position: center;
     padding: 2rem 0;
 }
 
-.info-container{
+.info-container {
     max-width: 40%;
 }
 
-.info-text{
+.info-text {
     color: #fff;
     font-family: 'EB Garamond', sans-serif;
     font-size: 2.5rem;
@@ -17,54 +17,54 @@
     line-height: 1;
 }
 
-.view-button{
+.view-button {
     font-family: 'Open sans', sans-serif;
     font-weight: 500;
     border-radius: 0;
     width: 6rem;
 }
 
-@media only screen and (max-width: 1199px){
-    .info-container{
+@media only screen and (max-width: 1199px) {
+    .info-container {
         max-width: 50%;
     }
 }
 
-@media only screen and (max-width: 991px){
-    .info-container{
+@media only screen and (max-width: 991px) {
+    .info-container {
         max-width: 80%;
     }
 
-    .info-text{
+    .info-text {
         font-size: 2.5rem;
     }
 }
 
-@media only screen and (max-width: 767px){
-    .info-container{
+@media only screen and (max-width: 767px) {
+    .info-container {
         max-width: 70%;
     }
 
-    .info-text{
+    .info-text {
         font-size: 1.7rem;
     }
 
-    .info-button{
+    .info-button {
         font-size: 0.75rem;
         width: 4rem;
     }
 }
 
-@media only screen and (max-width: 575px){
-    .info-container{
+@media only screen and (max-width: 575px) {
+    .info-container {
         max-width: 75%;
     }
 
-    .info-text{
+    .info-text {
         font-size: 1.4rem;
     }
 
-    .info-button{
+    .info-button {
         font-size: 0.6rem;
         width: 3rem;
     }
