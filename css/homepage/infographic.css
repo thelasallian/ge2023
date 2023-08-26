@@ -1,6 +1,7 @@
 .info-bg-color{
-    background-color: #757F56;
-    mix-blend-mode: multiply;
+    background-image: url('../../assets/homepage/textured-green-bg.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .info-container{
