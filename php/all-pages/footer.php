@@ -10,8 +10,11 @@
                 <a href="#" class="button button-white">View Magazine</a>
             </div>
             <p class="credits pt-3">Copyright 2023 © <strong>The LaSallian</strong><br>
-            <i>Website by</i> <a class="text" href=""><strong>Ramon Enrico Martinez</strong></a>, <a class="text" href=""><strong>Ronn Parcia</strong></a>, & <a class="text" href="https://github.com/jerw18"><strong>Jeremy Wang</strong></a><br>
-            <i>Cover by</i> <strong>Alexia Roman</strong><br>
+                <i>Website by</i> 
+                <strong>Ramon Enrico Martinez</strong>,
+                <a class="text" href="https://github.com/ronnparcia"><strong>Ronn Parcia</strong></a>, & 
+                <a class="text" href="https://github.com/jerw18"><strong>Jeremy Wang</strong></a><br>
+                <i>Cover by</i> <strong>Alexia Roman</strong><br>
             </p>
         </div>
     </div>
