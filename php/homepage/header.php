@@ -54,7 +54,10 @@
             <!-- Art for Portrait Screens -->
             <img 
              src="assets/homepage/cover/cover-art-portrait.png" 
-             class="art-portrait" />
+             class="art-portrait"
+             data-aos="fade-up"
+             data-aos-delay="500"
+             data-aos-duration="1000" />
         </div>
     </header>
 
