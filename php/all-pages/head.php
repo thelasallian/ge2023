@@ -3,14 +3,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Other Meta Tags -->
+<meta property="og:title" content="On different pages - The LaSallian GE 2023 Special" />
+
 <!-- Thumbnail image that appears when shared in social media -->
-<!-- TODO: Create and add thumbnail image to content="" property -->
-<meta property="og:image" content="">
+<meta property="og:image" content="assets/social-media/thumbnail.jpg">
 <meta property="og:image:type" content="image/jpg">
 
 <!-- Description that appears below website title when shared in social media -->
-<!-- TODO: Create and add description to content="" property  -->
-<meta name="description" content="">
+<meta name="description" content="The LaSallian's special for the 2023 General Elections">
 
 <!-- Favicons -->
 <link rel="icon" href="https://thelasallian.com/wp-content/uploads/2020/06/LOGO.png" sizes="32x32" />
