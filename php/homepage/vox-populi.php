@@ -1,4 +1,4 @@
-<section id="vox-populi">
+<section id="vox-populi" class="band">
     <!-- Temporary Link -->
     <a 
      href="vox-populi.php"
