@@ -14,7 +14,7 @@
             <h1 
              class="title"
              data-aos="fade-down"
-             data-aos-delay="1000"
+             data-aos-delay="500"
              data-aos-duration="1000">
                 <!-- Typing Animation -->
                 <span id="typed"></span>
@@ -24,7 +24,7 @@
             <div 
              class="btns-wrapper"
              data-aos="fade-down"
-             data-aos-delay="1000"
+             data-aos-delay="500"
              data-aos-duration="1000">
                 <!-- About the Cover Button -->
                 <button 
