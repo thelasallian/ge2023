@@ -5,26 +5,24 @@
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, all-pages.css etc. -->
     <?php require_once 'php/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/subpages.css">
-    <link rel="stylesheet" href="css/vox-populi.css">
+    <link rel="stylesheet" href="css/voter-turnout.css">
 
     <!-- Document Title -->
-    <title>Vox Populi</title>
+    <title>Voter turnout through the years</title>
 </head>
 
 <body>
     <!-- Header -->
-    <?php include_once 'php/vox-populi/header.php'; ?>
+    <?php include_once 'php/voter-turnout/header.php'; ?>
 
-    <!-- Photo Grid for Desktop -->
-    <?php include_once 'php/vox-populi/photos.php'; ?>
+    <br><br><br><br><br>
 
     <!-- Footer -->
     <?php include_once 'php/all-pages/footer.php'; ?>
 
     <!-- Scripts -->
     <?php require_once 'php/all-pages/scripts.php'; ?>
-    <script src="js/vox-populi/filter-photos.js"></script>
-    <script src="js/vox-populi/typed-heading.js"></script>
+    <script src="js/voter-turnout/typed-heading.js"></script>
 </body>
 
 </html>
