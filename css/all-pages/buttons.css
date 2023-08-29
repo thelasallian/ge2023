@@ -48,7 +48,7 @@
 }
 
 .button-white-over-green:hover {
-    color: #7E8A58;
+    color: var(--green);
 }
 
 .button:hover::before {
