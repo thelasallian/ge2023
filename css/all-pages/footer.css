@@ -32,22 +32,24 @@ p.text{
     z-index: 2;
 }
 
-.custom-button{
-    font-family: 'Open sans', sans-serif;
-    font-weight: 500;
-    border-radius: 0;
-    width: 11.1rem;
-}
-
-.footer-button-wrapper {
+footer .btns-wrapper {
     display: flex;
+    align-items: center;
     gap: 1.5em;
 }
 
-@media only screen and (max-width: 340px){
-    .footer-button-wrapper {
+footer .button {
+    width: 12rem;
+}
+
+@media only screen and (max-width: 545px){
+    footer .btns-wrapper {
         flex-direction: column;
         gap: 1em;
+    }
+
+    footer .button {
+        width: max-content;
     }
 }
 
@@ -64,11 +66,6 @@ footer  a.text{
 }
 
 @media only screen and (max-width: 767px){
-    .custom-button{
-        font-size: 0.7rem;
-        width: 9.1rem;
-    }
-
     div.logo::before{
         width: 22rem;
         height: 5rem;
@@ -77,11 +74,6 @@ footer  a.text{
 }
 
 @media only screen and (max-width: 575px){
-    .custom-button{
-        font-size: 0.6rem;
-        width: 8.1rem;
-    }
-
     div.logo::before{
         width: 21rem;
         height: 5rem;

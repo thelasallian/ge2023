@@ -4,7 +4,7 @@
             <img src="assets\all-pages\tls-vertical-logo-white.svg" alt="TLS Logo">
         </div>
         <p class="text py-2 fs-4">On different pages</p>
-        <div class="footer-button-wrapper py-3">
+        <div class="btns-wrapper py-3">
             <a href="https://thelasallian.com" class="button button-white">Visit Main Website</a>
             <a href="#" class="button button-white">View Magazine</a>
         </div>
