@@ -1,28 +1,29 @@
 #editors-note {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4rem;
     background-color: #97979725;
 }
 
-#editors-note .note {
+#editors-note .title {
+    margin-bottom: 1rem;
+}
+
+#editors-note .description {
     max-width: 35rem;
     text-align: justify;
     text-align-last: center;
     margin-bottom: 0;
 }
 
-#editors-note h1 {
-    margin-bottom: 1rem;
-}
 
 @media only screen and (max-width: 450px) {
     #editors-note {
         padding: 2rem;
     }
 
-    #editors-note .note {
+    #editors-note .title {
+        margin-bottom: 0.75rem;
+    }
+
+    #editors-note .description {
         font-size: 0.85rem;
     }
 }

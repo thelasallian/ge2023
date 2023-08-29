@@ -5,19 +5,15 @@
     padding: 2rem 0;
 }
 
-.info-container {
+/* .info-container {
     max-width: 40%;
+} */
+
+#infographic .title {
+    color: white;
 }
 
-.info-text {
-    color: #fff;
-    font-family: 'EB Garamond', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    line-height: 1;
-}
-
-@media only screen and (max-width: 1199px) {
+/* @media only screen and (max-width: 1199px) {
     .info-container {
         max-width: 50%;
     }
@@ -51,4 +47,4 @@
     .info-text {
         font-size: 1.4rem;
     }
-}
+} */

@@ -1,7 +1,7 @@
 <div class="container">
-    <section id="editors-note">
-        <h1>Editor's Note</h1>
-        <p class="note" data-aos="zoom-in">
+    <section id="editors-note" class="band">
+        <h2 class="title">Editor's Note</h2>
+        <p class="description" data-aos="zoom-in">
             Lorem ipsum dolor sit amet, consectetur adipisici elit, sed 
             eiusmod tempor incidunt ut labore et dolore magna aliqua. Donec 
             sed odio operae, eu vulputate felis rhoncus. Salutantibus vitae 
