@@ -30,7 +30,7 @@ $count = 1;
                         <!-- Details -->
                         <div class="details">
                             <!-- Tag -->
-                            <span class="tag"><?= $a["tag"]; ?></span>
+                            <span class="tag tag-green"><?= $a["tag"]; ?></span>
 
                             <!-- Title -->
                             <a href="<?= $a["article-url"]; ?>">
