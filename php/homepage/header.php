@@ -8,7 +8,7 @@
              src="assets/all-pages/tls-star-white.svg" 
              class="tls-star"
              data-aos="fade-in"
-             data-aos-delay="2500">
+             data-aos-delay="1100">
 
             <!-- Title -->
             <h1 
