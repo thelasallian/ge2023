@@ -4,16 +4,16 @@ footer {
     background-position: bottom;
 }
 
-div.logo{
+footer .logo {
     position: relative;
 }
 
-div.logo img{
+footer .logo img {
     position: relative;
     z-index: 2;
 }
 
-div.logo::before{
+footer .logo::before {
     position: absolute;
     content: "";
     background-color: #7cefd084;
@@ -25,7 +25,7 @@ div.logo::before{
     mix-blend-mode: overlay;
 }
 
-p.text{
+footer .title {
     color: #fff;
     font-family: 'EB Garamond', sans-serif;
     position: relative;
@@ -42,7 +42,7 @@ footer .button {
     width: 12rem;
 }
 
-@media only screen and (max-width: 545px){
+@media only screen and (max-width: 545px) {
     footer .btns-wrapper {
         flex-direction: column;
         gap: 1em;
@@ -53,19 +53,23 @@ footer .button {
     }
 }
 
-footer  p.credits{
+footer .credits {
     color: #fff;
     font-size: 0.65rem;
     text-align: center;
 }
 
-footer  a.text{
+footer .link {
     color: #fff;
     font-size: 0.65rem;
     text-decoration: none !important;
 }
 
-@media only screen and (max-width: 767px){
+footer .link:hover {
+    text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 767px) {
     div.logo::before{
         width: 22rem;
         height: 5rem;
@@ -73,8 +77,8 @@ footer  a.text{
     }
 }
 
-@media only screen and (max-width: 575px){
-    div.logo::before{
+@media only screen and (max-width: 575px) {
+    div.logo::before {
         width: 21rem;
         height: 5rem;
         left: -1rem;
