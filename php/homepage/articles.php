@@ -19,7 +19,9 @@ $count = 1;
             <div class="articles-grid">
                 <?php foreach ($articles as $a): // Create grid item per article, use count for class name ?>
                     <!-- Article <?= $count; ?> -->
-                    <div class="article article-<?= $count; ?>">
+                    <div 
+                     class="article article-<?= $count; ?>"
+                     data-aos="fade-up">
                         <!-- Visual -->
                         <div class="visual-container">
                             <a href="<?= $a["article-url"]; ?>">

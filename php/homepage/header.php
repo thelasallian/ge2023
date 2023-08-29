@@ -6,16 +6,27 @@
             <!-- TLS Star -->
             <img 
              src="assets/all-pages/tls-star-white.svg" 
-             class="tls-star">
+             class="tls-star"
+             data-aos="fade-right"
+             data-aos-delay="500"
+             data-aos-duration="1000">
 
             <!-- Title -->
-            <h1 class="title">
+            <h1 
+             class="title"
+             data-aos="fade-down"
+             data-aos-delay="1000"
+             data-aos-duration="1000">
                 <!-- Typing Animation -->
                 <span id="typed"></span>
             </h1>
 
             <!-- Buttons -->
-            <div class="btns-wrapper">
+            <div 
+             class="btns-wrapper"
+             data-aos="fade-down"
+             data-aos-delay="1000"
+             data-aos-duration="1000">
                 <!-- About the Cover Button -->
                 <button 
                  id="about-cover-btn" 
@@ -36,7 +47,11 @@
         <!-- Art Wrapper -->
         <div class="art-wrapper">
             <!-- Art for Landscape Screens (Faux Image Hack) -->
-            <div class="art-landscape"></div>
+            <div 
+             class="art-landscape" 
+             data-aos="fade-up"
+             data-aos-delay="500"
+             data-aos-duration="1000"></div>
             <!-- Art for Portrait Screens -->
             <img 
              src="assets/homepage/cover/cover-art-portrait.png" 
