@@ -4,6 +4,6 @@
         <div data-aos="zoom-in" class="info-container">
             <p class="info-text md-0"><strong>Voter turnout</strong> in the morbi fringilla convallis sapien</p>
         </div>
-        <a data-aos="zoom-in"  type="button" class="button button-white button-white-over-green"><strong>VIEW</strong></a>
+        <a data-aos="zoom-in"  type="button" class="button button-white button-white-over-green">View</a>
     </div>
 </section>
