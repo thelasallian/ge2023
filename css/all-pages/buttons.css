@@ -60,7 +60,7 @@
     border-color: var(--dark-gray);
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 550px) {
     .button {
         font-size: .7em;
     }
