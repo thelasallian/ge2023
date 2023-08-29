@@ -3,3 +3,6 @@
 
 # Avoid CSS as the top language
 *.css linguist-detectable=false
+
+# Avoid Hack as the top language
+php/*.php linguist-detectable=false
