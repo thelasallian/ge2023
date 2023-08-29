@@ -7,9 +7,8 @@
             <img 
              src="assets/all-pages/tls-star-white.svg" 
              class="tls-star"
-             data-aos="fade-right"
-             data-aos-delay="500"
-             data-aos-duration="1000">
+             data-aos="fade-in"
+             data-aos-delay="2500">
 
             <!-- Title -->
             <h1 
