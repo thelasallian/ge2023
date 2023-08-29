@@ -1,9 +1,4 @@
-footer{
-    margin: 0;
-    padding: 0;
-}
-
-div.footer{
+footer {
     background-image: url('../../assets/all-pages/cover-bg.png');
     background-size: cover;
     background-position: bottom;
@@ -56,13 +51,13 @@ p.text{
     }
 }
 
-div.footer p.credits{
+footer  p.credits{
     color: #fff;
     font-size: 0.65rem;
     text-align: center;
 }
 
-div.footer a.text{
+footer  a.text{
     color: #fff;
     font-size: 0.65rem;
     text-decoration: none !important;
