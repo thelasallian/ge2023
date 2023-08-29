@@ -27,7 +27,10 @@ if ($photos === null) {
         <!-- Photo Grid -->
         <div class="grid-container">
             <?php foreach ($photos as $p): // For each photo, make a grid item ?>
-                <div class="grid-item <?= $p["stand"]; ?>">
+                <div 
+                 class="grid-item <?= $p["stand"]; ?>"
+                 data-aos="fade-up"
+                 data-aos-duration="1000">
                     <!-- Picture -->
                     <img 
                      src="<?= $p["image-path"]; ?>"
