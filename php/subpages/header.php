@@ -1,3 +1,10 @@
+<?php 
+// The following is a template that uses echo to output the HTML for the header of a subpage.
+// You can use this by including this file using require_once(). But before that,
+// define the following variables: $id, $title, $author_1, $author_2, $description.
+// An example can be found in php/vox-populi/header.php
+?>
+
 <header class="subpage-header" id="<?= $id; ?>">
     <div class="container d-flex flex-column align-items-center">
         <!-- Back Button -->
