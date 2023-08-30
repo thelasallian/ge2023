@@ -5,6 +5,7 @@
 // An example can be found in php/vox-populi/header.php
 ?>
 
+<!-- Header -->
 <header class="subpage-header" id="<?= $id; ?>">
     <div class="container d-flex flex-column align-items-center">
         <!-- Back Button -->
