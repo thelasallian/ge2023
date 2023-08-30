@@ -31,8 +31,10 @@ nav .menu-btn {
 nav #links-container {
     position: absolute;
     top: 0;
-    left: -15rem;
-    opacity: 0;
+    /* left: -15rem;
+    opacity: 0; */
+    left: 0;
+    opacity: 1;
     background-color: #191B15;
     height: 100vh;
     min-height: 500px;
