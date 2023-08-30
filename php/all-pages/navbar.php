@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 ?>
 
@@ -6,7 +6,7 @@
     <div class="container">
         <!-- Logo -->
         <a href="/">
-            <img src="assets/all-pages/tls-horizontal-logo-green.svg" class="logo">
+            <img src="assets/all-pages/tls-horizontal-logo-green.svg" class="green-logo">
         </a>
         <!-- Hamburger Icon -->
         <button class="menu-btn" onclick="showLinks()">
@@ -14,15 +14,27 @@
         </button>
         <!-- Nav Links -->
         <div id="links-container" class="links-container">
+            <a href="/">
+                <img src="assets/all-pages/tls-horizontal-logo-white.svg" class="white-logo">
+            </a>
             <ul>
                 <li>
-                    <a href="#articles">Articles</a>
+                    <a href="#articles">
+                        <img src="assets/homepage/articles/03-women.jpg" class="link-img">
+                        Articles
+                    </a>
                 </li>
                 <li>
-                    <a href="#infographic">Voter turnout through the years</a>
+                    <a href="#infographic">
+                        <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                        Voter turnout through the years
+                    </a>
                 </li>
                 <li>
-                    <a href="#vox-populi">Thoughts on a two-party system</a>
+                    <a href="#vox-populi">
+                        <img src="assets/homepage/articles/05-usg.jpg" class="link-img">
+                        Thoughts on a two-party system
+                    </a>
                 </li>
             </ul>
         </div>
