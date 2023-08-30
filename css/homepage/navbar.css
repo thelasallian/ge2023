@@ -1,8 +1,15 @@
 nav {
-    height: 3.75rem;
     background-color: white;
     box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.075);
     position: relative;
+    transition: all 0.5s;
+    height: 0;
+    opacity: 0;
+}
+
+nav.active {
+    height: 3.75rem;
+    opacity: 1;
 }
 
 nav .container {
