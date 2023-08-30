@@ -12,7 +12,7 @@ $description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
                 dolores aliquam accusantium corporis.";
 
 // Render HTML for the header
-require_once("php/subpages/header.php");
+require_once("php/subpages/header-template.php");
 ?>
 
 <!-- Vox Populi Question -->

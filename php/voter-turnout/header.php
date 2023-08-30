@@ -25,5 +25,5 @@ $description = "Previous University Student Government elections had seen a sign
                 to figure out ways to reverse Lasallians’ indifference toward USG politics.";
 
 // Render HTML for header
-require_once("php/subpages/header.php");
+require_once("php/subpages/header-template.php");
 ?>
