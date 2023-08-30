@@ -10,16 +10,19 @@ $description = "Previous University Student Government elections had seen a sign
                 past five years, the highest election turnout was 60.02 percent during 
                 the 2021 Make-Up Elections, while the most recent 2022 Make-Up Elections 
                 was barely validated at 51.83 percent.
+                
                 <br><br>
+
                 The problem of the lack of voting participation from the student body has 
                 been a longstanding problem for the USG. Back during the 2015 General Elections, 
                 DLSU Comelec was forced to hold the start of office by the second term of 
                 the academic year due to a plebiscite failure after receiving a voter turnout 
                 of 35.90 percent, well below the required 51 percent. 
+
                 <br><br>
+
                 With barely any improvements, it remains a hurdle for next the administration 
-                to figure out ways to reverse Lasallians’ indifference toward USG politics. 
-                ";
+                to figure out ways to reverse Lasallians’ indifference toward USG politics.";
 ?>
 
 <?php require_once("php/subpages/header.php"); ?>
