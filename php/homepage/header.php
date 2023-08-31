@@ -36,7 +36,7 @@
                 <!-- View Content Button -->
                 <a 
                  id="view-content-btn" 
-                 href="#navbar" 
+                 href="#articles" 
                  class="button button-white">
                     View Content
                 </a>
