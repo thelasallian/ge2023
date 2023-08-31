@@ -29,3 +29,14 @@ function closeLinks() {
     linksContainer.classList.remove("active");
     greenLogo.classList.remove("hidden");
 }
+
+// If a link was clicked, hide the navbar
+const navAnchors = document.querySelectorAll(".nav-anchor");
+
+navAnchors.forEach(navLink => {
+  navLink.addEventListener("click", function(event) {
+    // Remove the "active" class from the linksContainer
+    linksContainer.classList.remove("active");
+    greenLogo.classList.remove("hidden");
+  });
+});

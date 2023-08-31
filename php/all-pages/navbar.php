@@ -22,19 +22,19 @@
             </a>
             <ul>
                 <li>
-                    <a href="#articles">
+                    <a href="#articles" class="nav-anchor">
                         <img src="assets/homepage/articles/03-women.jpg" class="link-img">
                         Articles
                     </a>
                 </li>
                 <li>
-                    <a href="#infographic">
+                    <a href="#infographic" class="nav-anchor">
                         <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
                         Voter turnout through the years
                     </a>
                 </li>
                 <li>
-                    <a href="#vox-populi">
+                    <a href="#vox-populi" class="nav-anchor">
                         <img src="assets/homepage/articles/05-usg.jpg" class="link-img">
                         Thoughts on a two-party system
                     </a>
