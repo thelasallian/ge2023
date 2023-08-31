@@ -16,8 +16,9 @@ const headerHeight = header.offsetHeight;
 window.addEventListener('scroll', () => {
     const scrollPos = window.scrollY;
 
-    if (scrollPos > headerHeight) {
+    if (scrollPos > headerHeight - 50) {
         nav.classList.add("active");
+        greenLogo.classList.remove("hidden");
     } else {
         nav.classList.remove("active");
         linksContainer.classList.remove("active");
