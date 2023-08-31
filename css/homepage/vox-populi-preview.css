@@ -1,0 +1,51 @@
+#vox-populi {
+    padding: 2rem 0;
+}
+
+#vox-populi .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+
+#vox-populi .tag {
+    margin-bottom: 1.5rem;
+}
+
+#vox-populi .title {
+    font-size: 2.5em;
+    margin-bottom: 1.5rem;
+}
+
+#vox-populi .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 0rem;
+
+    margin-top: 2.5rem;
+}
+
+#vox-populi .grid-item {
+    position: relative;
+    overflow: hidden;
+}
+
+#vox-populi .photo {
+    width: 85%;
+}
+
+@media only screen and (max-width: 450px) {
+    #vox-populi .photo {
+        width: 95%;
+    }
+
+    #vox-populi .container{
+        padding: 1rem;
+    }
+
+    #vox-populi .title {
+        font-size: 2rem;
+    }
+}
