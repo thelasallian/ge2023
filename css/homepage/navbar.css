@@ -41,7 +41,9 @@ nav #links-container {
     opacity: 0; */
     left: 0;
     opacity: 1;
-    background-color: #191B15;
+    background-image: url("../../assets/all-pages/navbar-bg.png");
+    background-size: cover;
+    background-position: top left;
     min-width: 16rem;
     height: 100vh;
     min-height: 500px;
