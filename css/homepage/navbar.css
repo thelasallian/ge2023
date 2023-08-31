@@ -33,6 +33,11 @@ nav .nav-btn {
     align-items: center;
 }
 
+/* Green Logo */
+nav #green-logo {
+    transition: opacity 0.25s;
+}
+
 /* Offcanvas Navbar */
 nav #links-container {
     position: absolute;
@@ -91,7 +96,7 @@ nav .link-img {
 }
 
 /* White Logo */
-nav .white-logo {
+nav #white-logo {
     display: block;
     margin: 1.5rem 0 3rem;
 }

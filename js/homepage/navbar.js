@@ -1,8 +1,10 @@
 // When clicking the menu button, toggle the visibility of the links container
 const linksContainer = document.getElementById("links-container");
+const greenLogo = document.getElementById("green-logo");
 
 function showLinks() {
     linksContainer.classList.toggle("active");
+    greenLogo.style.opacity = "0";
 }
 
 // Show only the navbar when beyond the header
@@ -25,4 +27,5 @@ window.addEventListener('scroll', () => {
 // Close the navbar on click
 function closeLinks() {
     linksContainer.classList.remove("active");
+    greenLogo.style.opacity = "1";
 }

@@ -6,7 +6,7 @@
     <div class="container">
         <!-- Logo -->
         <a href="/">
-            <img src="assets/all-pages/tls-horizontal-logo-green.svg" class="green-logo">
+            <img src="assets/all-pages/tls-horizontal-logo-green.svg" id="green-logo">
         </a>
         <!-- Hamburger Icon -->
         <button class="nav-btn" onclick="showLinks()">
@@ -18,7 +18,7 @@
                 <span class="material-icons">close</span>
             </button>
             <a href="/">
-                <img src="assets/all-pages/tls-horizontal-logo-white.svg" class="white-logo">
+                <img src="assets/all-pages/tls-horizontal-logo-white.svg" id="white-logo">
             </a>
             <ul>
                 <li>
