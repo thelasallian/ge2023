@@ -24,7 +24,7 @@ nav .container {
 }
 
 /* Menu Button */
-nav .menu-btn {
+nav .nav-btn {
     padding: 0;
     margin: 0;
     background: none;
@@ -37,10 +37,8 @@ nav .menu-btn {
 nav #links-container {
     position: absolute;
     top: 0;
-    /* left: -15rem;
-    opacity: 0; */
-    left: 0;
-    opacity: 1;
+    left: -15rem;
+    opacity: 0;
     background-image: url("../../assets/all-pages/navbar-bg.png");
     background-size: cover;
     background-position: top left;
@@ -93,7 +91,7 @@ nav .link-img {
 /* White Logo */
 nav .white-logo {
     display: block;
-    margin-bottom: 3rem;
+    margin: 1.5rem 0 3rem;
 }
 
 /* Link */
@@ -104,4 +102,18 @@ nav a {
     font-family: 'EB Garamond';
     font-weight: bold;
     font-size: 1.15rem;
+}
+
+/* Close (X) Button */
+nav #close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+nav #close-btn:hover {
+    opacity: 1;
 }

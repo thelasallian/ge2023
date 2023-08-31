@@ -9,11 +9,14 @@
             <img src="assets/all-pages/tls-horizontal-logo-green.svg" class="green-logo">
         </a>
         <!-- Hamburger Icon -->
-        <button class="menu-btn" onclick="showLinks()">
+        <button class="nav-btn" onclick="showLinks()">
             <span class="material-icons">menu</span>
         </button>
         <!-- Nav Links -->
         <div id="links-container" class="links-container">
+            <button class="nav-btn" id="close-btn" onclick="closeLinks()">
+                <span class="material-icons">close</span>
+            </button>
             <a href="/">
                 <img src="assets/all-pages/tls-horizontal-logo-white.svg" class="white-logo">
             </a>

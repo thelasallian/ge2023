@@ -21,3 +21,8 @@ window.addEventListener('scroll', () => {
         linksContainer.classList.remove("active");
     }
 });
+
+// Close the navbar on click
+function closeLinks() {
+    linksContainer.classList.remove("active");
+}
