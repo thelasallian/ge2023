@@ -44,7 +44,7 @@ nav #links-container {
     background-image: url("../../assets/all-pages/navbar-bg.png");
     background-size: cover;
     background-position: top left;
-    min-width: 16rem;
+    width: 22rem;
     height: 100vh;
     min-height: 500px;
     transition: all 0.5s;
@@ -57,6 +57,12 @@ nav #links-container {
     align-items: center;
 }
 
+@media screen and (max-width: 400px) {
+    nav #links-container {
+        width: 100vw;
+    }
+}
+    
 /* Visible links container (Offcanvas navbar) */
 nav #links-container.active {
     left: 0;
