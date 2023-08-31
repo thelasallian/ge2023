@@ -64,6 +64,10 @@ nav #links-container {
     align-items: center;
 
     overflow-y: scroll;
+
+    /* Hide scrollbar */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 
 @media screen and (max-width: 400px) {
@@ -77,6 +81,12 @@ nav #links-container.active {
     left: 0;
     opacity: 1;
 }
+
+/* Hide scrollbar */
+nav #links-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 
 nav ul {
     list-style-type: none;
