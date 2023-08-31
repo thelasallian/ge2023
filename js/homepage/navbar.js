@@ -4,7 +4,7 @@ const greenLogo = document.getElementById("green-logo");
 
 function showLinks() {
     linksContainer.classList.toggle("active");
-    greenLogo.style.opacity = "0";
+    greenLogo.classList.toggle("hidden");
 }
 
 // Show only the navbar when beyond the header
@@ -27,5 +27,5 @@ window.addEventListener('scroll', () => {
 // Close the navbar on click
 function closeLinks() {
     linksContainer.classList.remove("active");
-    greenLogo.style.opacity = "1";
+    greenLogo.classList.remove("hidden");
 }

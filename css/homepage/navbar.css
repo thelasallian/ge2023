@@ -38,6 +38,10 @@ nav #green-logo {
     transition: opacity 0.25s;
 }
 
+nav #green-logo.hidden {
+    opacity: 0;
+}
+
 /* Offcanvas Navbar */
 nav #links-container {
     position: absolute;
