@@ -2,7 +2,7 @@
 const navDrawer = document.getElementById("nav-drawer");
 const greenLogo = document.getElementById("green-logo");
 
-function showLinks() {
+function showNavDrawer() {
     navDrawer.classList.toggle("active");
     greenLogo.classList.toggle("hidden");
 }
@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Close the navbar on click
-function closeLinks() {
+function closeNavDrawer() {
     navDrawer.classList.remove("active");
     greenLogo.classList.remove("hidden");
 }

@@ -5,7 +5,7 @@
             <img src="assets/all-pages/tls-horizontal-logo-green.svg" id="green-logo">
         </a>
         <!-- Hamburger Icon -->
-        <button class="nav-btn" onclick="showLinks()">
+        <button class="nav-btn" onclick="showNavDrawer()">
             <span class="material-icons">menu</span>
         </button>
     </div>
@@ -14,7 +14,7 @@
 <!-- Nav Links -->
 <nav id="nav-drawer" class="nav-drawer">
     <!-- Close Button -->
-    <button class="nav-btn" id="close-btn" onclick="closeLinks()">
+    <button class="nav-btn" id="close-btn" onclick="closeNavDrawer()">
         <span class="material-icons">close</span>
     </button>
     <!-- TLS Logo (White) -->
