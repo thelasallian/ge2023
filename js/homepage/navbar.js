@@ -1,25 +1,33 @@
-// When clicking the menu button, toggle the visibility of the links container
-const navDrawer = document.getElementById("nav-drawer");
-const greenLogo = document.getElementById("green-logo");
+const navDrawer = document.getElementById("nav-drawer"); /* Offcanvas vertical navbar */
+const navAnchors = document.querySelectorAll(".nav-anchor"); /* All links in the navbar */
+const greenLogo = document.getElementById("green-logo"); /* Green TLS logo in vertical navbar */
 
+/**
+ * This function toggles the nav drawer on and off, and the visibility
+ * of the green TLS logo. Used in the hamburger menu (#nav-btn).
+ */
 function showNavDrawer() {
-    navDrawer.classList.toggle("active");
-    greenLogo.classList.toggle("hidden");
+    navDrawer.classList.toggle("active"); // Toggle drawer visibility
+    greenLogo.classList.toggle("hidden"); // Toggle logo visibility
 }
 
-// Close the navbar on click
+/**
+ * This function explicity closes the nav drawer and makes the green
+ * TLS logo visible.
+ */
 function closeNavDrawer() {
-    navDrawer.classList.remove("active");
-    greenLogo.classList.remove("hidden");
+    navDrawer.classList.remove("active"); // Hide drawer
+    greenLogo.classList.remove("hidden"); // SHow green logo
 }
 
 // If a link was clicked, hide the navbar
-const navAnchors = document.querySelectorAll(".nav-anchor");
-
+/**
+ * This block adds an event listener to each link in the navbar. If a link
+ * is clicked, the nav drawer is closed and the green TLS logo is made visible.
+ */
 navAnchors.forEach(navLink => {
-  navLink.addEventListener("click", function(event) {
-    // Remove the "active" class from the navDrawer
-    navDrawer.classList.remove("active");
-    greenLogo.classList.remove("hidden");
-  });
+    navLink.addEventListener("click", function(event) {
+        navDrawer.classList.remove("active"); // Hide drawer
+        greenLogo.classList.remove("hidden"); // Show green logo
+    });
 });
