@@ -22,7 +22,7 @@
 #vox-populi .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 0rem;
+    gap: 2rem;
 
     margin-top: 2.5rem;
 }
@@ -30,22 +30,54 @@
 #vox-populi .grid-item {
     position: relative;
     overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 15.5rem;
+    height: 22rem;
 }
 
-#vox-populi .photo {
-    width: 85%;
+@media only screen and (max-width: 768px) {
+    #vox-populi .grid-container {
+        gap: 1rem;
+    }
+
+    #vox-populi .grid-item {
+        width: 11rem;
+        height: 16rem;
+    }
+
+    #vox-populi .container{
+        padding: 1.5rem;
+    }
+
+    #vox-populi .title {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-    #vox-populi .photo {
-        width: 95%;
+    #vox-populi .grid-container {
+        gap: 0.5rem;
+    }
+
+    #vox-populi .grid-item {
+        width: 7rem;
+        height: 13rem;
     }
 
     #vox-populi .container{
         padding: 1rem;
     }
+}
 
-    #vox-populi .title {
-        font-size: 2rem;
+@media only screen and (max-width: 360px) {
+    #vox-populi .grid-container {
+        gap: 0.5rem;
+    }
+
+    #vox-populi .grid-item {
+        width: 5.5rem;
+        height: 11rem;
     }
 }

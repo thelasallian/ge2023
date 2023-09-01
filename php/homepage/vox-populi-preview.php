@@ -5,14 +5,11 @@
         <a href="vox-populi.php" class="button button-black">View Gallery</a>
 
         <div class="grid-container">
-            <div class="grid-item">
-                <img src="assets/vox-populi/02-vox.jpg" class="photo">
+            <div class="grid-item" style="background-image: url(assets/vox-populi/02-vox.jpg)">
             </div>
-            <div class="grid-item">
-                <img src="assets/vox-populi/02-vox.jpg" class="photo">
+            <div class="grid-item" style="background-image: url(assets/vox-populi/02-vox.jpg)">
             </div>
-            <div class="grid-item">
-                <img src="assets/vox-populi/02-vox.jpg" class="photo">
+            <div class="grid-item" style="background-image: url(assets/vox-populi/02-vox.jpg)">
             </div>
         </div>
     </div>
