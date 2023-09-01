@@ -13,7 +13,7 @@
             <span class="material-icons">menu</span>
         </button>
         <!-- Nav Links -->
-        <div id="links-container" class="links-container">
+        <div id="nav-drawer" class="nav-drawer">
             <!-- Close Button -->
             <button class="nav-btn" id="close-btn" onclick="closeLinks()">
                 <span class="material-icons">close</span>

@@ -1,5 +1,5 @@
 // When clicking the menu button, toggle the visibility of the links container
-const linksContainer = document.getElementById("links-container");
+const linksContainer = document.getElementById("nav-drawer");
 const greenLogo = document.getElementById("green-logo");
 
 function showLinks() {

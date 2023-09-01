@@ -43,7 +43,7 @@ nav #green-logo.hidden {
 }
 
 /* Offcanvas Navbar */
-nav #links-container {
+nav #nav-drawer {
     position: absolute;
     top: 0;
     left: -15rem;
@@ -71,19 +71,19 @@ nav #links-container {
 }
 
 @media screen and (max-width: 400px) {
-    nav #links-container {
+    nav #nav-drawer {
         width: 100vw;
     }
 }
     
 /* Visible links container (Offcanvas navbar) */
-nav #links-container.active {
+nav #nav-drawer.active {
     left: 0;
     opacity: 1;
 }
 
 /* Hide scrollbar */
-nav #links-container::-webkit-scrollbar { 
+nav #nav-drawer::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
