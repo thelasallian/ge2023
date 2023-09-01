@@ -28,13 +28,9 @@
 }
 
 #vox-populi .grid-item {
-    position: relative;
-    overflow: hidden;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-    width: 15.5rem;
-    height: 22rem;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,8 +39,7 @@
     }
 
     #vox-populi .grid-item {
-        width: 11rem;
-        height: 16rem;
+        height: 18rem;
     }
 
     #vox-populi .container{
@@ -62,7 +57,6 @@
     }
 
     #vox-populi .grid-item {
-        width: 7rem;
         height: 13rem;
     }
 
@@ -77,7 +71,6 @@
     }
 
     #vox-populi .grid-item {
-        width: 5.5rem;
         height: 11rem;
     }
 }
