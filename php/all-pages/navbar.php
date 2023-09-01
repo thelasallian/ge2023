@@ -14,12 +14,15 @@
         </button>
         <!-- Nav Links -->
         <div id="links-container" class="links-container">
+            <!-- Close Button -->
             <button class="nav-btn" id="close-btn" onclick="closeLinks()">
                 <span class="material-icons">close</span>
             </button>
+            <!-- TLS Logo (White) -->
             <a href="/">
                 <img src="assets/all-pages/tls-horizontal-logo-white.svg" id="white-logo">
             </a>
+            <!-- Anchor Links -->
             <ul>
                 <li>
                     <a href="#articles" class="nav-anchor">
