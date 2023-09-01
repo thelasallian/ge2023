@@ -1,9 +1,9 @@
 // When clicking the menu button, toggle the visibility of the links container
-const linksContainer = document.getElementById("nav-drawer");
+const navDrawer = document.getElementById("nav-drawer");
 const greenLogo = document.getElementById("green-logo");
 
 function showLinks() {
-    linksContainer.classList.toggle("active");
+    navDrawer.classList.toggle("active");
     greenLogo.classList.toggle("hidden");
 }
 
@@ -21,13 +21,13 @@ window.addEventListener('scroll', () => {
         greenLogo.classList.remove("hidden");
     } else {
         nav.classList.remove("active");
-        linksContainer.classList.remove("active");
+        navDrawer.classList.remove("active");
     }
 });
 
 // Close the navbar on click
 function closeLinks() {
-    linksContainer.classList.remove("active");
+    navDrawer.classList.remove("active");
     greenLogo.classList.remove("hidden");
 }
 
@@ -36,8 +36,8 @@ const navAnchors = document.querySelectorAll(".nav-anchor");
 
 navAnchors.forEach(navLink => {
   navLink.addEventListener("click", function(event) {
-    // Remove the "active" class from the linksContainer
-    linksContainer.classList.remove("active");
+    // Remove the "active" class from the navDrawer
+    navDrawer.classList.remove("active");
     greenLogo.classList.remove("hidden");
   });
 });
