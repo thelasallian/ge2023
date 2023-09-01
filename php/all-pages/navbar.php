@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <div id="nav-sticky" class="sticky-top">
     <div class="container">
         <!-- Logo -->
