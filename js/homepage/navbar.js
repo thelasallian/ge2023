@@ -30,3 +30,8 @@ navAnchors.forEach(navLink => {
         greenLogo.classList.remove("hidden"); // Show green logo
     });
 });
+
+window.addEventListener("scroll", function(event) {
+    navDrawer.classList.remove("active"); // Hide drawer
+    greenLogo.classList.remove("hidden"); // Show green logo
+});
