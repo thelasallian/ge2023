@@ -4,7 +4,7 @@ const greenLogo = document.getElementById("green-logo"); /* Green TLS logo in ve
 
 /**
  * This function toggles the nav drawer on and off, and the visibility
- * of the green TLS logo. Used in the hamburger menu (#nav-btn).
+ * of the green TLS logo. Used in the hamburger menu (#hamburger-btn).
  */
 function showNavDrawer() {
     navDrawer.classList.toggle("active"); // Toggle drawer visibility

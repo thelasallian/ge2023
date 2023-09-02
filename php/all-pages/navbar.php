@@ -5,7 +5,7 @@
             <img src="assets/all-pages/tls-horizontal-logo-green.svg" id="green-logo">
         </a>
         <!-- Hamburger Icon -->
-        <button class="nav-btn" onclick="showNavDrawer()">
+        <button class="nav-btn" id="hamburger-btn" onclick="showNavDrawer()">
             <span class="material-icons">menu</span>
         </button>
     </div>
