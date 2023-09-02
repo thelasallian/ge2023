@@ -46,7 +46,7 @@
 #nav-drawer {
     position: fixed;
     top: 0;
-    left: -15rem;
+    right: -15rem;
     opacity: 0;
     background-image: url("../../assets/all-pages/navbar-bg.png");
     background-size: cover;
@@ -68,6 +68,8 @@
     /* Hide scrollbar */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+
+    pointer-events: none;
 }
 
 @media screen and (max-width: 320px) {
@@ -78,8 +80,9 @@
     
 /* Visible links container (Offcanvas navbar) */
 #nav-drawer.active {
-    left: 0;
+    right: 0;
     opacity: 1;
+    pointer-events: all;
 }
 
 /* Hide scrollbar */
