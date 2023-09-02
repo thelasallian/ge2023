@@ -2,6 +2,7 @@
     background-color: white;
     box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.075);
     height: 3.75rem;
+    z-index: 90;
 }
 
 /* Bootstrap Container */
@@ -45,7 +46,7 @@
     height: 100vh;
     min-height: 500px;
     transition: all 0.5s;
-    z-index: 25;
+    z-index: 100;
 
     padding: 3rem;
 
