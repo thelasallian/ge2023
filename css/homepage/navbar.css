@@ -24,6 +24,16 @@
     align-items: center;
 }
 
+#hamburger-btn {
+    color: var(--dark-gray);
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+#hamburger-btn:hover {
+    opacity: 0.5;
+}
+
 /* Green Logo */
 #nav-sticky #green-logo {
     height: 1.25rem;
