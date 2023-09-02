@@ -6,6 +6,7 @@
             <!-- TLS Star -->
             <img 
              src="assets/all-pages/tls-star-white.svg" 
+             oncontextmenu="return false;"
              class="tls-star"
              data-aos="fade-in"
              data-aos-delay="1100">
@@ -55,6 +56,7 @@
             <img 
              src="assets/homepage/cover/cover-art-portrait.png" 
              class="art-portrait"
+             oncontextmenu="return false;"
              data-aos="fade-up"
              data-aos-delay="500"
              data-aos-duration="1000"
