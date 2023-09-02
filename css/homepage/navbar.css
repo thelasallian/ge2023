@@ -92,12 +92,29 @@
 
 /* Link Image */
 #nav-drawer .link-img {
+    position: relative;
     display: block;
     margin-bottom: 0.75rem;
     width: 100%;
     height: 7rem;
     object-fit: cover;
     box-shadow: -0.3rem 0.3rem 0 0 rgba(190, 190, 190, 0.2);
+    transition: 0.25s all;
+}
+
+#nav-drawer .link-txt {
+    display: block;
+    transition: transform 0.25s;
+}
+
+/* Hover effect */
+#nav-drawer .nav-anchor:hover .link-img {
+    transform: translate(0.25rem, -0.25rem);
+    box-shadow: -0.6rem 0.6rem 0 0 rgba(190, 190, 190, 0.2);
+}
+
+#nav-drawer .nav-anchor:hover .link-txt {
+    transform: translateX(0.25rem);
 }
 
 /* White Logo */

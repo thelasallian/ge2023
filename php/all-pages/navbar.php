@@ -26,19 +26,19 @@
         <li>
             <a href="#articles" class="nav-anchor">
                 <img src="assets/homepage/articles/03-women.jpg" class="link-img">
-                Articles
+                <span class="link-txt">Articles</span>
             </a>
         </li>
         <li>
             <a href="#infographic" class="nav-anchor">
                 <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
-                Voter turnout through the years
+                <span class="link-txt">Voter turnout through the years</span>
             </a>
         </li>
         <li>
             <a href="#vox-populi" class="nav-anchor">
                 <img src="assets/homepage/articles/05-usg.jpg" class="link-img">
-                Thoughts on a two-party system
+                <span class="link-txt">Thoughts on a two-party system</span>
             </a>
         </li>
     </ul>
