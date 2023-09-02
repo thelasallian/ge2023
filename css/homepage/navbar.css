@@ -3,6 +3,11 @@
     box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.075);
     height: 2.75rem;
     z-index: 90;
+    transition: opacity 0.25s;
+}
+
+#nav-sticky.hidden {
+    opacity: 0;
 }
 
 /* Bootstrap Container */
