@@ -57,7 +57,8 @@
              class="art-portrait"
              data-aos="fade-up"
              data-aos-delay="500"
-             data-aos-duration="1000" />
+             data-aos-duration="1000"
+             data-aos-offset="-100" />
         </div>
     </header>
 
