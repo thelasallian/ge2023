@@ -297,3 +297,17 @@ header .tls-star {
         width: 100%;
     }
 }
+
+/******************************
+    About the Cover <= 413px
+*******************************/
+
+@media screen and (max-width: 413px) {
+    #about-the-cover .details h2 {
+        font-size: 1.5em;
+    }
+
+    #about-the-cover .details p {
+        font-size: .85em;
+    }
+}
