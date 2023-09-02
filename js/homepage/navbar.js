@@ -20,7 +20,6 @@ function closeNavDrawer() {
     greenLogo.classList.remove("hidden"); // SHow green logo
 }
 
-// If a link was clicked, hide the navbar
 /**
  * This block adds an event listener to each link in the navbar. If a link
  * is clicked, the nav drawer is closed and the green TLS logo is made visible.
