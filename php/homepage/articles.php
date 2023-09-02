@@ -25,7 +25,10 @@ $count = 1;
                         <!-- Visual -->
                         <div class="visual-container">
                             <a href="<?= $a["article-url"]; ?>">
-                                <img src="<?= $a["image-path"]; ?>" class="visual">
+                                <img 
+                                 src="<?= $a["image-path"]; ?>" 
+                                 class="visual"
+                                 oncontextmenu="return false;">
                             </a>
                         </div>
 

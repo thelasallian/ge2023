@@ -1,7 +1,10 @@
 <footer>
     <div class="container py-5 d-flex flex-column align-items-center">
         <div class="logo">
-            <img src="assets\all-pages\tls-vertical-logo-white.svg" alt="TLS Logo">
+            <img 
+             src="assets\all-pages\tls-vertical-logo-white.svg" 
+             alt="TLS Logo"
+             oncontextmenu="return false;">
         </div>
         <p class="title py-2 fs-4">On different pages</p>
         <div class="btns-wrapper py-3">

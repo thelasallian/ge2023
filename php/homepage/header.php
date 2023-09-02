@@ -6,6 +6,7 @@
             <!-- TLS Star -->
             <img 
              src="assets/all-pages/tls-star-white.svg" 
+             oncontextmenu="return false;"
              class="tls-star"
              data-aos="fade-in"
              data-aos-delay="1100">
@@ -36,7 +37,7 @@
                 <!-- View Content Button -->
                 <a 
                  id="view-content-btn" 
-                 href="#navbar" 
+                 href="#articles" 
                  class="button button-white">
                     View Content
                 </a>
@@ -55,9 +56,11 @@
             <img 
              src="assets/homepage/cover/cover-art-portrait.png" 
              class="art-portrait"
+             oncontextmenu="return false;"
              data-aos="fade-up"
              data-aos-delay="500"
-             data-aos-duration="1000" />
+             data-aos-duration="1000"
+             data-aos-offset="-100" />
         </div>
     </header>
 

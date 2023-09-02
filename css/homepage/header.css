@@ -17,7 +17,6 @@
 header {
     width: 100%;
     height: 100vh;
-    min-height: 700px;
 
     position: relative;
     
@@ -174,8 +173,21 @@ header .tls-star {
 **********************/
 
 @media screen and (max-width: 413px) {
+    header {
+        height: -webkit-fill-available; /* For iOS */
+    }
+    
     header .btns-wrapper {
         grid-template-columns: 1fr;
+        gap: .5rem;
+    }
+
+    header .tls-star {
+        height: 3rem;
+    }
+
+    header .title {
+        font-size: 3.5rem;
     }
 }
 
@@ -283,5 +295,19 @@ header .tls-star {
     #about-the-cover .art-portrait {
         display: block;
         width: 100%;
+    }
+}
+
+/******************************
+    About the Cover <= 413px
+*******************************/
+
+@media screen and (max-width: 413px) {
+    #about-the-cover .details h2 {
+        font-size: 1.5em;
+    }
+
+    #about-the-cover .details p {
+        font-size: .85em;
     }
 }

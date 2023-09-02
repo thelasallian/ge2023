@@ -8,10 +8,10 @@
 @import url('./homepage/infographic.css');
 @import url('./homepage/editors-note.css');
 
-/* For anchor links, offset the scroll snap to 72px above the section.
+/* For anchor links, offset the scroll snap to 2.75rem above the section.
    This avoid the navbar from overlapping on top of the section. */
 #articles,
 #infographic,
 #vox-populi {
-    scroll-margin-top: 72px;
+    scroll-margin-top: 2.75rem; /* Height of navbar */
 }

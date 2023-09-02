@@ -34,7 +34,8 @@ if ($photos === null) {
                     <!-- Picture -->
                     <img 
                      src="<?= $p["image-path"]; ?>"
-                     class="photo <?= $p["stand"]; ?>">
+                     class="photo <?= $p["stand"]; ?>"
+                     oncontextmenu="return false;">
                     <!-- Wrapper for Details -->
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>

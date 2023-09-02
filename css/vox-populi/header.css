@@ -1,54 +1,5 @@
 /* Header */
 
-#vox-populi-header {
-    background-image: url("../../assets/all-pages/cover-bg.png");
-    background-size: cover;
-    background-position: center;
-    padding: 2rem 0 4rem;
-    color: white;
-    text-align: center;
-}
-
-#vox-populi-header .container {
-    padding: 0 1.5em;
-}
-
-#back-button {
-    width: max-content;
-    margin-bottom: 2rem;
-}
-
-#vox-populi-header .title {
-    font-weight: normal;
-    font-style: italic;
-    font-size: 1.75em;
-    margin-bottom: .4rem;
-}
-
-#vox-populi-header .subtitle {
-    font-size: 2.75em;
-    margin-bottom: 1rem;
-}
-
-#vox-populi-header .photographer-byline {
-    font-size: .8em;
-    font-style: italic;
-    margin-bottom: 2rem;
-}
-
-#vox-populi-header .photographer-byline > .photographer {
-    font-style: normal;
-    font-weight: bold;
-}
-
-#vox-populi-header .description {
-    text-align: justify;
-    text-align-last: center;
-    max-width: 600px;
-    font-size: 0.9em;
-    margin: 0;
-}
-
 .vox-populi-question {
     text-align: center;
     margin: 3rem 0 0;

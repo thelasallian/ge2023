@@ -34,6 +34,7 @@
 
     <!-- Scripts -->
     <?php require_once 'php/all-pages/scripts.php'; ?>
+    <script src="js/homepage/navbar.js"></script>
     <script src="js/homepage/about-the-cover.js"></script>
     <script src="js/homepage/typed-heading.js"></script>
 </body>
