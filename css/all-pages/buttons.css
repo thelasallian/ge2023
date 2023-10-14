@@ -60,8 +60,25 @@
     border-color: var(--dark-gray);
 }
 
+.button-black {
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.button-black::before {
+    background-color: var(--black);
+}
+
+.button-black:hover {
+    color: white;
+}
+
 @media only screen and (max-width: 550px) {
     .button {
         font-size: .7em;
+    }
+
+    .container {
+        padding: 0.5rem;
     }
 }

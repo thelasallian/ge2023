@@ -24,7 +24,7 @@
     <?php include_once 'php/homepage/infographic.php'; ?>
 
     <!-- Vox Populi -->
-    <?php include_once 'php/homepage/vox-populi.php'; ?>
+    <?php include_once 'php/homepage/vox-populi-preview.php'; ?>
 
     <!-- Editor's Note -->
     <?php include_once 'php/homepage/editors-note.php'; ?>
