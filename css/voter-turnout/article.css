@@ -1,5 +1,5 @@
 .article-container {
-    max-width: 750px;
+    /* max-width: 750px; */
     margin: 0 auto;
     padding: 3rem 2rem;
 }
@@ -12,15 +12,17 @@
 
 .article-container p {
     font-size: 1.05em;
-    margin: 2rem 0;
+    margin: 2rem auto;
     text-align: justify;
+    max-width: 750px;
 }
 
 .chart-wrapper {
     position: relative;
     background-color: #FFF;
     padding: 2rem;
-    margin: 3rem 0;
+    margin: 3rem auto;
+    max-width: 900px;
 }
 
 .chart-wrapper::before {
