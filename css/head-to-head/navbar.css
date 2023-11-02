@@ -15,6 +15,10 @@ nav .button {
 }
 
 @media screen and (max-width: 450px) {
+    nav {
+        padding: .5rem 0;
+    }
+
     nav .button {
         width: max-content;
         padding-left: 4px;
