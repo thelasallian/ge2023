@@ -22,3 +22,8 @@
     background-color: white;
     color: var(--green);
 }
+
+.tag-gray {
+    background-color: 303030;
+    color: white;
+}
