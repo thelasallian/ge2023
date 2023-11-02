@@ -26,3 +26,10 @@
         </p>
     </div>
 </header>
+
+<nav class="sticky-top">
+    <div class="container">
+        <button class="button button-green button-green-active">Executive Board</button>
+        <button class="button button-green">College Presidents</button>
+    </div>
+</nav>
