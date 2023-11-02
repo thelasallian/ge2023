@@ -18,4 +18,7 @@ nav .container {
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.25);
     box-shadow: 4.64725px 4.64725px 0px 0px rgba(0, 0, 0, 0.10);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: rgba(0, 0, 0, 0) url("../../assets/fast-talk/chevron.svg") no-repeat scroll 100% center / 40px 13px !important;
 }
