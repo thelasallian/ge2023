@@ -1,0 +1,97 @@
+{
+    "positions": [
+      {
+        "position_name": "PRES",
+        "candidates": [
+          {"surname": "aquino", "first_name": "mario", "party": "santapat"},
+          {"surname": "santos", "first_name": "luis", "party": "tagon"},
+          {"surname": "gomez", "first_name": "ana", "party": "independent"}
+        ]
+      },
+      {
+        "position_name": "VPIA",
+        "candidates": [
+          {"surname": "castro", "first_name": "juan", "party": "santapat"}
+        ]
+      },
+      {
+        "position_name": "VPEA",
+        "candidates": [
+          {"surname": "lopez", "first_name": "maria", "party": "independent"},
+          {"surname": "reyes", "first_name": "pedro", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "SEC",
+        "candidates": [
+          {"surname": "fernandez", "first_name": "carla", "party": "santapat"}
+        ]
+      },
+      {
+        "position_name": "TREAS",
+        "candidates": [
+          {"surname": "soriano", "first_name": "jose", "party": "independent"},
+          {"surname": "garcia", "first_name": "andres", "party": "santapat"},
+          {"surname": "torres", "first_name": "luz", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "COS",
+        "candidates": [
+          {"surname": "lim", "first_name": "raul", "party": "independent"},
+          {"surname": "gonzales", "first_name": "marta", "party": "santapat"},
+          {"surname": "cruz", "first_name": "emilio", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "CCS",
+        "candidates": [
+          {"surname": "martinez", "first_name": "teresa", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "CLA",
+        "candidates": [
+          {"surname": "diaz", "first_name": "carlos", "party": "santapat"},
+          {"surname": "chavez", "first_name": "mariana", "party": "independent"}
+        ]
+      },
+      {
+        "position_name": "BAGCED",
+        "candidates": [
+          {"surname": "fernando", "first_name": "cecilia", "party": "tagon"},
+          {"surname": "sanchez", "first_name": "javier", "party": "santapat"},
+          {"surname": "rey", "first_name": "linda", "party": "independent"}
+        ]
+      },
+      {
+        "position_name": "GCOE",
+        "candidates": [
+          {"surname": "ortega", "first_name": "felipe", "party": "santapat"}
+        ]
+      },
+      {
+        "position_name": "COB",
+        "candidates": [
+          {"surname": "gonzalez", "first_name": "luis", "party": "independent"},
+          {"surname": "ramos", "first_name": "maria", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "SOE",
+        "candidates": [
+          {"surname": "parcia", "first_name": "rodrigo", "party": "santapat"},
+          {"surname": "villanueva", "first_name": "luz", "party": "independent"},
+          {"surname": "wang", "first_name": "juan", "party": "tagon"}
+        ]
+      },
+      {
+        "position_name": "LCSG",
+        "candidates": [
+          {"surname": "delacruz", "first_name": "carmen", "party": "independent"},
+          {"surname": "gonzaga", "first_name": "carlo", "party": "santapat"}
+        ]
+      }
+    ]
+  }
+  

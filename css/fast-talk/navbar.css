@@ -1,0 +1,21 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#select-issue {
+    padding: 0.5rem;
+    width: 350px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 4.64725px 4.64725px 0px 0px rgba(0, 0, 0, 0.10);
+}
