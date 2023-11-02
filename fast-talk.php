@@ -15,6 +15,9 @@
     <!-- Header -->
     <?php include_once 'php/fast-talk/header.php'; ?>
 
+    <!-- Grid -->
+    <?php include_once 'php/fast-talk/grid.php'; ?>
+
 
     <!-- Footer -->
     <?php include_once 'php/all-pages/footer.php'; ?>
