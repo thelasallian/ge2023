@@ -20,7 +20,7 @@ if ($photos === null) {
                  data-aos-duration="1000">
                     <!-- Picture -->
                     <img 
-                     src="assets/vox-populi/<?= $p["surname"]; ?>.jpg"
+                     src="assets/vox-populi/<?= $p["surname"]; ?>.JPG"
                      class="photo"
                      oncontextmenu="return false;">
                     <!-- Wrapper for Details -->
