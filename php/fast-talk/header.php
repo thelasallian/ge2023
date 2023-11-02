@@ -28,10 +28,12 @@
 </header>
 
 <!-- Navbar -->
-<nav>
-    <select name="select-issue" id="select-issue">
-        <option value="issue1">issue1</option>
-        <option value="issue2">issue2</option>
-        <option value="issue3">issue3</option>
-    </select>
+<nav class="sticky-top">
+    <div class="container">
+        <select name="select-issue" id="select-issue">
+            <option value="issue1">issue1</option>
+            <option value="issue2">issue2</option>
+            <option value="issue3">issue3</option>
+        </select>
+    </div>
 </nav>
