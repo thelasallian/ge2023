@@ -15,7 +15,7 @@
     <!-- Header -->
     <?php include_once 'php/voter-turnout/header.php'; ?>
 
-    <br><br><br><br><br>
+    <?php include_once 'php/voter-turnout/article.php'; ?>
 
     <!-- Footer -->
     <?php include_once 'php/all-pages/footer.php'; ?>
