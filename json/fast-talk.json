@@ -1,0 +1,167 @@
+{
+    "candidates": [
+      {
+        "surname": "aquino",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "yes"
+      },
+      {
+        "surname": "santos",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "gomez",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "castro",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "lopez",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "reyes",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "fernandez",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "soriano",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "yes"
+      },
+      {
+        "surname": "garcia",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "torres",
+        "issue1": "no",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "lim",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "gonzales",
+        "issue1": "no",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "cruz",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "martinez",
+        "issue1": "no",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "diaz",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "chavez",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "fernando",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "sanchez",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "rey",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "ortega",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "gonzalez",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "ramos",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "lopez",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "yes"
+      },
+      {
+        "surname": "villanueva",
+        "issue1": "no",
+        "issue2": "yes",
+        "issue3": "no"
+      },
+      {
+        "surname": "fernandez",
+        "issue1": "yes",
+        "issue2": "yes",
+        "issue3": "yes"
+      },
+      {
+        "surname": "delacruz",
+        "issue1": "no",
+        "issue2": "no",
+        "issue3": "no"
+      },
+      {
+        "surname": "gonzaga",
+        "issue1": "yes",
+        "issue2": "no",
+        "issue3": "yes"
+      }
+    ]
+  }
+  
