@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/subpages.css">
     <link rel="stylesheet" href="css/fast-talk.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Document Title -->
     <title>Vox Populi</title>
 </head>
@@ -25,6 +27,7 @@
     <!-- Scripts -->
     <?php require_once 'php/all-pages/scripts.php'; ?>
     <script src="js/fast-talk/typed-heading.js"></script>
+    <script src="js/fast-talk/fast-talk.js"></script>
 </body>
 
 </html>
