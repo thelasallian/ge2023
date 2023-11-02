@@ -28,6 +28,17 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 500px) {
+    .subpage-header .title {
+        font-size: 1.15em;
+    }
+    
+
+    .subpage-header .subtitle {
+        font-size: 2em;
+    }
+}
+
 .subpage-header .author-byline {
     font-size: .8em;
     font-style: italic;
