@@ -19,6 +19,12 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    #fastTalkGrid {
+        padding: 1.25rem 0;
+    }
+}
+
 .candidateCard {
     margin-bottom: 0.75rem;
     background-color: #fff;
