@@ -5,7 +5,7 @@ $h2h_cp = json_decode(file_get_contents('https://raw.githubusercontent.com/thela
 ?>
 
 <div class="container">
-    <div class="h2hGrid" id="h2h-EB">
+    <div class="h2hGrid visible-grid" id="h2h-EB">
         <?php foreach ($h2h_eb as $eb) : ?>
             <div class="h2hArticle">
                 <a href="<?= $eb["link"]; ?>">

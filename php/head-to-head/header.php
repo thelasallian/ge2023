@@ -29,7 +29,7 @@
 
 <nav class="sticky-top">
     <div class="container">
-        <button class="button button-green button-green-active">Executive Board</button>
-        <button class="button button-green">College Presidents</button>
+        <button id="eb-button" class="button button-green button-green-active">Executive Board</button>
+        <button id="cp-button" class="button button-green">College Presidents</button>
     </div>
 </nav>

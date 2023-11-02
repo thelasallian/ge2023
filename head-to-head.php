@@ -27,6 +27,7 @@
     <!-- Scripts -->
     <?php require_once 'php/all-pages/scripts.php'; ?>
     <script src="js/head-to-head/typed-heading.js"></script>
+    <script src="js/head-to-head/head-to-head.js"></script>
 </body>
 
 </html>
