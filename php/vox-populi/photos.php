@@ -20,13 +20,17 @@ if ($photos === null) {
                  data-aos-duration="1000">
                     <!-- Picture -->
                     <img 
-                     src="<?= $p["image-path"]; ?>"
+                     src="assets/vox-populi/<?= $p["surname"]; ?>.jpg"
                      class="photo"
                      oncontextmenu="return false;">
                     <!-- Wrapper for Details -->
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
-                        <p class="byline"><?= $p["byline"]; ?></p>
+                        <p class="byline">
+                            <?= ucfirst($p["firstname"]); ?> 
+                            <?= ucfirst($p["surname"]); ?> 
+                            (<?= $p["degree"]; ?>)
+                        </p>
                     </div>
                 </div>
             <?php endforeach; ?>

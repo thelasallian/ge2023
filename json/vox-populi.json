@@ -1,56 +1,50 @@
 [
-    {
-      "image-path": "assets/vox-populi/01-vox.jpg",
-      "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar turpis id risus convallis.",
-      "byline": "Juan Dela Cruz (IV, BS-IT)",
-      "stand": "yes"
-    },
-    {
-      "image-path": "assets/vox-populi/02-vox.jpg",
-      "quote": "Nulla facilisi. Suspendisse potenti. Aenean in ligula lacinia, fringilla ante ut, ultricies lacus.",
-      "byline": "Maria Santos (IV, BS-IT)",
-      "stand": "yes"
-    },
-    {
-      "image-path": "assets/vox-populi/03-vox.jpg",
-      "quote": "Praesent vestibulum felis id ligula interdum, in gravida lorem pharetra. Integer accumsan varius augue.",
-      "byline": "Jose Rizal (IV, BS-IT)",
-      "stand": "yes"
-    },
-    {
-      "image-path": "assets/vox-populi/04-vox.jpg",
-      "quote": "Fusce non elit sed nulla pretium dignissim. Etiam semper neque in nulla tristique.",
-      "byline": "Anna Reyes (IV, BS-IT)",
-      "stand": "no"
-    },
-    {
-      "image-path": "assets/vox-populi/05-vox.jpg",
-      "quote": "Proin commodo quam in nisi sollicitudin ullamcorper. Aenean fringilla augue nec lorem venenatis, ut rhoncus.",
-      "byline": "Pedro Hernandez (IV, BS-IT)",
-      "stand": "no"
-    },
-    {
-      "image-path": "assets/vox-populi/01-vox.jpg",
-      "quote": "Mauris ullamcorper diam non tortor rutrum, vitae consequat turpis cursus. Integer elementum mauris vel rhoncus ultrices.",
-      "byline": "Sofia Garcia (IV, BS-IT)",
-      "stand": "no"
-    },
-    {
-      "image-path": "assets/vox-populi/02-vox.jpg",
-      "quote": "Sed luctus sapien eget velit feugiat, ac pulvinar metus aliquet. Nam eu sem at elit pellentesque condimentum.",
-      "byline": "Miguel Fernandez (IV, BS-IT)",
-      "stand": "undecided"
-    },
-    {
-      "image-path": "assets/vox-populi/03-vox.jpg",
-      "quote": "Phasellus a enim sed elit ullamcorper auctor. Sed vehicula turpis id lacus laoreet, eu dapibus lectus sollicitudin.",
-      "byline": "Isabella Torres (IV, BS-IT)",
-      "stand": "undecided"
-    },
-    {
-      "image-path": "assets/vox-populi/04-vox.jpg",
-      "quote": "Donec eu purus maximus, accumsan felis nec, tristique justo. Duis eu odio nec ligula lobortis auctor.",
-      "byline": "Carlo Ramirez (IV, BS-IT)",
-      "stand": "undecided"
-    }
+  {
+    "firstname": "aminah",
+    "surname": "bongaros",
+    "degree": "BS Accountancy",
+    "quote": "I wish there are prayer rooms for other religions. Also, people are hesitant to approach me because there is an impression of conservatism. More awareness about the religion and other minorities would help a lot."
+  },
+  {
+    "firstname": "john lexter",
+    "surname": "cayabyab",
+    "degree": "BS Civ Eng",
+    "quote": "I failed one GE, and now I’m not eligible for Latin honor even if my CGPA is enough. I hope the next USG could lobby for a more lenient policy on Latin honors."
+  },
+  {
+    "firstname": "elijah nichol",
+    "surname": "ng",
+    "degree": "Industrial Eng",
+    "quote": "The next USG should balance the woke ideology for both sides to be seen. I’ve always been on the left side but I think there should be more rightist projects."
+  },
+  {
+    "firstname": "tamara",
+    "surname": "cloa",
+    "degree": "pol sci",
+    "quote": "As part of The Lasallian Youth Orchestra, I am thankful for the current USG for everything they’ve done for us but I wish we could be seen in more performances supported by the next USG."
+  },
+  {
+    "firstname": "rekiya",
+    "surname": "lambino",
+    "degree": "BSA",
+    "quote": "The USG had become more inclusive towards the LGBTQIA+ community and the next set of Lasallian leaders should continue what they’ve started and do more."
+  },
+  {
+    "firstname": "robin",
+    "surname": "mabanag",
+    "degree": "BS-MGT",
+    "quote": "Just retain the great run of the USG and hopefully the next USG leaders can do more."
+  },
+  {
+    "firstname": "kayla",
+    "surname": "cruz",
+    "degree": "Ab psm",
+    "quote": "I hope they build more student support and relationship-building programs among colleges"
+  },
+  {
+    "firstname": "dave",
+    "surname": "twan",
+    "degree": "BS-ENT",
+    "quote": "Implement more fun and exciting interactive activities."
+  }
 ]
