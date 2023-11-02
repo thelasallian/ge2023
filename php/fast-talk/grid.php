@@ -27,7 +27,7 @@ $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-posi
                             </span>
                         </div>
                         <div class="candidate-standWrapper">
-
+                            
                         </div>
                     </div>
                 <?php endforeach; ?>
