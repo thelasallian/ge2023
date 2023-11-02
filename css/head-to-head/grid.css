@@ -94,4 +94,5 @@
 .visible-grid {
     height: auto;
     opacity: 1;
+    overflow: visible;
 }
