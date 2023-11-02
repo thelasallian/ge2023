@@ -43,9 +43,14 @@ $(document).ready(function () {
         changeCandidateTextColor(selectedIssue);
     });
     
-    // Load the fast-talk.json data
-    var fastTalkData;
-    $.getJSON("json/fast-talk.json", function (data) {
-        fastTalkData = data;
+    // Get JSON data and it as an associative array into a variable
+    var fastTalkData = {};
+    $.ajax({
+        url: "https://raw.githubusercontent.com/thelasallian/ge2023/main/json/fast-talk.json",
+        async: false,
+        dataType: 'json',
+        success: function (data) {
+            fastTalkData = data;
+        }
     });
 });
