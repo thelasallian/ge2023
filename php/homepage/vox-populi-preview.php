@@ -1,7 +1,7 @@
 <section id="vox-populi">
     <div class="container" data-aos="zoom-in">
         <span class="tag tag-green">VOX POPULI</span>
-        <h2 class="title">What projects or initiatives do you expect from the incoming USG Admin?</h2>
+        <h2 class="title">What projects or initiatives do you expect <br/>from the incoming USG Admin?</h2>
         <a href="vox-populi.php" class="button button-black">View Gallery</a>
 
         <div class="grid-container" >
