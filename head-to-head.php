@@ -5,7 +5,7 @@
     <!-- Meta Tags, Favicons, Google Fonts, Bootstrap, all-pages.css etc. -->
     <?php require_once 'php/all-pages/head.php'; ?>
     <link rel="stylesheet" href="css/subpages.css">
-    <link rel="stylesheet" href="css/fast-talk.css">
+    <link rel="stylesheet" href="css/head-to-head.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
