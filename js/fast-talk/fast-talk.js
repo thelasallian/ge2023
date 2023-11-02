@@ -25,6 +25,13 @@ $(document).ready(function () {
                 $candidateElement.attr("src", imgNo);
             }
         });
+
+        // Trigger animation
+        $(".candidate-stand").addClass("scale-in-center");
+        setTimeout(function(){
+            $('.candidate-stand').removeClass('scale-in-center');
+            $(".candidate-stand").css("opacity", "1");
+        },1000);
     }
     
     // Attach a change event handler to the select dropdown
