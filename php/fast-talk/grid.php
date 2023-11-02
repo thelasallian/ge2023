@@ -19,8 +19,8 @@ $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-posi
                         <img src="assets/vox-populi/bongaros.jpg" class="candidate-img">
                         <div class="candidate-info">
                             <span class="candidate-name">
-                                <?= $candidate["surname"]; ?>,
-                                <?= $candidate["first_name"]; ?>
+                                <?= $candidate["surname"]; ?>
+                                <!-- <?= $candidate["first_name"]; ?> -->
                             </span>
                             <span class="candidate-party">
                                 <?= ucfirst($candidate["party"]); ?>
