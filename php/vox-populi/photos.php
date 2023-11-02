@@ -27,8 +27,8 @@ if ($photos === null) {
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
                         <p class="byline">
-                            <?= ucfirst($p["firstname"]); ?> 
-                            <?= ucfirst($p["surname"]); ?> 
+                            <?= ucwords($p["firstname"]); ?> 
+                            <?= ucwords($p["surname"]); ?> 
                             (<?= $p["degree"]; ?>)
                         </p>
                     </div>
