@@ -1,7 +1,7 @@
 {
     "positions": [
       {
-        "position_name": "PRES",
+        "position_name": "Executive President",
         "candidates": [
           {"surname": "aquino", "first_name": "mario", "party": "santapat"},
           {"surname": "santos", "first_name": "luis", "party": "tagon"},
@@ -9,26 +9,26 @@
         ]
       },
       {
-        "position_name": "VPIA",
+        "position_name": "Executive VP for Internal Affairs",
         "candidates": [
           {"surname": "castro", "first_name": "juan", "party": "santapat"}
         ]
       },
       {
-        "position_name": "VPEA",
+        "position_name": "Executive VP for External Affairs",
         "candidates": [
           {"surname": "lopez", "first_name": "maria", "party": "independent"},
           {"surname": "reyes", "first_name": "pedro", "party": "tagon"}
         ]
       },
       {
-        "position_name": "SEC",
+        "position_name": "Executive Secretary",
         "candidates": [
           {"surname": "fernandez", "first_name": "carla", "party": "santapat"}
         ]
       },
       {
-        "position_name": "TREAS",
+        "position_name": "Executive Treasurer",
         "candidates": [
           {"surname": "soriano", "first_name": "jose", "party": "independent"},
           {"surname": "garcia", "first_name": "andres", "party": "santapat"},
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "position_name": "COS",
+        "position_name": "COS College President",
         "candidates": [
           {"surname": "lim", "first_name": "raul", "party": "independent"},
           {"surname": "gonzales", "first_name": "marta", "party": "santapat"},
@@ -44,20 +44,20 @@
         ]
       },
       {
-        "position_name": "CCS",
+        "position_name": "CCS College President",
         "candidates": [
           {"surname": "martinez", "first_name": "teresa", "party": "tagon"}
         ]
       },
       {
-        "position_name": "CLA",
+        "position_name": "CLA College President",
         "candidates": [
           {"surname": "diaz", "first_name": "carlos", "party": "santapat"},
           {"surname": "chavez", "first_name": "mariana", "party": "independent"}
         ]
       },
       {
-        "position_name": "BAGCED",
+        "position_name": "BAGCED College President",
         "candidates": [
           {"surname": "fernando", "first_name": "cecilia", "party": "tagon"},
           {"surname": "sanchez", "first_name": "javier", "party": "santapat"},
@@ -65,20 +65,20 @@
         ]
       },
       {
-        "position_name": "GCOE",
+        "position_name": "GCOE College President",
         "candidates": [
           {"surname": "ortega", "first_name": "felipe", "party": "santapat"}
         ]
       },
       {
-        "position_name": "COB",
+        "position_name": "COB College President",
         "candidates": [
           {"surname": "gonzalez", "first_name": "luis", "party": "independent"},
           {"surname": "ramos", "first_name": "maria", "party": "tagon"}
         ]
       },
       {
-        "position_name": "SOE",
+        "position_name": "SOE College President",
         "candidates": [
           {"surname": "parcia", "first_name": "rodrigo", "party": "santapat"},
           {"surname": "villanueva", "first_name": "luz", "party": "independent"},
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "position_name": "LCSG",
+        "position_name": "LCSG College President",
         "candidates": [
           {"surname": "delacruz", "first_name": "carmen", "party": "independent"},
           {"surname": "gonzaga", "first_name": "carlo", "party": "santapat"}
