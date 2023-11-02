@@ -11,35 +11,26 @@ if ($photos === null) {
 
 <section id="vox-populi">
     <?php if ($photos !== null): // If photos were loaded successfully ?>
-        <!-- Buttons -->
-        <div class="btns-container">
-            <button id="yes" class="vox-btn active">
-                Yes
-            </button>
-            <button id="undecided" class="vox-btn">
-                Undecided
-            </button>
-            <button id="no" class="vox-btn">
-                No
-            </button>
-        </div>
-
         <!-- Photo Grid -->
         <div class="grid-container">
             <?php foreach ($photos as $p): // For each photo, make a grid item ?>
                 <div 
-                 class="grid-item <?= $p["stand"]; ?>"
+                 class="grid-item"
                  data-aos="fade-up"
                  data-aos-duration="1000">
                     <!-- Picture -->
                     <img 
-                     src="<?= $p["image-path"]; ?>"
-                     class="photo <?= $p["stand"]; ?>"
+                     src="assets/vox-populi/<?= $p["surname"]; ?>.jpg"
+                     class="photo"
                      oncontextmenu="return false;">
                     <!-- Wrapper for Details -->
                     <div class="details">
                         <p class="quote"><?= $p["quote"]; ?></p>
-                        <p class="byline"><?= $p["byline"]; ?></p>
+                        <p class="byline">
+                            <?= ucfirst($p["firstname"]); ?> 
+                            <?= ucfirst($p["surname"]); ?> 
+                            (<?= $p["degree"]; ?>)
+                        </p>
                     </div>
                 </div>
             <?php endforeach; ?>

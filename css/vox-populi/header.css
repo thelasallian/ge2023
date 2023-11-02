@@ -6,3 +6,7 @@
     font-weight: normal;
     font-size: 2em;
 }
+
+.subpage-header .subtitle {
+    max-width: 800px;
+}

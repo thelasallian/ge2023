@@ -16,7 +16,7 @@ require_once("php/subpages/header-template.php");
 ?>
 
 <!-- Vox Populi Question -->
-<div class="container d-flex justify-content-center">
+<!-- <div class="container d-flex justify-content-center"> -->
     <!-- TODO: Replace with actual question -->
-    <h3 class="vox-populi-question">Lorem ipsum dolor sit amet consectetur?</h3>
-</div>
+    <!-- <h3 class="vox-populi-question">Lorem ipsum dolor sit amet consectetur?</h3> -->
+<!-- </div> -->
