@@ -5,6 +5,18 @@
     padding: 4rem 0;
 }
 
+@media screen and (max-width: 1200px) {
+    #fastTalkGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #fastTalkGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .candidateCard {
     margin-bottom: 0.75rem;
     background-color: #fff;
