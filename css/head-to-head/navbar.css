@@ -1,0 +1,23 @@
+nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem 0;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .button {
+    width: 200px;
+    margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 450px) {
+    nav .button {
+        width: max-content;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}

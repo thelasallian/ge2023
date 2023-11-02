@@ -73,6 +73,24 @@
     color: white;
 }
 
+.button-green {
+    color: var(--green);
+    border-color: var(--green);
+}
+
+.button-green::before {
+    background-color: var(--green);
+}
+
+.button-green:hover {
+    color: white;
+}
+
+.button-green-active {
+    background-color: var(--green);
+    color: white;
+}
+
 @media only screen and (max-width: 550px) {
     .button {
         font-size: .7em;
