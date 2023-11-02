@@ -16,7 +16,7 @@ $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-posi
                 <?php foreach ($position["candidates"] as $candidate) : ?>
                     <div class="candidateCard">
                         <!-- Image -->
-                        <img src="assets/vox-populi/bongaros.jpg" class="candidate-img">
+                        <img src="assets/vox-populi/bongaros.JPG" class="candidate-img">
                         <div class="candidate-info">
                             <span class="candidate-name">
                                 <?= $candidate["surname"]; ?>,
