@@ -39,6 +39,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .candidate-name {
@@ -52,7 +53,9 @@
 }
 
 .candidate-standWrapper {
-    background-color: blue;
     width: 4.5rem;
     height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
