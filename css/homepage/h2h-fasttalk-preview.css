@@ -19,6 +19,8 @@
     position: relative;
     color: white;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .greenPreview::before {
@@ -46,4 +48,40 @@
 
 #h2h-fastTalk .button {
     width: max-content;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+    #h2h-fastTalk .container {
+        grid-template-columns: 1fr;
+    }
+
+    .greenPreview {
+        flex-direction: row;
+    }
+    
+    .greenPreview-info {
+        align-items: start;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .greenPreview-imgWrapper {
+        height: auto;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #h2h-fastTalk .container {
+        grid-template-columns: 1fr;
+    }
+
+    .greenPreview-img {
+        width: 90%;
+    }
+
+    .greenPreview-imgWrapper {
+        height: auto;
+        margin-bottom: 2rem;
+    }
 }
