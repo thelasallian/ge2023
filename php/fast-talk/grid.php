@@ -1,13 +1,14 @@
 <?php
 // Convert JSON to associative array (true parameter)
 $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubusercontent.com/thelasallian/ge2023/main/json/candidates-per-position.json'), true);
+// $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-position.json'), true);
 ?>
 
 <div class="container">
     <div id="fastTalkGrid">
         <!-- For each position, make a grid item -->
         <?php foreach ($candidatesPerPosition["positions"] as $position) : ?>
-            <div class="fastTalkGrid-Item">
+            <div class="fastTalkGrid-Item <?= $position["class"]; ?>">
                 <!-- Position Label -->
                 <span class="tag tag-gray">
                     <?= $position["position_name"]; ?>
@@ -27,7 +28,7 @@ $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubuserco
                             </span>
                         </div>
                         <div class="candidate-standWrapper">
-                            <img src="assets/fast-talk/white.svg" id="<?= $candidate["surname"]; ?>" class="candidate-stand">
+                            <img src="assets/fast-talk/white.svg" id="<?= $candidate["identifier"]; ?>" class="candidate-stand">
                         </div>
                     </div>
                 <?php endforeach; ?>
