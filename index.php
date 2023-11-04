@@ -23,9 +23,6 @@
     <!-- Voter turnout -->
     <?php include_once 'php/homepage/voter-turnout-preview.php'; ?>
 
-    <!-- Infographic -->
-    <?php include_once 'php/homepage/infographic.php'; ?>
-
     <!-- Vox Populi -->
     <?php include_once 'php/homepage/vox-populi-preview.php'; ?>
 
