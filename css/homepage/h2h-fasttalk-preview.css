@@ -1,7 +1,3 @@
-#h2h-fastTalk {
-    /* margin: 2rem 0; */
-}
-
 #h2h-fastTalk .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

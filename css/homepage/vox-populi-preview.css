@@ -1,7 +1,3 @@
-#vox-populi {
-    /* margin: 4rem 0 2rem; */
-}
-
 #vox-populi .container{
     display: flex;
     flex-direction: column;
@@ -41,10 +37,6 @@
         height: 18rem;
     }
 
-    #vox-populi .container{
-        /* padding: 1.5rem; */
-    }
-
     #vox-populi .title {
         font-size: 2rem;
     }
@@ -57,10 +49,6 @@
 
     #vox-populi .grid-item {
         height: 13rem;
-    }
-
-    #vox-populi .container{
-        /* padding: 1rem; */
     }
 }
 
