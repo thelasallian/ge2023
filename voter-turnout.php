@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/voter-turnout.css">
 
     <!-- Title Meta -->
-    <meta property="og:title" content="Voter turnout in the last five years - The LaSallian GE 2023 Special" />
+    <meta property="og:title" content="Voter turnout in the last five years - The LaSallian SE 2023 Special" />
     <!-- Description that appears below website title when shared in social media -->
-    <meta name="description" content="The LaSallian's special for the 2023 General Elections">
+    <meta name="description" content="The LaSallian's special for the 2023 Special Elections">
 
     <!-- Document Title -->
     <title>Voter turnout in the last five years - The LaSallian SE 2023 Special</title>

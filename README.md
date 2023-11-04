@@ -1,6 +1,6 @@
-# On different pages: 2023 General Elections
+# On different pages: 2023 Special Elections
 
-**The LaSallian**'s special issue for De La Salle University-University Student Government's 2023 General Elections. The issue is released as a print magazine and a web special. The latter's source code may be found in this repository.
+**The LaSallian**'s special issue for De La Salle University-University Student Government's 2023 Special Elections. The issue is released as a print magazine and a web special. The latter's source code may be found in this repository.
 
 Once deployed, the web special will be live at [ge2023.thelasallian.com](ge2023.thelasallian.com).
 
