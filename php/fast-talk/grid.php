@@ -1,7 +1,7 @@
 <?php
 // Convert JSON to associative array (true parameter)
-// $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubusercontent.com/thelasallian/ge2023/main/json/candidates-per-position.json'), true);
-$candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-position.json'), true);
+$candidatesPerPosition = json_decode(file_get_contents('https://raw.githubusercontent.com/thelasallian/ge2023/main/json/candidates-per-position.json'), true);
+// $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-position.json'), true);
 ?>
 
 <div class="container">

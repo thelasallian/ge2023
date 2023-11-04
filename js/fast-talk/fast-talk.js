@@ -79,8 +79,8 @@ $(document).ready(function () {
     // Get JSON data and it as an associative array into a variable
     var fastTalkData = {};
     $.ajax({
-        // url: "https://raw.githubusercontent.com/thelasallian/ge2023/main/json/fast-talk.json",
-        url: "json/fast-talk.json",
+        url: "https://raw.githubusercontent.com/thelasallian/ge2023/main/json/fast-talk.json",
+        // url: "json/fast-talk.json",
         async: false,
         dataType: 'json',
         success: function (data) {
