@@ -3,7 +3,7 @@
     padding: 2rem 4rem;
     display: flex;
     align-items: center;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 #voterTurnout-wrapper::before {

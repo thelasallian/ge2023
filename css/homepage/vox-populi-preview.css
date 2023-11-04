@@ -1,5 +1,5 @@
 #vox-populi {
-    margin: 4rem 0 2rem;
+    /* margin: 4rem 0 2rem; */
 }
 
 #vox-populi .container{
@@ -28,8 +28,7 @@
 }
 
 #vox-populi .grid-item {
-    width: 95%;
-    height: 95%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -43,7 +42,7 @@
     }
 
     #vox-populi .container{
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
     }
 
     #vox-populi .title {
@@ -61,7 +60,7 @@
     }
 
     #vox-populi .container{
-        padding: 1rem;
+        /* padding: 1rem; */
     }
 }
 
