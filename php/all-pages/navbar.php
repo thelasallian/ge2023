@@ -26,19 +26,31 @@
         <li>
             <a href="#articles" class="nav-anchor">
                 <img src="assets/homepage/articles/03-women.jpg" class="link-img">
-                <span class="link-txt">Articles</span>
+                <span class="link-txt">Feature Articles</span>
             </a>
         </li>
         <li>
-            <a href="#infographic" class="nav-anchor">
+            <a href="#voter-turnout" class="nav-anchor">
                 <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
-                <span class="link-txt">Voter turnout through the years</span>
+                <span class="link-txt">Voter Turnout in the Last Five Years</span>
+            </a>
+        </li>
+        <li>
+            <a href="#h2h" class="nav-anchor">
+                <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                <span class="link-txt">Head to Head Articles</span>
+            </a>
+        </li>
+        <li>
+            <a href="#fast-talk" class="nav-anchor">
+                <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                <span class="link-txt">Fast Talk</span>
             </a>
         </li>
         <li>
             <a href="#vox-populi" class="nav-anchor">
                 <img src="assets/homepage/articles/05-usg.jpg" class="link-img">
-                <span class="link-txt">Thoughts on a two-party system</span>
+                <span class="link-txt">Vox Populi</span>
             </a>
         </li>
     </ul>
