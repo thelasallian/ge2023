@@ -10,9 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Title Meta -->
-    <meta property="og:title" content="Fast Talk - The LaSallian GE 2023 Special" />
+    <meta property="og:title" content="Fast Talk - The LaSallian SE 2023 Special" />
     <!-- Description that appears below website title when shared in social media -->
-    <meta name="description" content="The LaSallian's special for the 2023 General Elections">
+    <meta name="description" content="The LaSallian's special for the 2023 Special Elections">
 
     <!-- Document Title -->
     <title>Fast Talk - The LaSallian SE 2023 Special</title>
