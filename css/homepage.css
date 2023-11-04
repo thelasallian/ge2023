@@ -8,6 +8,7 @@
 @import url('./homepage/infographic.css');
 @import url('./homepage/vox-populi-preview.css');
 @import url('./homepage/editors-note.css');
+@import url('./homepage/voter-turnout-preview.css');
 
 /* For anchor links, offset the scroll snap to 2.75rem above the section.
    This avoid the navbar from overlapping on top of the section. */

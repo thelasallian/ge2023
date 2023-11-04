@@ -20,6 +20,9 @@
     <!-- Articles -->
     <?php include_once 'php/homepage/articles.php'; ?>
 
+    <!-- Voter turnout -->
+    <?php include_once 'php/homepage/voter-turnout-preview.php'; ?>
+
     <!-- Infographic -->
     <?php include_once 'php/homepage/infographic.php'; ?>
 
