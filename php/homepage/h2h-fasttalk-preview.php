@@ -11,7 +11,7 @@
                 <!-- <a class="button button-white">Coming Soon</a> -->
             </div>
         </div>
-        <div id="fastTalk" class="greenPreview">
+        <div id="fast-talk" class="greenPreview">
             <div class="greenPreview-imgWrapper">
                 <img src="assets/homepage/fast-talk.png" class="greenPreview-img">
             </div>
