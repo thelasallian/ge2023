@@ -32,7 +32,7 @@
     <div class="container">
         <select name="select-issue" id="select-issue">
             <option selected disabled>Select an Issue</option>
-            <optgroup label="Yes or No">
+            <optgroup label="Yes or No" id="yes-or-no-optgroup">
                 <option value="issue1">issue1</option>
                 <option value="issue2">issue2</option>
                 <option value="issue3">issue3</option>
@@ -41,7 +41,7 @@
                 <option value="issue6">issue6</option>
                 <option value="issue7">issue7</option>
             </optgroup>
-            <optgroup label="0.0 to 4.0">
+            <optgroup label="0.0 to 4.0" id="graded-optgroup">
                 <option value="issue8">issue8</option>
                 <option value="issue9">issue9</option>
                 <option value="issue10">issue10</option>
