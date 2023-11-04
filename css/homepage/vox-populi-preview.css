@@ -1,13 +1,9 @@
-#vox-populi {
-    padding: 2rem 0;
-}
-
 #vox-populi .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 4rem;
+    padding: 0 4rem;
 }
 
 #vox-populi .tag {
@@ -28,8 +24,7 @@
 }
 
 #vox-populi .grid-item {
-    width: 95%;
-    height: 95%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -40,10 +35,6 @@
 
     #vox-populi .grid-item {
         height: 18rem;
-    }
-
-    #vox-populi .container{
-        padding: 1.5rem;
     }
 
     #vox-populi .title {
@@ -58,10 +49,6 @@
 
     #vox-populi .grid-item {
         height: 13rem;
-    }
-
-    #vox-populi .container{
-        padding: 1rem;
     }
 }
 

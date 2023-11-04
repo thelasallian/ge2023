@@ -8,11 +8,16 @@
 @import url('./homepage/infographic.css');
 @import url('./homepage/vox-populi-preview.css');
 @import url('./homepage/editors-note.css');
+@import url('./homepage/voter-turnout-preview.css');
+@import url('./homepage/h2h-fasttalk-preview.css');
 
 /* For anchor links, offset the scroll snap to 2.75rem above the section.
    This avoid the navbar from overlapping on top of the section. */
 #articles,
-#infographic,
-#vox-populi {
+#voter-turnout, 
+#h2h-fastTalk, 
+#vox-populi,
+#editors-note {
     scroll-margin-top: 2.75rem; /* Height of navbar */
+    margin: 4rem 0;
 }
