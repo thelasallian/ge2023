@@ -6,6 +6,9 @@
 <meta property="og:image" content="assets/social-media/thumbnail.jpg">
 <meta property="og:image:type" content="image/jpg">
 
+<!-- ALlows TG to update -->
+<meta prefix="og: http://ogp.me/ns#" /> 
+
 <!-- Favicons -->
 <link rel="icon" href="https://thelasallian.com/wp-content/uploads/2020/06/LOGO.png" sizes="32x32" />
 <link rel="icon" href="https://thelasallian.com/wp-content/uploads/2020/06/LOGO.png" sizes="192x192" />
