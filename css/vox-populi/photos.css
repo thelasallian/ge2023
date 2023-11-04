@@ -22,7 +22,7 @@
 }
 
 #vox-populi .grid-item:nth-child(7) {
-    grid-column: 2 / 4;  /* Center columns of the 4-column grid */
+    /* grid-column: 2 / 4;  /* Center columns of the 4-column grid */
     
 }
 
@@ -90,7 +90,7 @@
     }
 
     #vox-populi .grid-item {
-        grid-column: span 2 !important; /* Each item takes up 2 columns */
+        grid-column: span 2; /* Each item takes up 2 columns */
     }
 
     /* Center 3rd photo */
