@@ -1,6 +1,7 @@
 {
   "candidates": [
     {
+      "identifier": "aquinoM",
       "surname": "aquino",
       "issue1": "yes",
       "issue2": "no",
@@ -18,7 +19,8 @@
       "issue14": "3.0"
     },
     {
-      "surname": "santos",
+      "identifier": "aquinoL",
+      "surname": "aquino",
       "issue1": "no",
       "issue2": "yes",
       "issue3": "yes",
@@ -35,6 +37,7 @@
       "issue14": "2.0"
     },
     {
+      "identifier": "gomez",
       "surname": "gomez",
       "issue1": "yes",
       "issue2": "no",
@@ -52,6 +55,7 @@
       "issue14": "1.0"
     },
     {
+      "identifier": "castro",
       "surname": "castro",
       "issue1": "yes",
       "issue2": "yes",
@@ -69,6 +73,7 @@
       "issue14": "0.0"
     },
     {
+      "identifier": "lopez",
       "surname": "lopez",
       "issue1": "no",
       "issue2": "yes",
@@ -86,6 +91,7 @@
       "issue14": "3.0"
     },
     {
+      "identifier": "reyes",
       "surname": "reyes",
       "issue1": "yes",
       "issue2": "no",
@@ -103,6 +109,7 @@
       "issue14": "2.0"
     },
     {
+      "identifier": "fernandez",
       "surname": "fernandez",
       "issue1": "no",
       "issue2": "yes",
@@ -120,6 +127,7 @@
       "issue14": "1.0"
     },
     {
+      "identifier": "soriano",
       "surname": "soriano",
       "issue1": "yes",
       "issue2": "no",
@@ -137,6 +145,7 @@
       "issue14": "0.0"
     },
     {
+      "identifier": "garcia",
       "surname": "garcia",
       "issue1": "yes",
       "issue2": "yes",
@@ -154,6 +163,7 @@
       "issue14": "3.0"
     },
     {
+      "identifier": "torres",
       "surname": "torres",
       "issue1": "no",
       "issue2": "no",
@@ -171,6 +181,7 @@
       "issue14": "2.0"
     },
     {
+      "identifier": "lim",
       "surname": "lim",
       "issue1": "yes",
       "issue2": "yes",
@@ -188,6 +199,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "gonzales",
       "surname": "gonzales",
       "issue1": "no",
       "issue2": "no",
@@ -205,6 +217,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "cruz",
       "surname": "cruz",
       "issue1": "yes",
       "issue2": "yes",
@@ -222,6 +235,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "martinez",
       "surname": "martinez",
       "issue1": "no",
       "issue2": "no",
@@ -239,6 +253,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "diaz",
       "surname": "diaz",
       "issue1": "yes",
       "issue2": "yes",
@@ -256,6 +271,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "chavez",
       "surname": "chavez",
       "issue1": "no",
       "issue2": "yes",
@@ -273,6 +289,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "fernando",
       "surname": "fernando",
       "issue1": "yes",
       "issue2": "yes",
@@ -290,6 +307,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "sanchez",
       "surname": "sanchez",
       "issue1": "no",
       "issue2": "yes",
@@ -307,6 +325,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "rey",
       "surname": "rey",
       "issue1": "yes",
       "issue2": "no",
@@ -324,6 +343,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "ortega",
       "surname": "ortega",
       "issue1": "no",
       "issue2": "yes",
@@ -341,6 +361,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "gonzalez",
       "surname": "gonzalez",
       "issue1": "yes",
       "issue2": "no",
@@ -358,6 +379,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "ramos",
       "surname": "ramos",
       "issue1": "no",
       "issue2": "yes",
@@ -375,6 +397,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "parcia",
       "surname": "parcia",
       "issue1": "yes",
       "issue2": "no",
@@ -392,6 +415,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "villanueva",
       "surname": "villanueva",
       "issue1": "no",
       "issue2": "yes",
@@ -409,6 +433,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "wang",
       "surname": "wang",
       "issue1": "yes",
       "issue2": "yes",
@@ -426,6 +451,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "delacruz",
       "surname": "delacruz",
       "issue1": "no",
       "issue2": "no",
@@ -443,6 +469,7 @@
       "issue14": "n/a"
     },
     {
+      "identifier": "gonzaga",
       "surname": "gonzaga",
       "issue1": "yes",
       "issue2": "no",

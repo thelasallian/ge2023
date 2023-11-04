@@ -8,7 +8,7 @@ $(document).ready(function () {
         // Loop through the candidates in fast-talk.json
         $.each(fastTalkData.candidates, function (index, candidate) {
             // Get the candidate element by their surname
-            var $candidateElement = $("#" + candidate.surname);
+            var $candidateElement = $("#" + candidate.identifier);
             
             // Check the value for the selected issue for this candidate
             var issueValue = candidate[selectedIssue];

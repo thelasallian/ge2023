@@ -28,7 +28,7 @@ $candidatesPerPosition = json_decode(file_get_contents('json/candidates-per-posi
                             </span>
                         </div>
                         <div class="candidate-standWrapper">
-                            <img src="assets/fast-talk/white.svg" id="<?= $candidate["surname"]; ?>" class="candidate-stand">
+                            <img src="assets/fast-talk/white.svg" id="<?= $candidate["identifier"]; ?>" class="candidate-stand">
                         </div>
                     </div>
                 <?php endforeach; ?>
