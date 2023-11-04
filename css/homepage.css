@@ -10,6 +10,7 @@
 @import url('./homepage/editors-note.css');
 @import url('./homepage/voter-turnout-preview.css');
 @import url('./homepage/h2h-fasttalk-preview.css');
+@import url('./homepage/how-to-vote.css');
 
 /* For anchor links, offset the scroll snap to 3.5rem above the section.
    This avoid the navbar from overlapping on top of the section. */
