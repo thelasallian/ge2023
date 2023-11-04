@@ -1,7 +1,7 @@
 #nav-sticky {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.075);
-    height: 2.75rem;
+    height: 3.5rem;
     z-index: 90;
     transition: opacity 0.25s;
 }
@@ -32,6 +32,10 @@
     color: var(--dark-gray);
     opacity: 1;
     transition: opacity 0.2s;
+}
+
+#hamburger-btn .material-icons {
+    font-size: 32px;
 }
 
 #hamburger-btn:hover {
