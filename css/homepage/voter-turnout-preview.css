@@ -17,6 +17,11 @@
     mix-blend-mode: color-burn;
 }
 
+#voterTurnout-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .voterTurnout-img {
     display: block;
     margin-right: 3rem;
@@ -35,4 +40,43 @@
 
 #voter-turnout .button {
     width: max-content;
+}
+
+@media only screen and (max-width: 992px)  {
+    #voterTurnout-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .voterTurnout-img {
+        margin: 0rem 0rem 3rem 0;
+    }
+
+    #voterTurnout-info {
+        align-items: center;
+        text-align: center;
+    }
+
+    #voterTurnout-wrapper .title {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #voterTurnout-wrapper {
+        padding: 1.5rem;
+    }
+
+    .voterTurnout-img {
+        width: 100%;
+    }
+
+    #voterTurnout-wrapper .title {
+        font-size: 2rem;
+    }
+
+    #voterTurnout-wrapper .desc {
+        font-size: 0.85rem;
+    }
 }
