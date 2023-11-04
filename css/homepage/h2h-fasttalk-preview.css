@@ -1,0 +1,49 @@
+#h2h-fastTalk {
+    margin: 2rem 0;
+}
+
+#h2h-fastTalk .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.greenPreview-imgWrapper {
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenPreview {
+    position: relative;
+    color: white;
+    padding: 2rem;
+}
+
+.greenPreview::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    mix-blend-mode: multiply;
+    background-color: #126952;
+    z-index: -5;
+}
+
+.greenPreview-info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greenPreview-info .desc {
+    margin: 0 0 1.5rem;
+}
+
+#h2h-fastTalk .button {
+    width: max-content;
+}

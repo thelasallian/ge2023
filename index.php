@@ -23,6 +23,10 @@
     <!-- Voter turnout -->
     <?php include_once 'php/homepage/voter-turnout-preview.php'; ?>
 
+    <!-- H2H and Fast Talk -->
+
+    <?php include_once 'php/homepage/h2h-fasttalk-preview.php'; ?>
+
     <!-- Vox Populi -->
     <?php include_once 'php/homepage/vox-populi-preview.php'; ?>
 
