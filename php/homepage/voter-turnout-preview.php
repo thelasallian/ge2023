@@ -8,7 +8,7 @@
                 <p class="desc">
                 Fictum, deserunt mollit anim laborum astutumque! Quisque placerat facilisis egestas cillum dolore. Nec dubitamus multa iter quae et nos invenerat. Contra legem facit qui id facit quod lex prohibet. Quam diu etiam furor iste tuus nos eludet?
                 </p>
-                <a href="voter-turnout.php" class="button button-black">Read More</a>
+                <a href="/voter-turnout" class="button button-black">Read More</a>
             </div>
         </div>
     </div>
