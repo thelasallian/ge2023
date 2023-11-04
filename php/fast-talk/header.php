@@ -19,11 +19,13 @@
         </h2>
         <!-- Description -->
         <p 
-         class="description"
+         class="description mb-4"
          data-aos="fade-up"
          data-aos-duration="1000">
          Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent.
         </p>
+        <!-- View as Infog -->
+        <a href="#" class="button button-white">View as Infographic</a>
     </div>
 </header>
 
