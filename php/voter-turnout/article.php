@@ -53,4 +53,8 @@
         big hurdle thatfer the next administration must work hard to addressie figure out ways to-
         ifference toward USC polities.
     </p>
+    <br>
+    <p style="font-size: 0.75em; font-style: italic;">
+        Interactive charts by <strong>Carriele Carreon</strong>
+    </p>
 </div>
