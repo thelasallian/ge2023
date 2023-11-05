@@ -17,6 +17,10 @@
     max-width: 750px;
 }
 
+.article-container a {
+    color: var(--green);
+}
+
 .chart-wrapper {
     position: relative;
     background-color: #FFF;
