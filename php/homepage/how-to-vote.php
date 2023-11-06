@@ -8,7 +8,8 @@
                     <p class="desc">
                         Fictum, deserunt mollit anim laborum astutumque! Quisque placerat facilisis egestas cillum dolore. Nec dubitamus multa iter quae et nos invenerat.
                     </p>
-                    <a href="#" class="button button-black">View Infographic</a>
+                    <!-- <a href="#" class="button button-black">View Infographic</a> -->
+                    <a class="button button-black" style="cursor: not-allowed;">Coming Soon</a>
                 </div>
             </div>
         </div>
