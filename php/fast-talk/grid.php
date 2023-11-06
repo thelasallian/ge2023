@@ -20,8 +20,9 @@ $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubuserco
                         <img src="https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/395054616_718672283641990_5322466493134946991_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGDu22caYyHAZzU6Nt9P37NEg5TiAcvMDsSDlOIBy8wOy2eVDaTUOrEs085VlshGQz7TXs1b-MghPBrk8WrY4Hv&_nc_ohc=w-YiuuziDEkAX8O2FyX&_nc_oc=AQmcF_gyW_TFaRxB0hvPaWQruMCSoMg2S0z-Qv4Gghqo4nxlzNwGNe0-wcPtMjix-5w&_nc_ht=scontent.fmnl30-2.fna&oh=00_AfDhbJVVeozrLwlZF14VihXR4Zv46UFsw_1WdrQXjAXJJg&oe=654BB1C4" class="candidate-img">
                         <div class="candidate-info">
                             <span class="candidate-name">
-                                <?= $candidate["surname"]; ?>,
-                                <?= $candidate["first_name"]; ?>
+                                <span class="candidate-surname"><?= $candidate["surname"]; ?></span>
+                                <span class="candidate-comma" style="margin-left: -4px;">,</span>
+                                <span class="candidate-firstname"> <?= $candidate["first_name"]; ?></span>
                             </span>
                             <span class="candidate-party">
                                 <?= ucfirst($candidate["party"]); ?>
