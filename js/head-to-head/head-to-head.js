@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    $("#h2h-EB").addClass("visible-grid");
+
     $("#cp-button").click(function() {
         $("#h2h-EB").removeClass("visible-grid");
         $("#h2h-CP").addClass("visible-grid");

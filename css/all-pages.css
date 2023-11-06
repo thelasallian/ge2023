@@ -5,3 +5,9 @@
 @import url('./all-pages/footer.css');
 @import url('./all-pages/buttons.css');
 @import url('./all-pages/tags.css');
+
+.coming-soon {
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    opacity: 0.75;
+}
