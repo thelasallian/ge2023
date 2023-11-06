@@ -1,13 +1,16 @@
+.h2hGridWrapper {
+    transition: 0.4s ease;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
 .h2hGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     max-width: 1000px;
     margin: 3rem auto;
-    transition: 0.4s ease;
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
 }
 
 .h2hGrid a {
