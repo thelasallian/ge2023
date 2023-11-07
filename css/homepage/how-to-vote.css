@@ -78,6 +78,10 @@
         padding: 1.5rem;
     }
 
+    #howToVote-wrapper {
+        padding: 0;
+    }
+
     .howToVote-img {
         width: 100%;
     }
