@@ -311,3 +311,13 @@ header .tls-star {
         font-size: .85em;
     }
 }
+
+@media screen and (max-width: 320px) {
+    #header .title {
+        font-size: 2.5em;
+    }
+
+    #header .button {
+        font-size:0.65em;
+    }
+}
