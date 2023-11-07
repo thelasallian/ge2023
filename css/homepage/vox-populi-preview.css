@@ -43,6 +43,10 @@
 }
 
 @media only screen and (max-width: 450px) {
+    #vox-populi .container {
+        padding: 0 2rem;
+    }
+
     #vox-populi .grid-container {
         gap: 0.5rem;
     }
