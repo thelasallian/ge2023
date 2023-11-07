@@ -69,8 +69,6 @@
         hard to address.
     </p>
 
-    <br>
-
     <p style="font-size: 0.75em; font-style: italic;">
         Interactive charts by <strong>Carriele Carreon</strong>
     </p>

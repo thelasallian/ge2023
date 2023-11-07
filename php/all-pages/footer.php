@@ -6,7 +6,7 @@
              alt="TLS Logo"
              oncontextmenu="return false;">
         </div>
-        <p class="title py-2 fs-4">2023 Special Elections</p>
+        <p class="title py-2 fs-4">Special Elections 2023</p>
         <div class="btns-wrapper py-3">
             <a href="https://thelasallian.com" class="button button-white">Visit Main Website</a>
             <a href="#" class="button button-white">View Magazine</a>

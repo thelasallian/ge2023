@@ -31,7 +31,9 @@ $cp_comingSoon = true;
             </div>
         <?php else : ?>
             <!-- $eb_comingSoon == false -->
-            <p class="coming-soon text-center my-5 pb-5 d-block">This content is not yet available. Come back soon!<br /><br /><br /><br /></p>
+            <p class="coming-soon text-center d-flex align-items-center justify-content-center" style="height: 300px;">
+                This content is not yet available. Come back soon!
+            </p>
         <?php endif; ?>
     </div>
 
@@ -59,7 +61,9 @@ $cp_comingSoon = true;
             </div>
         <?php else : ?>
             <!-- $cp_comingSoon == false -->
-            <p class="coming-soon text-center my-5 pb-5 d-block">This content is not yet available. Come back soon!<br /><br /><br /><br /></p>
+            <p class="coming-soon text-center d-flex align-items-center justify-content-center" style="height: 300px;">
+                This content is not yet available. Come back soon!
+            </p>
         <?php endif; ?>
 
     </div>
