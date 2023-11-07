@@ -11,7 +11,7 @@
         <!-- Back Button -->
         <a
          id="back-button" 
-         href="index.php" 
+         href="/" 
          class="button button-white align-self-start"
          data-aos="fade-in"
          data-aos-delay="1100">
