@@ -16,8 +16,9 @@ nav .container {
     width: 350px;
     /* text-transform: uppercase; */
     font-weight: bold;
-    text-align: center;
+    text-align: center !important;
     border: 1px solid rgba(0, 0, 0, 0.25);
+    color: var(--gray) ! important;
     box-shadow: 4.64725px 4.64725px 0px 0px rgba(0, 0, 0, 0.05);
     -webkit-appearance: none;
     -moz-appearance: none;
