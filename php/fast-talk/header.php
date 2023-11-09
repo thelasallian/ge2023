@@ -35,22 +35,22 @@
         <select name="select-issue" id="select-issue">
             <option selected disabled>Select an Issue</option>
             <optgroup label="Yes or No" id="yes-or-no-optgroup">
-                <option value="issue1">issue1</option>
-                <option value="issue2">issue2</option>
-                <option value="issue3">issue3</option>
-                <option value="issue4">issue4</option>
-                <option value="issue5">issue5</option>
-                <option value="issue6">issue6</option>
-                <option value="issue7">issue7</option>
+                <option value="abstention">PH abstention to Israel - Palestine ceasefire</option>
+                <option value="confidential-funds">Confidential Funds</option>
+                <option value="suspend-maharlika">Suspension of the Maharlika Investment Fund</option>
+                <option value="nvc">Shift from Non-Fraternity Contract to Non-Violence Contract</option>
+                <option value="privatization-mrt-lrt">Privatization of MRT3, LRT2</option>
+                <option value="ai-academia">AI use in Academia</option>
+                <option value="deactivate-alumni-emails">Deactivating undergrad emails of alumni</option>
             </optgroup>
             <optgroup label="0.0 to 4.0" id="graded-optgroup">
-                <option value="issue8">issue8</option>
-                <option value="issue9">issue9</option>
-                <option value="issue10">issue10</option>
-                <option value="issue11">issue11</option>
-                <option value="issue12">issue12</option>
-                <option value="issue13">issue13</option>
-                <option value="issue14">issue14</option>
+                <option value="incident-response">DLSU's response to data security incident</option>
+                <option value="marcos-economy">Marcos Jr. admin’s economic performance</option>
+                <option value="usg-performance">Performance of AY 2022-2023 USG Executive Board</option>
+                <option value="ph-press-freedom">State of Philippine press freedom</option>
+                <option value="web-platforms">DLSU’s web-hosted platforms</option>
+                <option value="hybrid-setup">DLSU hybrid setup and policies</option>
+                <option value="west-ph-sea-response">Philippines' response to West Philippine Sea dispute</option>
             </optgroup>
         </select>
     </div>
