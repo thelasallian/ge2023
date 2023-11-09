@@ -37,15 +37,15 @@ $(document).ready(function () {
             switch (issueValue) {
                 case "yes": $candidateElement.attr("src", imgYes);  break;
                 case "no":  $candidateElement.attr("src", imgNo);   break;
-                case "0.0": $candidateElement.attr("src", img0_0); break;
-                case "0.5": $candidateElement.attr("src", img0_5); break;
-                case "1.0": $candidateElement.attr("src", img1_0); break;
-                case "1.5": $candidateElement.attr("src", img1_5); break;
-                case "2.0": $candidateElement.attr("src", img2_0); break;
-                case "2.5": $candidateElement.attr("src", img2_5); break;
-                case "3.0": $candidateElement.attr("src", img3_0); break;
-                case "3.5": $candidateElement.attr("src", img3_5); break;
-                case "4.0": $candidateElement.attr("src", img4_0); break;
+                case 0: $candidateElement.attr("src", img0_0); break;
+                case 0.5: $candidateElement.attr("src", img0_5); break;
+                case 1: $candidateElement.attr("src", img1_0); break;
+                case 1.5: $candidateElement.attr("src", img1_5); break;
+                case 2: $candidateElement.attr("src", img2_0); break;
+                case 2.5: $candidateElement.attr("src", img2_5); break;
+                case 3: $candidateElement.attr("src", img3_0); break;
+                case 3.5: $candidateElement.attr("src", img3_5); break;
+                case 4: $candidateElement.attr("src", img4_0); break;
             }
         });
 
