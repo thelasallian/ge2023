@@ -45,14 +45,6 @@
             ]
         },
         {
-            "position_name": "CCS College Assembly President",
-            "class": "cap",
-            "candidates": [
-                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"},
-                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"}
-            ]
-        },
-        {
             "position_name": "CLA College Assembly President",
             "class": "cap",
             "candidates": [
@@ -61,17 +53,18 @@
             ]
         },
         {
-            "position_name": "BAGCED College Assembly President",
+            "position_name": "CCS College Assembly President",
             "class": "cap",
             "candidates": [
-                {"identifier": "agcolicol", "surname": "Agcolicol", "first_name": "Miggy", "party": "Tapat"}
+                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"},
+                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"}
             ]
         },
         {
-            "position_name": "GCOE College Assembly President",
+            "position_name": "LCSG College Assembly President",
             "class": "cap",
             "candidates": [
-                {"identifier": "gamboa", "surname": "Gamboa", "first_name": "Frankie", "party": "Santugon"}
+                {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
             ]
         },
         {
@@ -91,10 +84,17 @@
             ]
         },
         {
-            "position_name": "LCSG College Assembly President",
+            "position_name": "GCOE College Assembly President",
             "class": "cap",
             "candidates": [
-                {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
+                {"identifier": "gamboa", "surname": "Gamboa", "first_name": "Frankie", "party": "Santugon"}
+            ]
+        },
+        {
+            "position_name": "BAGCED College Assembly President",
+            "class": "cap",
+            "candidates": [
+                {"identifier": "agcolicol", "surname": "Agcolicol", "first_name": "Miggy", "party": "Tapat"}
             ]
         }
     ]
