@@ -57,7 +57,7 @@ $(document).ready(function () {
         },1000);
     }
     
-    // Attach a change event handler to the select dropdown
+    // Hide CAPs for graded fast talk
     $selectIssue.on("change", function () {
         // Get the selected issue
         var selectedIssue = $(this).val();
@@ -66,7 +66,8 @@ $(document).ready(function () {
         
         if (selectedOptgroup.attr('id') === 'graded-optgroup') {
             // Hide elements with class "cap"
-            $(".cap").hide();
+            // $(".cap").hide();
+            $(".eb, .cap").show();
         } else {
             // Show elements with class "eb" and "cap"
             $(".eb, .cap").show();
