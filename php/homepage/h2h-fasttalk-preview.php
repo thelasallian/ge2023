@@ -6,7 +6,7 @@
             </div>
             <div class="greenPreview-info">
                 <h2 class="title">Head to Head</h2>
-                <p class="desc">Candidates for Special Elections 2023 sat down with The LaSallian to dig deeper into the principles they uphold and their plans for their respective offices. </p>
+                <p class="desc">Candidates for Special Elections 2023 sat down with <strong>The LaSallian</strong> to dig deeper into the principles they uphold and their plans for their respective offices. </p>
                 <a href="head-to-head.php" class="button button-white">View Articles</a>
                 <!-- <a class="button button-white" style="cursor: not-allowed;">Coming Soon</a> -->
             </div>
