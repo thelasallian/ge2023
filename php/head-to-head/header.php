@@ -22,7 +22,7 @@
          class="description"
          data-aos="fade-up"
          data-aos-duration="1000">
-         Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent.
+         Candidates for Special Elections 2023 sat down with The LaSallian to dig deeper into the principles they uphold and their plans for their respective offices. 
         </p>
     </div>
 </header>
