@@ -17,7 +17,7 @@ $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubuserco
                 <?php foreach ($position["candidates"] as $candidate) : ?>
                     <div class="candidateCard">
                         <!-- Image -->
-                        <img src="https://scontent.fmnl10-1.fna.fbcdn.net/v/t39.30808-6/395054616_718672283641990_5322466493134946991_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGDu22caYyHAZzU6Nt9P37NEg5TiAcvMDsSDlOIBy8wOy2eVDaTUOrEs085VlshGQz7TXs1b-MghPBrk8WrY4Hv&_nc_ohc=hHtgAHZ7fpAAX_89IQO&_nc_oc=AQl6zRhmaJ5wG-MSUbUmYVgsBF9xvZm-nIVY4DbMvF0hqesZV709Pc93F504-ALeyJA&_nc_ht=scontent.fmnl10-1.fna&oh=00_AfDXmD-qq_g_ZshfDAuoSqa2b8Hvd-_4YzKsCaw99jMPNA&oe=6551A084" class="candidate-img">
+                        <img src="assets/fast-talk/candidates/<?= $candidate["surname"]; ?>.JPG" class="candidate-img">
                         <div class="candidate-info">
                             <span class="candidate-name">
                                 <span class="candidate-surname"><?= $candidate["surname"]; ?></span>
