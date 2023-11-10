@@ -22,7 +22,7 @@
          class="description mb-4"
          data-aos="fade-up"
          data-aos-duration="1000">
-         Curabitur blandit tempus ardua ridiculus sed magna. Sed haec quis possit intrepidus aestimare tellus. Quisque ut dolor gravida, placerat libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent.
+            USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University in this year's Fast Talk. 
         </p>
         <!-- View as Infog -->
         <a href="#" class="button button-white">View as Infographic</a>

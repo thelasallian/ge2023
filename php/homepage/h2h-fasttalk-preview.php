@@ -17,7 +17,7 @@
             </div>
             <div class="greenPreview-info">
                 <h2 class="title">Fast Talk</h2>
-                <p class="desc">Ab illo tempore, ab est sed immemorabili. Cum sociis natoque penatibus et magnis dis parturient. Quam diu etiam furor iste tuus nos eludet? Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <p class="desc">USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University in this year's Fast Talk. </p>
                 <a href="fast-talk.php" class="button button-white">View Interactive</a>
                 <!-- <a class="button button-white" style="cursor: not-allowed;">Coming Soon</a> -->
             </div>
