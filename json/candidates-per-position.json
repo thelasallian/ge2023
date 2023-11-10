@@ -38,14 +38,14 @@
             ]
         },
         {
-            "position_name": "COS College Assembly President",
+            "position_name": "COS College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "rawash", "surname": "Rawash", "first_name": "Sheri", "party": "Tapat"}
             ]
         },
         {
-            "position_name": "CLA College Assembly President",
+            "position_name": "CLA College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"},
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "position_name": "CCS College Assembly President",
+            "position_name": "CCS College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"},
@@ -61,14 +61,14 @@
             ]
         },
         {
-            "position_name": "LCSG College Assembly President",
+            "position_name": "LCSG College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
             ]
         },
         {
-            "position_name": "RVRCOB College Assembly President",
+            "position_name": "RVRCOB College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "engbino", "surname": "Engbino", "first_name": "Michelle", "party": "Tapat"},
@@ -76,7 +76,7 @@
             ]
         },
         {
-            "position_name": "SOE College Assembly President",
+            "position_name": "SOE College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"},
@@ -84,14 +84,14 @@
             ]
         },
         {
-            "position_name": "GCOE College Assembly President",
+            "position_name": "GCOE College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "gamboa", "surname": "Gamboa", "first_name": "Frankie", "party": "Santugon"}
             ]
         },
         {
-            "position_name": "BAGCED College Assembly President",
+            "position_name": "BAGCED College President",
             "class": "cap",
             "candidates": [
                 {"identifier": "agcolicol", "surname": "Agcolicol", "first_name": "Miggy", "party": "Tapat"}
