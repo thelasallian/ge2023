@@ -1,5 +1,5 @@
 <div class="container">
-    <section id="editors-note" data-aos="zoom-in">
+    <section id="editors-note">
         <h2 class="title">Editor's Note</h2>
         <div class="description">
             <p>
