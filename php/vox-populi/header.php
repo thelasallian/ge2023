@@ -2,14 +2,9 @@
 // Text to display
 $id          = "vox-populi-header";
 $title       = "Vox Populi";
-$author_1    = "Michael Hamza Mustapha";
+$author_1    = "Michael Hamza Mustapha, Maxine Lee,";
 $author_2    = "Gilliane Luy";
-$description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam 
-                velit animi, quia nisi voluptates laboriosam minus, sint ducimus 
-                id natus neque maiores aliquid perspiciatis hic asperiores dignissimos 
-                assumenda. Dolore quo explicabo eum ullam, cum minus iste facere 
-                perferendis rerum minima, tenetur error magnam, iure odit eligendi 
-                dolores aliquam accusantium corporis.";
+$description = "To build a comprehensive narrative, working with different perspectives is often crucial. The LaSallian's photographers discovers that students envision the next chapter of DLSU's student leadership differently, entrusting it to the next USG officers to put everyone's hopes on the same page.";
 
 // Render HTML for the header
 require_once("php/subpages/header-template.php");

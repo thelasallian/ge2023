@@ -7,7 +7,7 @@
                     <span class="tag tag-green">Infographic</span>
                     <h2 class="title">How to Vote</h2>
                     <p class="desc">
-                        Fictum, deserunt mollit anim laborum astutumque! Quisque placerat facilisis egestas cillum dolore. Nec dubitamus multa iter quae et nos invenerat.
+                    DLSU Comelec confirmed that this year's elections will remain online. This infographic provides a step-by-step guide on how to lock in your vote.
                     </p>
                     <!-- <a href="#" class="button button-black">View Infographic</a> -->
                     <a class="button button-black" style="cursor: not-allowed;">Coming Soon</a>
