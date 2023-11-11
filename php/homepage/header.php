@@ -4,41 +4,22 @@
         <!-- Title and Buttons Wrapper -->
         <div class="title-btns-wrapper">
             <!-- TLS Star -->
-            <img 
-             src="assets/all-pages/tls-star-white.svg" 
-             oncontextmenu="return false;"
-             class="tls-star"
-             data-aos="fade-in"
-             data-aos-delay="1100">
+            <img src="assets/all-pages/tls-star-white.svg" oncontextmenu="return false;" class="tls-star" data-aos="fade-in" data-aos-delay="1100">
 
             <!-- Title -->
-            <h1 
-             class="title"
-             data-aos="fade-down"
-             data-aos-delay="500"
-             data-aos-duration="1000">
+            <h1 class="title" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
                 <!-- Typing Animation -->
                 <span id="typed"></span>
             </h1>
 
             <!-- Buttons -->
-            <div 
-             class="btns-wrapper"
-             data-aos="fade-down"
-             data-aos-delay="500"
-             data-aos-duration="1000">
+            <div class="btns-wrapper" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000">
                 <!-- About the Cover Button -->
-                <button 
-                 id="about-cover-btn" 
-                 class="button button-white" 
-                 onclick="displayAboutTheCover()">
+                <button id="about-cover-btn" class="button button-white" onclick="displayAboutTheCover()">
                     About the Cover
                 </button>
                 <!-- View Content Button -->
-                <a 
-                 id="view-content-btn" 
-                 href="#articles" 
-                 class="button button-white">
+                <a id="view-content-btn" href="#articles" class="button button-white">
                     View Content
                 </a>
             </div>
@@ -47,20 +28,9 @@
         <!-- Art Wrapper -->
         <div class="art-wrapper">
             <!-- Art for Landscape Screens (Faux Image Hack) -->
-            <div 
-             class="art-landscape" 
-             data-aos="fade-up"
-             data-aos-delay="500"
-             data-aos-duration="1000"></div>
+            <div class="art-landscape" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000"></div>
             <!-- Art for Portrait Screens -->
-            <img 
-             src="assets/homepage/cover/cover-art-portrait.png" 
-             class="art-portrait"
-             oncontextmenu="return false;"
-             data-aos="fade-up"
-             data-aos-delay="500"
-             data-aos-duration="1000"
-             data-aos-offset="-100" />
+            <img src="assets/homepage/cover/cover-art-portrait.png" class="art-portrait" oncontextmenu="return false;" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-offset="-100" />
         </div>
     </header>
 
@@ -71,18 +41,15 @@
             <!-- Title -->
             <h2>About the Cover</h2>
             <p>
-                The cover explores the evolution of an idea into the University 
-                Student Government we know today. It should aim to move forward 
-                but not forget; it should strive to stay grounded but never limit 
-                itself. We encourage our readers—no matter their personal 
-                opinions—to reflect on the origins of the USG, as well as the 
-                advancing standards it must meet to keep up with the times.
+                Confused systems and long-standing dissonance has long plagued
+                the University Student Government (USG). While the USG and its
+                constituents are supposedly under one system, everyone has been
+                on different pages. There is a disconnect on how we understand
+                and perceive things, and between how things are and how things
+                should be.
             </p>
             <!-- Back Button -->
-            <button 
-             id="about-cover-btn" 
-             class="button button-white" 
-             onclick="hideAboutTheCover()">
+            <button id="about-cover-btn" class="button button-white" onclick="hideAboutTheCover()">
                 Back
             </button>
         </div>
@@ -91,9 +58,7 @@
             <!-- Art for Landscape Screens -->
             <div class="art-landscape"></div>
             <!-- Art for Portrait Screens -->
-            <img 
-             src="assets/homepage/cover/cover-art-portrait.png" 
-             class="art-portrait">
+            <img src="assets/homepage/cover/cover-art-portrait.png" class="art-portrait">
         </div>
     </section>
 </div>
