@@ -19,6 +19,14 @@
 #h2h-fastTalk, 
 #vox-populi,
 #editors-note {
-    scroll-margin-top: 3.5rem; /* Height of navbar */
     margin: 4rem 0;
+}
+
+#articles,
+#voter-turnout, 
+#h2h,
+#fast-talk, 
+#vox-populi,
+#editors-note {
+    scroll-margin-top: 5.5rem; /* Height of navbar */
 }
