@@ -12,7 +12,7 @@
             "position_name": "Executive VP for Internal Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "francisco", "surname": "Francisco", "first_name": "Ashley", "party": "Santugon"}
+                {"identifier": "francisco", "surname": "Francisco", "first_name": "Ashley", "party": "Santugon"},
                 {"identifier": "teng", "surname": "Teng", "first_name": "Hannah", "party": "Tapat"}
             ]
         },
@@ -20,7 +20,7 @@
             "position_name": "Executive VP for External Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"}
+                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"},
                 {"identifier": "pulumbarit", "surname": "Pulumbarit", "first_name": "Moi", "party": "Tapat"}
             ]
         },
