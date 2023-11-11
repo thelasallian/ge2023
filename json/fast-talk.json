@@ -19,6 +19,24 @@
 			"west-ph-sea-response": 2
 		},
 		{
+			"identifier": "penaflor",
+			"surname": "Peñaflor",
+			"abstention": "no",
+			"confidential-funds": "no",
+			"suspend-maharlika": "yes",
+			"nvc": "yes",
+			"privatization-mrt-lrt": "no",
+			"ai-academia": "yes",
+			"deactivate-alumni-emails": "no",
+			"incident-response": 2,
+			"marcos-economy": 0,
+			"usg-performance": 3,
+			"ph-press-freedom": 1,
+			"web-platforms": 2,
+			"hybrid-setup": 3,
+			"west-ph-sea-response": 2
+		},
+		{
 			"identifier": "francisco",
 			"surname": "Francisco",
 			"abstention": "no",
@@ -73,6 +91,24 @@
 			"west-ph-sea-response": 3
 		},
 		{
+			"identifier": "pulumbarit",
+			"surname": "Pulumbarit",
+			"abstention": "no",
+			"confidential-funds": "no",
+			"suspend-maharlika": "yes",
+			"nvc": "yes",
+			"privatization-mrt-lrt": "no",
+			"ai-academia": "yes",
+			"deactivate-alumni-emails": "no",
+			"incident-response": 2,
+			"marcos-economy": 1,
+			"usg-performance": 3,
+			"ph-press-freedom": 1,
+			"web-platforms": 1,
+			"hybrid-setup": 2,
+			"west-ph-sea-response": 2
+		},
+		{
 			"identifier": "khan",
 			"surname": "Khan",
 			"abstention": "no",
@@ -89,6 +125,24 @@
 			"web-platforms": 3,
 			"hybrid-setup": 3,
 			"west-ph-sea-response": 1
+		},
+		{
+			"identifier": "salapantan",
+			"surname": "Salapantan",
+			"abstention": "no",
+			"confidential-funds": "no",
+			"suspend-maharlika": "yes",
+			"nvc": "yes",
+			"privatization-mrt-lrt": "no",
+			"ai-academia": "yes",
+			"deactivate-alumni-emails": "no",
+			"incident-response": 1,
+			"marcos-economy": 1,
+			"usg-performance": 3.5,
+			"ph-press-freedom": 1,
+			"web-platforms": 1,
+			"hybrid-setup": 2,
+			"west-ph-sea-response": 2
 		},
 		{
 			"identifier": "rivera",

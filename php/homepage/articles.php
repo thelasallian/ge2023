@@ -26,7 +26,7 @@ $count = 1;
                         <div class="visual-container">
                             <a href="<?= $a["article-url"]; ?>">
                                 <img 
-                                 src="<?= $a["image-path"]; ?>" 
+                                 src="assets/homepage/articles/<?= $a["image-path"]; ?>" 
                                  class="visual"
                                  oncontextmenu="return false;">
                             </a>

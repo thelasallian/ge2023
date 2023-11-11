@@ -4,37 +4,40 @@
             "position_name": "Executive President",
             "class": "eb",
             "candidates": [
-                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"}
+                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"},
+                {"identifier": "penaflor", "surname": "Peñaflor", "first_name": "Ina", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive VP for Internal Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "teng", "surname": "Teng", "first_name": "Hannah", "party": "Tapat"},
-                {"identifier": "francisco", "surname": "Francisco", "first_name": "Ashley", "party": "Santugon"}
+                {"identifier": "francisco", "surname": "Francisco", "first_name": "Ashley", "party": "Santugon"},
+                {"identifier": "teng", "surname": "Teng", "first_name": "Hannah", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive VP for External Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"}
+                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"},
+                {"identifier": "pulumbarit", "surname": "Pulumbarit", "first_name": "Moi", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive Secretary",
             "class": "eb",
             "candidates": [
-                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"}
+                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"},
+                {"identifier": "salapantan", "surname": "Salapantan", "first_name": "Jimson", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive Treasurer",
             "class": "eb",
             "candidates": [
-                {"identifier": "meneses", "surname": "Meneses", "first_name": "Juliana", "party": "Tapat"},
-                {"identifier": "rivera", "surname": "Rivera", "first_name": "Xymoun", "party": "Santugon"}
+                {"identifier": "rivera", "surname": "Rivera", "first_name": "Xymoun", "party": "Santugon"},
+                {"identifier": "meneses", "surname": "Meneses", "first_name": "Juliana", "party": "Tapat"}
             ]
         },
         {
@@ -48,20 +51,20 @@
             "position_name": "CLA College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"},
-                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"}
+                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"},
+                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"}
             ]
         },
         {
             "position_name": "CCS College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"},
-                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"}
+                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"},
+                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"}
             ]
         },
         {
-            "position_name": "LCSG College President",
+            "position_name": "LCSG Campus President",
             "class": "cap",
             "candidates": [
                 {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
@@ -71,16 +74,16 @@
             "position_name": "RVRCOB College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "engbino", "surname": "Engbino", "first_name": "Michelle", "party": "Tapat"},
-                {"identifier": "gonzales", "surname": "Gonzales", "first_name": "Josene", "party": "Santugon"}
+                {"identifier": "gonzales", "surname": "Gonzales", "first_name": "Josene", "party": "Santugon"},
+                {"identifier": "engbino", "surname": "Engbino", "first_name": "Michelle", "party": "Tapat"}
             ]
         },
         {
             "position_name": "SOE College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"},
-                {"identifier": "asenci", "surname": "Asenci", "first_name": "Cher", "party": "Santugon"}
+                {"identifier": "asenci", "surname": "Asenci", "first_name": "Cher", "party": "Santugon"},
+                {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"}
             ]
         },
         {

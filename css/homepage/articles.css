@@ -100,6 +100,7 @@
 /* Excerpt */
 .article .excerpt {
     margin-top: .5em;
+    font-size: 0.85em;
 }
 
 /* Details of Article 1 */
@@ -108,7 +109,7 @@
 }
 
 .article-1 .title {
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 /* Titles of Articles 4 to 7 */

@@ -9,7 +9,7 @@
         <p class="title py-2 fs-4">Special Elections 2023</p>
         <div class="btns-wrapper py-3">
             <a href="https://thelasallian.com" class="button button-white">Visit Main Website</a>
-            <a href="#" class="button button-white">View Magazine</a>
+            <a href="https://bit.ly/TLSSpecialElections2023" class="button button-white">View Magazine</a>
         </div>
         <p class="credits pt-3">Copyright 2023 © <strong>The LaSallian</strong><br>
             <i>Website by</i> 
