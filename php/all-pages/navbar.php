@@ -25,31 +25,31 @@
     <ul>
         <li>
             <a href="#articles" class="nav-anchor">
-                <img src="assets/homepage/articles/03-women.jpg" class="link-img">
+                <img src="assets/homepage/navbar/women.png" class="link-img">
                 <span class="link-txt">Feature Articles</span>
             </a>
         </li>
         <li>
             <a href="#voter-turnout" class="nav-anchor">
-                <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                <img src="assets/homepage/navbar/turnout.jpg" class="link-img">
                 <span class="link-txt">Voter Turnout in the Last Five Years</span>
             </a>
         </li>
         <li>
             <a href="#h2h" class="nav-anchor">
-                <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                <img src="assets/homepage/navbar/h2h.png" class="link-img">
                 <span class="link-txt">Head to Head Articles</span>
             </a>
         </li>
         <li>
             <a href="#fast-talk" class="nav-anchor">
-                <img src="assets/homepage/articles/04-voterturnout.jpg" class="link-img">
+                <img src="assets/homepage/navbar/fast-talk.png" class="link-img">
                 <span class="link-txt">Fast Talk</span>
             </a>
         </li>
         <li>
             <a href="#vox-populi" class="nav-anchor">
-                <img src="assets/homepage/articles/05-usg.jpg" class="link-img">
+                <img src="assets/homepage/navbar/vox.jpg" class="link-img">
                 <span class="link-txt">Vox Populi</span>
             </a>
         </li>
