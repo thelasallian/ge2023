@@ -28,16 +28,16 @@
             "position_name": "Executive Secretary",
             "class": "eb",
             "candidates": [
-                {"identifier": "salapantan", "surname": "Salapantan", "first_name": "Jimson", "party": "Tapat"},
-                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"}
+                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"},
+                {"identifier": "salapantan", "surname": "Salapantan", "first_name": "Jimson", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive Treasurer",
             "class": "eb",
             "candidates": [
-                {"identifier": "meneses", "surname": "Meneses", "first_name": "Juliana", "party": "Tapat"},
-                {"identifier": "rivera", "surname": "Rivera", "first_name": "Xymoun", "party": "Santugon"}
+                {"identifier": "rivera", "surname": "Rivera", "first_name": "Xymoun", "party": "Santugon"},
+                {"identifier": "meneses", "surname": "Meneses", "first_name": "Juliana", "party": "Tapat"}
             ]
         },
         {
@@ -51,16 +51,16 @@
             "position_name": "CLA College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"},
-                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"}
+                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"},
+                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"}
             ]
         },
         {
             "position_name": "CCS College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"},
-                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"}
+                {"identifier": "corpuz", "surname": "Corpuz", "first_name": "Jex", "party": "Santugon"},
+                {"identifier": "cosing", "surname": "Cosing", "first_name": "Hannah", "party": "Tapat"}
             ]
         },
         {
@@ -74,16 +74,16 @@
             "position_name": "RVRCOB College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "engbino", "surname": "Engbino", "first_name": "Michelle", "party": "Tapat"},
-                {"identifier": "gonzales", "surname": "Gonzales", "first_name": "Josene", "party": "Santugon"}
+                {"identifier": "gonzales", "surname": "Gonzales", "first_name": "Josene", "party": "Santugon"},
+                {"identifier": "engbino", "surname": "Engbino", "first_name": "Michelle", "party": "Tapat"}
             ]
         },
         {
             "position_name": "SOE College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"},
-                {"identifier": "asenci", "surname": "Asenci", "first_name": "Cher", "party": "Santugon"}
+                {"identifier": "asenci", "surname": "Asenci", "first_name": "Cher", "party": "Santugon"},
+                {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"}
             ]
         },
         {
