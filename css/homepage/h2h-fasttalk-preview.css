@@ -13,6 +13,11 @@
     justify-content: center;
 }
 
+.greenPreview-img {
+    height: 300px;
+    object-fit: contain;
+}
+
 .greenPreview {
     position: relative;
     color: white;

@@ -17,7 +17,7 @@ $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubuserco
                 <?php foreach ($position["candidates"] as $candidate) : ?>
                     <div class="candidateCard">
                         <!-- Image -->
-                        <img src="assets/fast-talk/candidates/<?= $candidate["surname"]; ?>.JPG" class="candidate-img">
+                        <img src="assets/fast-talk/candidates/<?= strtolower($candidate["identifier"]); ?>.JPG" class="candidate-img">
                         <div class="candidate-info">
                             <span class="candidate-name">
                                 <span class="candidate-surname"><?= $candidate["surname"]; ?></span>
