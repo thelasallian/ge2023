@@ -1,51 +1,51 @@
 [
-    {
-      "tag": "Commentary",
-      "title": "Are student councils faltering?",
-      "image-path": "assets/homepage/articles/01-studentcouncils.jpg",
-      "article-url": "#",
-      "excerpt": "As the academic year comes to a close, the General Elections once again looms over the Lasallian consciousness"
-    },
-    {
-      "tag": "Pulse",
-      "title": "Stalwarts of truth: Student activists’ perspective of the USG",
-      "image-path": "assets/homepage/articles/02-activists.jpg",
-      "article-url": "#",
-      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua."
-    },
-    {
-      "tag": "Pulse",
-      "title": "Women student leaders break gender barriers in sought-after USG positions",
-      "image-path": "assets/homepage/articles/03-women.jpg",
-      "article-url": "#",
-      "excerpt": "Women are as capable as men to perform the duties and services of the USG."
-    },
-    {
-      "tag": "News Feature",
-      "title": "Declining voter turnout challenges USG elections",
-      "image-path": "assets/homepage/articles/04-voterturnout.jpg",
-      "article-url": "#",
-      "excerpt": "N/A"
-    },
-    {
-      "tag": "Commentary",
-      "title": "Is the USG overstaffed or underutilized?",
-      "image-path": "assets/homepage/articles/05-usg.jpg",
-      "article-url": "#",
-      "excerpt": "N/A"
-    },
-    {
-      "tag": "Investigative",
-      "title": "A decade after, LCSG still hurdled by manpower, decentralization concerns",
-      "image-path": "assets/homepage/articles/06-lagunacampus.jpg",
-      "article-url": "#",
-      "excerpt": "N.A"
-    },
-    {
-      "tag": "News Feature",
-      "title": "After ‘eye-opening’ USG bids, what’s next for the independents?",
-      "image-path": "assets/homepage/articles/07-independents.jpg",
-      "article-url": "#",
-      "excerpt": "N/A"
-    }
-  ]
+  {
+    "title": "A decade since formation, LCSG still hurdled by manpower, decentralization concerns",
+    "tag": "News Feature",
+    "image-path": "laguna.png",
+    "article-url": "#",
+    "excerpt": "In 2012, DLSU and then-De La Salle Canlubang (DLSC) concerted together a plan to a establish the Science and Technology Complex. This joint effort would curb overpopulation concerns in Taft and advance the science and technology field in a new campus."
+  },
+  {
+    "title": "On the microscale: Women lead USG amid widespread misogyny",
+    "tag": "Pulse",
+    "image-path": "women.png",
+    "article-url": "#",
+    "excerpt": "It may be an understatement to say that the national political scene has not been friendly to women."
+  },
+  {
+    "title": "Is there room for more? Independent candidates challenge DLSU two-party system",
+    "tag": "News Feature",
+    "image-path": "independents.png",
+    "article-url": "#",
+    "excerpt": "Last year's make-up elections (MUE) saw the candidacy of five independent coalitions after Santugon sa Tawag no Panahon (Santugon), who had been criticized for alleged red-tagging against rival Alyansang Tapat sa Lasallista (Tapat), opted not to field in candidates, at least under its banner."
+  },
+  {
+    "title": "How missing signatures, erratic guidelines killed GE 2023",
+    "tag": "News Feature",
+    "image-path": "",
+    "article-url": "#",
+    "excerpt": "n/a"
+  },
+  {
+    "title": "An autopsy of GE 2023, a failed election",
+    "tag": "Investigative",
+    "image-path": "autopsy.png",
+    "article-url": "#",
+    "excerpt": ""
+  },
+  {
+    "title": "College, batch gov’ts work around bureaucratic structures, processes",
+    "tag": "In Review",
+    "image-path": "batch.png",
+    "article-url": "#",
+    "excerpt": ""
+  },
+  {
+    "title": "Are student councils faltering?",
+    "tag": "Commentary",
+    "image-path": "commentary.png",
+    "article-url": "#",
+    "excerpt": ""
+  }
+]
