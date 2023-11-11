@@ -4,15 +4,16 @@
             "position_name": "Executive President",
             "class": "eb",
             "candidates": [
-                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"}
+                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"},
+                {"identifier": "penaflor", "surname": "Peñaflor", "first_name": "Ina", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive VP for Internal Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "teng", "surname": "Teng", "first_name": "Hannah", "party": "Tapat"},
                 {"identifier": "francisco", "surname": "Francisco", "first_name": "Ashley", "party": "Santugon"}
+                {"identifier": "teng", "surname": "Teng", "first_name": "Hannah", "party": "Tapat"}
             ]
         },
         {
@@ -20,12 +21,14 @@
             "class": "eb",
             "candidates": [
                 {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"}
+                {"identifier": "pulumbarit", "surname": "Pulumbarit", "first_name": "Moi", "party": "Tapat"}
             ]
         },
         {
             "position_name": "Executive Secretary",
             "class": "eb",
             "candidates": [
+                {"identifier": "salapantan", "surname": "Salapantan", "first_name": "Jimson", "party": "Tapat"},
                 {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"}
             ]
         },
