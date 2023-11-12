@@ -2,7 +2,7 @@
     <div class="container">
         <div id="howToVote-wrapper">
             <div id="howToVote-container">
-                <img src="assets/homepage/how-to-vote.png" class="howToVote-img">
+                <img src="https://raw.githubusercontent.com/thelasallian/ge2023/main/assets/homepage/how-to-vote.png" class="howToVote-img">
                 <div id="howToVote-info">
                     <span class="tag tag-green">Infographic</span>
                     <h2 class="title">How to Vote</h2>
