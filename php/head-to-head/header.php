@@ -22,7 +22,7 @@
          class="description"
          data-aos="fade-up"
          data-aos-duration="1000">
-         Candidates for Special Elections 2023 sat down with The LaSallian to dig deeper into the principles they uphold and their plans for their respective offices. 
+         Candidates for Special Elections 2023 sat down with <strong>The LaSallian</strong> to dig deeper into the principles they uphold and their plans for their respective offices. 
         </p>
     </div>
 </header>
