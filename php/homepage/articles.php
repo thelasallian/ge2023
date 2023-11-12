@@ -1,6 +1,6 @@
 <?php 
 // Read list of articles
-$jsonString = file_get_contents('json/articles.json'); // Read the articles JSON file
+$jsonString = file_get_contents('https://github.com/thelasallian/ge2023/blob/main/json/articles.json?raw=true'); // Read the articles JSON file
 $articles = json_decode($jsonString, true); // Convert the JSON string to a PHP array
 
 // Check if decoding was successful
