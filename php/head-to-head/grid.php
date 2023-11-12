@@ -2,8 +2,21 @@
 // Convert JSON to associative array (true parameter)
 $h2h_eb = json_decode(file_get_contents('https://raw.githubusercontent.com/thelasallian/ge2023/main/json/h2h-eb.json'), true);
 $h2h_cp = json_decode(file_get_contents('https://raw.githubusercontent.com/thelasallian/ge2023/main/json/h2h-cp.json'), true);
-$eb_comingSoon = false;
-$cp_comingSoon = true;
+
+$contentUpdates = json_decode(file_get_contents('https://github.com/thelasallian/ge2023/blob/main/json/content-updates.json?raw=true'), true);
+
+if ($contentUpdates["eb-available"] == " ") {
+    $eb_comingSoon = true;
+} else {
+    $eb_comingSoon = false;
+}
+
+if ($contentUpdates["cp-available"] == " ") {
+    $cp_comingSoon = true;
+} else {
+    $cp_comingSoon = false;
+}
+
 ?>
 
 <div class="container">

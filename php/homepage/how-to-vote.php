@@ -17,7 +17,7 @@
                     <?php if ($contentUpdates["how-to-vote"] == " "): ?>
                         <a class="button button-black" style="cursor: not-allowed;">Coming Soon</a>
                     <?php else: ?>
-                        <a href="#" class="button button-black">View Infographic</a>
+                        <a href="<?= $contentUpdates["how-to-vote"]; ?>" class="button button-black">View Infographic</a>
                     <?php endif; ?>
                 </div>
             </div>
