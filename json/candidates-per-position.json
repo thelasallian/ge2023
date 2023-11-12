@@ -41,18 +41,17 @@
             ]
         },
         {
-            "position_name": "COS College President",
+            "position_name": "LCSG Campus President",
             "class": "cap",
             "candidates": [
-                {"identifier": "rawash", "surname": "Rawash", "first_name": "Sheri", "party": "Tapat"}
+                {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
             ]
         },
         {
-            "position_name": "CLA College President",
+            "position_name": "BAGCED College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"},
-                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"}
+                {"identifier": "agcolicol", "surname": "Agcolicol", "first_name": "Miggy", "party": "Tapat"}
             ]
         },
         {
@@ -64,10 +63,25 @@
             ]
         },
         {
-            "position_name": "LCSG Campus President",
+            "position_name": "CLA College President",
             "class": "cap",
             "candidates": [
-                {"identifier": "agbayani", "surname": "Agbayani", "first_name": "Nauj", "party": "Tapat"}
+                {"identifier": "reyes", "surname": "Reyes", "first_name": "Angel", "party": "Santugon"},
+                {"identifier": "campos", "surname": "Campos", "first_name": "Kyzer", "party": "Tapat"}
+            ]
+        },
+        {
+            "position_name": "COS College President",
+            "class": "cap",
+            "candidates": [
+                {"identifier": "rawash", "surname": "Rawash", "first_name": "Sheri", "party": "Tapat"}
+            ]
+        },
+        {
+            "position_name": "GCOE College President",
+            "class": "cap",
+            "candidates": [
+                {"identifier": "gamboa", "surname": "Gamboa", "first_name": "Frankie", "party": "Santugon"}
             ]
         },
         {
@@ -84,20 +98,6 @@
             "candidates": [
                 {"identifier": "asenci", "surname": "Asenci", "first_name": "Cher", "party": "Santugon"},
                 {"identifier": "subido", "surname": "Subido", "first_name": "Annika", "party": "Tapat"}
-            ]
-        },
-        {
-            "position_name": "GCOE College President",
-            "class": "cap",
-            "candidates": [
-                {"identifier": "gamboa", "surname": "Gamboa", "first_name": "Frankie", "party": "Santugon"}
-            ]
-        },
-        {
-            "position_name": "BAGCED College President",
-            "class": "cap",
-            "candidates": [
-                {"identifier": "agcolicol", "surname": "Agcolicol", "first_name": "Miggy", "party": "Tapat"}
             ]
         }
     ]
