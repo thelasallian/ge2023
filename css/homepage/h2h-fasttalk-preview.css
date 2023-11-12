@@ -87,6 +87,11 @@
 
     .greenPreview-imgWrapper {
         height: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .greenPreview-img {
+        height: auto;
+        object-fit: contain;
     }
 }
