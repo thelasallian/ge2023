@@ -22,7 +22,7 @@
          class="description mb-4"
          data-aos="fade-up"
          data-aos-duration="1000">
-         Knowing well-informed candidates matters in casting a well-informed vote. In this year's Fast Talk, USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University, from DLSU's data security incident to the Israel-Palestine conflict.
+         Knowing what candidates stand by is crucial in casting a well-informed vote. In this year's Fast Talk, USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University, ranging from DLSU's data security incident to the Israel-Palestine conflict.
         </p>
         
 
