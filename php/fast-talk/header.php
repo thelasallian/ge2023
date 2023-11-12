@@ -22,7 +22,7 @@
          class="description mb-4"
          data-aos="fade-up"
          data-aos-duration="1000">
-            USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University in this year's Fast Talk. 
+         Knowing well-informed candidates matters in casting a well-informed vote. In this year's Fast Talk, USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University, from DLSU's data security incident to the Israel-Palestine conflict.
         </p>
         
 
@@ -33,6 +33,8 @@
         <?php if (!($contentUpdates["fast-talk-infog"] == " ")): ?>
             <!-- View as Infog -->
             <a href="<?= $contentUpdates["fast-talk-infog"]; ?>" class="button button-white">View as Infographic</a>
+        <?php else: ?>
+            <a style="cursor: not-allowed;" class="button button-white">Infographic Coming Soon</a>
         <?php endif; ?>
     </div>
 </header>
@@ -43,7 +45,7 @@
         <select name="select-issue" id="select-issue">
             <option selected disabled>Select an Issue</option>
             <optgroup label="Yes or No" id="yes-or-no-optgroup">
-                <option value="abstention">PH abstention to Israel - Palestine ceasefire</option>
+                <option value="abstention">PH abstention to Israel-Palestine ceasefire</option>
                 <option value="confidential-funds">Confidential Funds</option>
                 <option value="suspend-maharlika">Suspension of the Maharlika Investment Fund</option>
                 <option value="nvc">Shift from Non-Fraternity Contract to Non-Violence Contract</option>

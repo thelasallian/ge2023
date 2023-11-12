@@ -16,7 +16,7 @@
             <strong>Ramon Enrico Martinez</strong>,
             <a class="link" href="https://github.com/ronnparcia"><strong>Ronn Parcia</strong></a>, & 
             <a class="link" href="https://github.com/jerw18"><strong>Jeremy Wang</strong></a><br>
-            <i>Cover by</i> <strong>Alexia Roman</strong><br>
+            <i>Cover by</i> <strong>Alexia Roman</strong>, <strong>Maxine Lee</strong>, & <strong>Jolani Cartalla</strong><br>
         </p>
     </div>
 </footer>

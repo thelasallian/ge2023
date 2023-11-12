@@ -45,7 +45,7 @@ if ($contentUpdates["cp-available"] == " ") {
         <?php else : ?>
             <!-- $eb_comingSoon == false -->
             <p class="coming-soon text-center d-flex align-items-center justify-content-center" style="height: 300px;">
-                This content is not yet available. Come back soon!
+                Coming soon.
             </p>
         <?php endif; ?>
     </div>
@@ -75,7 +75,7 @@ if ($contentUpdates["cp-available"] == " ") {
         <?php else : ?>
             <!-- $cp_comingSoon == false -->
             <p class="coming-soon text-center d-flex align-items-center justify-content-center" style="height: 300px;">
-                This content is not yet available. Come back soon!
+                Coming soon.
             </p>
         <?php endif; ?>
 
