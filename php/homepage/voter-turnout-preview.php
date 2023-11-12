@@ -1,7 +1,7 @@
 <section id="voter-turnout">
     <div class="container">
         <div id="voterTurnout-wrapper">
-            <img src="assets/homepage/voter-turnout.png" class="voterTurnout-img">
+            <img src="https://raw.githubusercontent.com/thelasallian/ge2023/main/assets/homepage/voter-turnout.png" class="voterTurnout-img">
             <div id="voterTurnout-info">
                 <span class="tag tag-green">Infographic</span>
                 <h2 class="title mt-1">Voter turnout in the last five years</h2>

@@ -24,8 +24,16 @@
          data-aos-duration="1000">
             USG hopefuls for Special Elections 2023 share their takes on numerous pressing matters in and out of the University in this year's Fast Talk. 
         </p>
-        <!-- View as Infog -->
-        <a href="#" class="button button-white">View as Infographic</a>
+        
+
+        <?php 
+        $contentUpdates = json_decode(file_get_contents('https://github.com/thelasallian/ge2023/blob/main/json/content-updates.json?raw=true'), true);
+        ?>
+
+        <?php if (!($contentUpdates["fast-talk-infog"] == " ")): ?>
+            <!-- View as Infog -->
+            <a href="<?= $contentUpdates["fast-talk-infog"]; ?>" class="button button-white">View as Infographic</a>
+        <?php endif; ?>
     </div>
 </header>
 
