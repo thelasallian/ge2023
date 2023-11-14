@@ -4,8 +4,7 @@
             "position_name": "Executive President",
             "class": "eb",
             "candidates": [
-                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"},
-                {"identifier": "penaflor", "surname": "Peñaflor", "first_name": "Ina", "party": "Tapat"}
+                {"identifier": "hari-ong", "surname": "Hari-Ong", "first_name": "Raphael", "party": "Santugon"}
             ]
         },
         {
@@ -20,16 +19,14 @@
             "position_name": "Executive VP for External Affairs",
             "class": "eb",
             "candidates": [
-                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"},
-                {"identifier": "pulumbarit", "surname": "Pulumbarit", "first_name": "Moi", "party": "Tapat"}
+                {"identifier": "tarnate", "surname": "Tarnate", "first_name": "Macie", "party": "Santugon"}
             ]
         },
         {
             "position_name": "Executive Secretary",
             "class": "eb",
             "candidates": [
-                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"},
-                {"identifier": "salapantan", "surname": "Salapantan", "first_name": "Jimson", "party": "Tapat"}
+                {"identifier": "khan", "surname": "Khan", "first_name": "Aisha", "party": "Santugon"}
             ]
         },
         {
