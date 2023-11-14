@@ -32,6 +32,14 @@ $candidatesPerPosition = json_decode(file_get_contents('https://raw.githubuserco
                             <img src="assets/fast-talk/white.svg" id="<?= $candidate["identifier"]; ?>" class="candidate-stand">
                         </div>
                     </div>
+
+                    <?php if ($candidate["identifier"] == "tarnate"): ?>
+                        <p id="tarnate-editors-note">
+                            <strong>EDITOR'S NOTE: November 14, 2023</strong><br>
+
+                            Tarnate previously responded "yes" to this question. <a href="#">Read the full story</a>.
+                        </p>
+                    <?php endif; ?>
                 <?php endforeach; ?>
             </div>
 

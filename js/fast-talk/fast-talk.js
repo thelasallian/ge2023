@@ -72,6 +72,12 @@ $(document).ready(function () {
             // Show elements with class "eb" and "cap"
             $(".eb, .cap").show();
         }
+
+        if (selectedIssue == "abstention") {
+            $("#tarnate-editors-note").show();
+        } else {
+            $("#tarnate-editors-note").hide();
+        }
         
         // Change the candidate text color based on the selected issue
         changeCandidateTextColor(selectedIssue);

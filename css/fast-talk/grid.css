@@ -1,3 +1,13 @@
+#tarnate-editors-note {
+    display: none;
+    font-size: 0.75em;
+    padding-top: 0.25rem;
+}
+
+#tarnate-editors-note a {
+    color: var(--green);
+}
+
 #fastTalkGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
