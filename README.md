@@ -2,7 +2,7 @@
 
 **The LaSallian**'s special issue for De La Salle University-University Student Government's 2023 Special Elections. The issue is released as a print magazine and a web special. The latter's source code may be found in this repository.
 
-The web special is live at [se2023.thelasallian.com](se2023.thelasallian.com).
+The web special is live at [se2023.thelasallian.com](https://se2023.thelasallian.com).
 
 **Designers:**<br>
 Ramon Martinez<br>
