@@ -14,7 +14,7 @@ Jeremy Wang
 
 **Art and Graphics:**<br>
 Alexia Roman<br>
-Jolani Cartalla<be>
+Jolani Cartalla<br>
 Carriele Carreon
 
 
